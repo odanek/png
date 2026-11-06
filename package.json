@@ -2,29 +2,38 @@
   "name": "@odanek/png",
   "version": "0.1.0",
   "description": "PNG format decoder and coder for web and NodeJS",
-  "author": "Ondrej Danek",
-  "license": "MIT",
-  "type": "module",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/odanek/png.git"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "keywords": [],
   "homepage": "https://github.com/odanek/png#readme",
   "bugs": {
     "url": "https://github.com/odanek/png/issues"
   },
-  "devDependencies": {
-    "typescript": "^6.0.0"
+  "license": "MIT",
+  "author": "Ondrej Danek",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odanek/png.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "clean": "rm -rf dist",
     "build": "tsc",
     "typecheck": "tsc --noEmit && tsc --project tsconfig.test.json",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write --list-different .",
+    "format:check": "prettier --check .",
     "prepack": "npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.0",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.0",
+    "typescript": "^6.0.0",
+    "typescript-eslint": "^8.72.0"
   }
 }
