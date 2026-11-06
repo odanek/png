@@ -1,0 +1,30 @@
+{
+  "name": "@odanek/png",
+  "version": "0.1.0",
+  "description": "PNG format decoder and coder for web and NodeJS",
+  "author": "Ondrej Danek",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odanek/png.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/odanek/png#readme",
+  "bugs": {
+    "url": "https://github.com/odanek/png/issues"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.0"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit && tsc --project tsconfig.test.json",
+    "prepack": "npm run clean && npm run build"
+  }
+}
