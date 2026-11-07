@@ -33,7 +33,7 @@ export class EncodeWarning extends Error {
 export function handleWarning(
   ctx: Pick<IEncodeContext, "options" | "warnings">,
   warning: EncodeWarning,
-) {
+): void {
   if (ctx.options.strictMode) {
     throw warning;
   }

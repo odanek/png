@@ -42,7 +42,7 @@ export function parseChunk(
   const day = ctx.view.getUint8(offset++);
   const hour = ctx.view.getUint8(offset++);
   const minute = ctx.view.getUint8(offset++);
-  const second = ctx.view.getUint8(offset++);
+  const second = ctx.view.getUint8(offset);
 
   return {
     type: "tIME",

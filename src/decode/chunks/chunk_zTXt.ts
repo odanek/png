@@ -59,7 +59,7 @@ export function parseChunk(
     false,
     true,
   );
-  offset += readResult.bytesRead;
+  // offset += readResult.bytesRead;
   const text = readResult.text;
 
   return {

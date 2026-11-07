@@ -5,6 +5,9 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
+import type { DecodeWarning } from "../decode/assert";
+import type { EncodeWarning } from "../encode/assert";
+
 /**
  * A png that has been successfully decoded.
  */
@@ -917,51 +920,6 @@ export interface IPngMetadataTransparency {
   transparency: number | [number, number, number] | number[];
 }
 
-/**
- * A critical error occurred during decoding.
- */
-export class DecodeError extends Error {
-  /**
-   * The byte offset of the error in the datastream.
-   */
-  offset: number;
-
-  /**
-   * The partially decoded image which gives access to decode warnings, dimensions, etc.
-   */
-  partiallyDecodedImage: Partial<IDecodedPng<any>>;
-}
-
-/**
- * A warning occurred during decoding.
- */
-export class DecodeWarning extends Error {
-  /**
-   * The byte offset of the warning in the datastream.
-   */
-  offset: number;
-}
-
-/**
- * A critical error occurred during encoding.
- */
-export class EncodeError extends Error {
-  /**
-   * The byte offset of the error in the datastream.
-   */
-  offset: number;
-}
-
-/**
- * A warning occurred during encoding.
- */
-export class EncodeWarning extends Error {
-  /**
-   * The byte offset of the warning in the datastream.
-   */
-  offset: number;
-}
-
 export interface IBaseDecodeContext {
   view: DataView;
   image?: IImage32 | IImage64;
@@ -1012,11 +970,11 @@ export interface IPngHeaderDetails {
   interlaceMethod: InterlaceMethod;
 }
 
-export const enum ChunkPartByteLength {
-  Length = 4,
-  Type = 4,
-  CRC = 4,
-}
+export const ChunkPartByteLength = {
+  Length: 4,
+  Type: 4,
+  CRC: 4,
+};
 
 export interface IPngPaletteInternal extends IPngPalette {
   setRgba(data: Uint8Array, offset: number, colorIndex: number): void;

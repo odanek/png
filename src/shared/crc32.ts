@@ -46,11 +46,11 @@ function updateCrc(
   dataView: DataView,
   offset: number,
   length: number,
-) {
+): number {
   const table = getCrcTable();
   let c = crc;
   for (let n = 0; n < length; n++) {
-    c = table![(c ^ dataView.getUint8(offset + n)) & 0xff] ^ (c >>> 8);
+    c = table[(c ^ dataView.getUint8(offset + n)) & 0xff]! ^ (c >>> 8);
   }
   return c;
 }
@@ -61,6 +61,10 @@ function updateCrc(
  * @param offset The offset to start the CRC from.
  * @param length The length of the CRC.
  */
-export function crc32(dataView: DataView, offset: number, length: number) {
+export function crc32(
+  dataView: DataView,
+  offset: number,
+  length: number,
+): number {
   return (updateCrc(0xffffffff, dataView, offset, length) ^ 0xffffffff) >>> 0; // Force unsigned
 }

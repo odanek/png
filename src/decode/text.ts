@@ -20,12 +20,13 @@ export function readText(
   isCompressed?: boolean,
 ): { bytesRead: number; text: string } {
   const bytes = [];
-  let current = 0;
   let i = 0;
   for (; maxLength === undefined || i < maxLength; i++) {
     if (!readTrailingNull && offset === maxOffset) {
       break;
     }
+
+    let current;
     try {
       current = ctx.view.getUint8(offset);
     } catch (e: unknown) {

@@ -9,6 +9,8 @@ import {
   ChunkPartByteLength,
   type IDecodeContext,
   type IDecodedPng,
+  type IImage32,
+  type IImage64,
   type IInitialDecodeContext,
   type IPngChunk,
   KnownChunkTypes,
@@ -183,7 +185,8 @@ export function createChunkDecodeError(
 }
 
 export class DecodeError extends Error {
-  readonly partiallyDecodedImage: Partial<IDecodedPng<any>>;
+  readonly partiallyDecodedImage: Partial<IDecodedPng<IImage32 | IImage64>>;
+
   constructor(
     ctx: IInitialDecodeContext | IDecodeContext,
     message: string,
@@ -234,7 +237,7 @@ export class DecodeWarning extends Error {
 export function handleWarning(
   ctx: IInitialDecodeContext,
   warning: DecodeWarning,
-) {
+): void {
   if (ctx.options.strictMode) {
     throw warning;
   }

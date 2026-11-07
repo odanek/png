@@ -79,9 +79,8 @@ export function parseChunk(
  */
 function decompress(ctx: IDecodeContext, chunks: IPngChunk[]): Uint8Array {
   const inflator = new pako.Inflate();
-  let offset = 0;
   for (const chunk of chunks) {
-    offset =
+    const offset =
       chunk.offset + ChunkPartByteLength.Length + ChunkPartByteLength.Type;
     inflator.push(
       ctx.view.buffer.slice(
@@ -93,9 +92,9 @@ function decompress(ctx: IDecodeContext, chunks: IPngChunk[]): Uint8Array {
   if (inflator.err) {
     throw createChunkDecodeError(
       ctx,
-      chunks[0],
+      chunks[0]!,
       `Inflate error: ${inflator.msg}`,
-      chunks[0].offset,
+      chunks[0]!.offset,
     );
   }
   if (inflator.result === undefined) {
@@ -132,7 +131,7 @@ function defilter(
     let lineOffset = start + y * (bpl + 1); /*Filter type for each line*/
 
     // Get and validate filter type
-    const filterType = decompressed[lineOffset++];
+    const filterType = decompressed[lineOffset++]!;
     if (!isValidFilterType) {
       throw new DecodeError(ctx, `IDAT: Invalid filter type ${filterType}`, 0);
     }
@@ -151,18 +150,17 @@ function defilter(
       case FilterType.None:
       case FilterType.Sub: {
         for (; x < bpp; x++) {
-          result[i] = decompressed[lineOffset + x];
+          result[i] = decompressed[lineOffset + x]!;
           i++;
         }
         break;
       }
       case FilterType.Average: {
-        let bi = 0;
         for (; x < bpp; x++) {
-          bi = i - width * bpp;
+          const bi = i - width * bpp;
           result[i] =
-            decompressed[lineOffset + x] +
-            Math.floor(0 + (bi < 0 ? 0 : result[bi])) / 2;
+            decompressed[lineOffset + x]! +
+            Math.floor(0 + (bi < 0 ? 0 : result[bi]!)) / 2;
           i++;
         }
         break;
@@ -176,8 +174,8 @@ function defilter(
         for (; x < bpp; x++) {
           const bi = Math.floor(i - bpl);
           result[i] =
-            (decompressed[lineOffset + x] +
-              paethPredicator(0, bi < 0 ? 0 : result[bi], 0)) %
+            (decompressed[lineOffset + x]! +
+              paethPredicator(0, bi < 0 ? 0 : result[bi]!, 0)) %
             256;
           i++;
         }
@@ -238,22 +236,22 @@ function buildDefilterFunction(
     ci = 0;
   switch (filterType) {
     case FilterType.None:
-      return (filt, filtX) => filt[filtX];
+      return (filt, filtX) => filt[filtX]!;
     case FilterType.Sub:
       return (filt, filtX, recon, reconX) =>
-        (filt[filtX] + recon[Math.floor(reconX - bpp)]) % 256;
+        (filt[filtX]! + recon[Math.floor(reconX - bpp)]!) % 256;
     case FilterType.Up:
       return (filt, filtX, recon, reconX) => {
         bi = Math.floor(reconX - width * bpp);
-        return bi < 0 ? filt[filtX] : (filt[filtX] + recon[bi]) % 256;
+        return bi < 0 ? filt[filtX]! : (filt[filtX]! + recon[bi]!) % 256;
       };
     case FilterType.Average:
       return (filt, filtX, recon, reconX) => {
         ai = Math.floor(reconX - bpp);
         bi = Math.floor(reconX - width * bpp);
         return (
-          filt[filtX] +
-          Math.floor((ai < 0 ? 0 : recon[ai]) + (bi < 0 ? 0 : recon[bi])) / 2
+          filt[filtX]! +
+          Math.floor((ai < 0 ? 0 : recon[ai]!) + (bi < 0 ? 0 : recon[bi]!)) / 2
         );
       };
     case FilterType.Paeth:
@@ -262,11 +260,11 @@ function buildDefilterFunction(
         bi = Math.floor(reconX - bpl);
         ci = Math.floor(reconX - bpl - Math.ceil(bpp));
         return (
-          (filt[filtX] +
+          (filt[filtX]! +
             paethPredicator(
-              ai < 0 ? 0 : recon[ai],
-              bi < 0 ? 0 : recon[bi],
-              ci < 0 ? 0 : recon[ci],
+              ai < 0 ? 0 : recon[ai]!,
+              bi < 0 ? 0 : recon[bi]!,
+              ci < 0 ? 0 : recon[ci]!,
             )) %
           256
         );
@@ -349,10 +347,10 @@ function deinterlaceAdam7(
 
   let dataPointer = 0;
   for (let pass = 0; pass < 7; pass++) {
-    const passXStart = xStart[pass];
-    const passYStart = yStart[pass];
-    const passXGap = xGap[pass];
-    const passYGap = yGap[pass];
+    const passXStart = xStart[pass]!;
+    const passYStart = yStart[pass]!;
+    const passXGap = xGap[pass]!;
+    const passYGap = yGap[pass]!;
     const passWidth = Math.ceil((header.width - passXStart) / passXGap);
     const passHeight = Math.ceil((header.height - passYStart) / passYGap);
     const passBplCeiled = Math.ceil(bppFloat * passWidth);
@@ -373,13 +371,12 @@ function deinterlaceAdam7(
     );
 
     // Fill in result using the defiltered sub-image
-    let i = 0;
     for (let y = 0; y < passHeight; y++) {
-      i = (passYStart + y * passYGap) * bplCeiled + passXStart * bppFloat;
+      let i = (passYStart + y * passYGap) * bplCeiled + passXStart * bppFloat;
       for (let x = 0; x < passWidth; x++) {
         if (header.bitDepth < 8) {
           // Get the packed value, including multiple pixels
-          let value = passPacked[y * passBplCeiled + Math.floor(x * bppFloat)];
+          let value = passPacked[y * passBplCeiled + Math.floor(x * bppFloat)]!;
           // Shift bits being considered to RHS
           value >>= (pixelsPerByte - (x % pixelsPerByte) - 1) * header.bitDepth;
           // Mask out irrelevant bits
@@ -389,10 +386,10 @@ function deinterlaceAdam7(
             (pixelsPerByte - 1 - (i % 1) * pixelsPerByte) * header.bitDepth;
           value <<= resultPosition;
           // Apply the bits to the result array
-          result[Math.floor(i)] |= value;
+          result[Math.floor(i)]! |= value;
         } else {
           for (let j = 0; j < bpp; j++) {
-            result[i + j] = passPacked[(y * passWidth + x) * bpp + j];
+            result[i + j] = passPacked[(y * passWidth + x) * bpp + j]!;
           }
         }
         i += passXGap * bppFloat;
@@ -411,11 +408,10 @@ function mapPackedDataToRgba(
   packed: Uint8Array,
   palette: IPngPaletteInternal | undefined,
   trnsChunk: IPngMetadataTransparency | undefined,
-) {
+): Uint16Array<ArrayBuffer> | Uint8Array<ArrayBuffer> {
   const result = new (header.bitDepth === 16 ? Uint16Array : Uint8Array)(
     header.width * header.height * 4,
   );
-  let i = 0;
   const bpp = getBytesPerPixel(header);
   const bppFloat = getBytesPerPixelFloat(header);
   // Each line of data is guaranteed to start on a new byte
@@ -432,17 +428,18 @@ function mapPackedDataToRgba(
           const bytesPerPixel = header.bitDepth / 8;
           for (let y = 0; y < header.height; y++) {
             for (let x = 0; x < header.width; x++) {
-              i = (y * header.width + x) * 4;
-              result[i] = packed[y * bplCeiled + Math.floor(x * bytesPerPixel)];
+              const i = (y * header.width + x) * 4;
+              result[i] =
+                packed[y * bplCeiled + Math.floor(x * bytesPerPixel)]!;
               // Shift bits being considered to RHS
-              result[i] >>=
+              result[i]! >>=
                 (pixelsPerByte - (x % pixelsPerByte) - 1) * header.bitDepth;
               // Mask out irrelevant bits
-              result[i] &= maxValue;
+              result[i]! &= maxValue;
               // Multiple to range 0-255
-              result[i] *= 255 / maxValue;
-              result[i + 1] = result[i];
-              result[i + 2] = result[i];
+              result[i]! *= 255 / maxValue;
+              result[i + 1] = result[i]!;
+              result[i + 2] = result[i]!;
               result[i + 3] = 255;
             }
           }
@@ -452,16 +449,16 @@ function mapPackedDataToRgba(
         case 16: {
           for (let y = 0; y < header.height; y++) {
             for (let x = 0; x < header.width; x++) {
-              i = (y * header.width + x) * 4;
+              const i = (y * header.width + x) * 4;
               if (header.bitDepth === 16) {
                 result[i] =
-                  (packed[(y * header.width + x) * bpp] << 8) |
-                  packed[(y * header.width + x) * bpp + 1];
+                  (packed[(y * header.width + x) * bpp]! << 8) |
+                  packed[(y * header.width + x) * bpp + 1]!;
               } else {
-                result[i] = packed[(y * header.width + x) * bpp];
+                result[i] = packed[(y * header.width + x) * bpp]!;
               }
-              result[i + 1] = result[i];
-              result[i + 2] = result[i];
+              result[i + 1] = result[i]!;
+              result[i + 2] = result[i]!;
               result[i + 3] = header.bitDepth === 16 ? 65535 : 255;
             }
           }
@@ -475,22 +472,22 @@ function mapPackedDataToRgba(
       // Note this color type is not valid with bit depth < 8
       for (let y = 0; y < header.height; y++) {
         for (let x = 0; x < header.width; x++) {
-          i = (y * header.width + x) * 4;
+          const i = (y * header.width + x) * 4;
           if (header.bitDepth === 16) {
             result[i] =
-              (packed[(y * header.width + x) * bpp] << 8) |
-              packed[(y * header.width + x) * bpp + 1];
+              (packed[(y * header.width + x) * bpp]! << 8) |
+              packed[(y * header.width + x) * bpp + 1]!;
           } else {
-            result[i] = packed[(y * header.width + x) * bpp];
+            result[i] = packed[(y * header.width + x) * bpp]!;
           }
-          result[i + 1] = result[i];
-          result[i + 2] = result[i];
+          result[i + 1] = result[i]!;
+          result[i + 2] = result[i]!;
           if (header.bitDepth === 16) {
             result[i + 3] =
-              (packed[(y * header.width + x) * bpp + 2] << 8) |
-              packed[(y * header.width + x) * bpp + 3];
+              (packed[(y * header.width + x) * bpp + 2]! << 8) |
+              packed[(y * header.width + x) * bpp + 3]!;
           } else {
-            result[i + 3] = packed[(y * header.width + x) * bpp + 1];
+            result[i + 3] = packed[(y * header.width + x) * bpp + 1]!;
           }
         }
       }
@@ -514,9 +511,9 @@ function mapPackedDataToRgba(
           const bytesPerPixel = header.bitDepth / 8;
           for (let y = 0; y < header.height; y++) {
             for (let x = 0; x < header.width; x++) {
-              i = (y * header.width + x) * 4;
+              const i = (y * header.width + x) * 4;
               let colorId =
-                packed[y * bplCeiled + Math.floor(x * bytesPerPixel)];
+                packed[y * bplCeiled + Math.floor(x * bytesPerPixel)]!;
               // Shift bits being considered to RHS
               colorId >>=
                 (pixelsPerByte - (x % pixelsPerByte) - 1) * header.bitDepth;
@@ -527,24 +524,23 @@ function mapPackedDataToRgba(
                 trnsChunk &&
                 (trnsChunk.transparency as number[]).length > colorId
               ) {
-                result[i + 3] = (trnsChunk.transparency as number[])[colorId];
+                result[i + 3] = (trnsChunk.transparency as number[])[colorId]!;
               }
             }
           }
           break;
         }
         case 8: {
-          let colorId = 0;
           for (let y = 0; y < header.height; y++) {
             for (let x = 0; x < header.width; x++) {
-              i = (y * header.width + x) * 4;
-              colorId = packed[y * header.width + x];
+              const i = (y * header.width + x) * 4;
+              const colorId = packed[y * header.width + x]!;
               palette.setRgba(result as Uint8Array, i, colorId);
               if (
                 trnsChunk &&
                 (trnsChunk.transparency as number[]).length > colorId
               ) {
-                result[i + 3] = (trnsChunk.transparency as number[])[colorId];
+                result[i + 3] = (trnsChunk.transparency as number[])[colorId]!;
               }
             }
           }
@@ -557,21 +553,21 @@ function mapPackedDataToRgba(
     case ColorType.Truecolor: {
       for (let y = 0; y < header.height; y++) {
         for (let x = 0; x < header.width; x++) {
-          i = (y * header.width + x) * 4;
+          const i = (y * header.width + x) * 4;
           if (header.bitDepth === 16) {
             result[i] =
-              (packed[(y * header.width + x) * bpp] << 8) |
-              packed[(y * header.width + x) * bpp + 1];
+              (packed[(y * header.width + x) * bpp]! << 8) |
+              packed[(y * header.width + x) * bpp + 1]!;
             result[i + 1] =
-              (packed[(y * header.width + x) * bpp + 2] << 8) |
-              packed[(y * header.width + x) * bpp + 3];
+              (packed[(y * header.width + x) * bpp + 2]! << 8) |
+              packed[(y * header.width + x) * bpp + 3]!;
             result[i + 2] =
-              (packed[(y * header.width + x) * bpp + 4] << 8) |
-              packed[(y * header.width + x) * bpp + 5];
+              (packed[(y * header.width + x) * bpp + 4]! << 8) |
+              packed[(y * header.width + x) * bpp + 5]!;
           } else {
-            result[i] = packed[(y * header.width + x) * bpp];
-            result[i + 1] = packed[(y * header.width + x) * bpp + 1];
-            result[i + 2] = packed[(y * header.width + x) * bpp + 2];
+            result[i] = packed[(y * header.width + x) * bpp]!;
+            result[i + 1] = packed[(y * header.width + x) * bpp + 1]!;
+            result[i + 2] = packed[(y * header.width + x) * bpp + 2]!;
           }
           result[i + 3] = header.bitDepth === 16 ? 65535 : 255;
         }
@@ -582,25 +578,25 @@ function mapPackedDataToRgba(
     case ColorType.TruecolorAndAlpha: {
       for (let y = 0; y < header.height; y++) {
         for (let x = 0; x < header.width; x++) {
-          i = (y * header.width + x) * 4;
+          const i = (y * header.width + x) * 4;
           if (header.bitDepth === 16) {
             result[i] =
-              (packed[(y * header.width + x) * bpp] << 8) |
-              packed[(y * header.width + x) * bpp + 1];
+              (packed[(y * header.width + x) * bpp]! << 8) |
+              packed[(y * header.width + x) * bpp + 1]!;
             result[i + 1] =
-              (packed[(y * header.width + x) * bpp + 2] << 8) |
-              packed[(y * header.width + x) * bpp + 3];
+              (packed[(y * header.width + x) * bpp + 2]! << 8) |
+              packed[(y * header.width + x) * bpp + 3]!;
             result[i + 2] =
-              (packed[(y * header.width + x) * bpp + 4] << 8) |
-              packed[(y * header.width + x) * bpp + 5];
+              (packed[(y * header.width + x) * bpp + 4]! << 8) |
+              packed[(y * header.width + x) * bpp + 5]!;
             result[i + 3] =
-              (packed[(y * header.width + x) * bpp + 6] << 8) |
-              packed[(y * header.width + x) * bpp + 7];
+              (packed[(y * header.width + x) * bpp + 6]! << 8) |
+              packed[(y * header.width + x) * bpp + 7]!;
           } else {
-            result[i] = packed[(y * header.width + x) * bpp];
-            result[i + 1] = packed[(y * header.width + x) * bpp + 1];
-            result[i + 2] = packed[(y * header.width + x) * bpp + 2];
-            result[i + 3] = packed[(y * header.width + x) * bpp + 3];
+            result[i] = packed[(y * header.width + x) * bpp]!;
+            result[i + 1] = packed[(y * header.width + x) * bpp + 1]!;
+            result[i + 2] = packed[(y * header.width + x) * bpp + 2]!;
+            result[i + 3] = packed[(y * header.width + x) * bpp + 3]!;
           }
         }
       }
@@ -614,7 +610,7 @@ function applyTransparency(
   header: IPngHeaderDetails,
   data: Uint8Array | Uint16Array,
   trnsChunk: IPngMetadataTransparency,
-) {
+): void {
   const maxEncodedValue = (1 << header.bitDepth) - 1;
   const maxDataValue = header.bitDepth === 16 ? 0xffff : 0xff;
 

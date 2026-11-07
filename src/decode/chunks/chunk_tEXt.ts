@@ -51,7 +51,7 @@ export function parseChunk(
     maxOffset,
     false,
   );
-  offset += readResult.bytesRead;
+  // offset += readResult.bytesRead;
   const text = readResult.text;
 
   return {

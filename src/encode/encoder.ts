@@ -154,27 +154,27 @@ function analyze(
   const transparentColorSet = new Set<number>();
 
   // Get the number of rgb colors and the number of transparent colors in the image
-  let rgbaId = 0;
   if (image.data.BYTES_PER_ELEMENT === 2) {
     for (let i = 0; i < indexCount; i += 4) {
-      rgbaId =
-        (image.data[i] << 48) |
-        (image.data[i + 1] << 32) |
-        (image.data[i + 2] << 16) |
-        image.data[i + 3];
-      if (image.data[i + 3] < 65535) {
+      // TODO This is wrong, JS doesn't have 64-bit integers and truncates the shift to 32 bits
+      const rgbaId =
+        (image.data[i]! << 48) |
+        (image.data[i + 1]! << 32) |
+        (image.data[i + 2]! << 16) |
+        image.data[i + 3]!;
+      if (image.data[i + 3]! < 65535) {
         transparentColorSet.add(rgbaId);
       }
       colorSet.add(rgbaId);
     }
   } else {
     for (let i = 0; i < indexCount; i += 4) {
-      rgbaId =
-        (image.data[i] << 24) |
-        (image.data[i + 1] << 16) |
-        (image.data[i + 2] << 8) |
-        image.data[i + 3];
-      if (image.data[i + 3] < 255) {
+      const rgbaId =
+        (image.data[i]! << 24) |
+        (image.data[i + 1]! << 16) |
+        (image.data[i + 2]! << 8) |
+        image.data[i + 3]!;
+      if (image.data[i + 3]! < 255) {
         transparentColorSet.add(rgbaId);
       }
       colorSet.add(rgbaId);

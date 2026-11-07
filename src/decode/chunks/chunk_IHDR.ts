@@ -74,7 +74,7 @@ export function parseChunk(
   assertChunkCompressionMethod(ctx, chunk, compressionMethod, offset);
   offset++;
 
-  let filterMethod = ctx.view.getUint8(offset);
+  const filterMethod = ctx.view.getUint8(offset);
   if (!isValidFilterMethod(filterMethod)) {
     handleWarning(
       ctx,
@@ -85,7 +85,7 @@ export function parseChunk(
       ),
     );
     // Validation failed. If not in strict mode, continue with adaptive filter method
-    filterMethod = 0;
+    // filterMethod = 0;
   }
   offset++;
 
@@ -102,7 +102,7 @@ export function parseChunk(
     // Validation failed. If not in strict mode, continue with no interlace method
     interlaceMethod = InterlaceMethod.None;
   }
-  offset++;
+  // offset++;
 
   return {
     width,

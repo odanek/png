@@ -15,7 +15,7 @@ export function convert16BitTo8BitData(data: Uint16Array): Uint8Array {
   const result = new Uint8Array(data.length);
   for (let i = 0; i < result.length; i++) {
     // Typed arrays use little endian by default
-    result[i] = view8Bit[i * 2 + 1];
+    result[i] = view8Bit[i * 2 + 1]!;
   }
   return result;
 }

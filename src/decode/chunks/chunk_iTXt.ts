@@ -91,7 +91,7 @@ export function parseChunk(
     false,
     isCompressed,
   );
-  offset += readResult.bytesRead;
+  // offset += readResult.bytesRead;
   const text = readResult.text;
 
   return {

@@ -85,9 +85,9 @@ function writeUncompressedData(
   image: Readonly<IImage32> | Readonly<IImage64>,
   stream: ByteStream,
 ): void {
-  let i = 0,
-    x = 0,
-    y = 0;
+  let i = 0;
+  // let x = 0;
+  let y = 0;
 
   // If the image type is Palette, or the bit depth is smaller than 8, then do not filter the image
   // (i.e. use fixed filtering, with the filter None).
@@ -100,13 +100,13 @@ function writeUncompressedData(
     }
     for (; y < image.height; y++) {
       stream.writeUint8(0); // Filter type
-      for (x = 0; x < image.width; x++) {
+      for (let x = 0; x < image.width; x++) {
         stream.writeUint8(
           ctx.palette.get(
-            (image.data[i] << 24) |
-              (image.data[i + 1] << 16) |
-              (image.data[i + 2] << 8) |
-              image.data[i + 3],
+            (image.data[i]! << 24) |
+              (image.data[i + 1]! << 16) |
+              (image.data[i + 2]! << 8) |
+              image.data[i + 3]!,
           )!,
         );
         i += 4;
@@ -150,19 +150,17 @@ function writeUncompressedData(
       image.data.byteOffset,
       image.data.byteLength,
     );
-    stream.writeUint8(filterType);
+    stream.writeUint8(filterType!);
 
     // Data
-    let byte = 0,
-      c = 0;
-    for (x = 0; x < image.width; x++) {
+    for (let x = 0; x < image.width; x++) {
       // Pixel
-      for (c of channelsToWrite) {
+      for (const c of channelsToWrite) {
         // Channel
-        for (byte = image.data.BYTES_PER_ELEMENT - 1; byte >= 0; byte--) {
+        for (let byte = image.data.BYTES_PER_ELEMENT - 1; byte >= 0; byte--) {
           // Byte
           stream.writeUint8(
-            filterFns[filterType](
+            filterFns[filterType!]!(
               dataUint8,
               (i + c) * image.data.BYTES_PER_ELEMENT + byte,
               x === 0,
@@ -182,7 +180,7 @@ function pickFilterType(
   filterFns: FilterFunction[],
 ): FilterType {
   const filterSums: number[] = [];
-  const bpp = 4 * image.data.BYTES_PER_ELEMENT;
+  // const bpp = 4 * image.data.BYTES_PER_ELEMENT;
   for (const filterType of [0, 1, 2, 3, 4] as FilterType[]) {
     let sum = 0;
     const channelsToWrite = getChannelsToWrite(colorType);
@@ -191,15 +189,14 @@ function pickFilterType(
       image.data.byteOffset,
       image.data.byteLength,
     );
-    let c = 0,
-      byte = 0;
+
     for (let i = lineIndex; i < lineIndex + image.width * 4; i += 4) {
       // Pixel in line
-      for (c of channelsToWrite) {
+      for (const c of channelsToWrite) {
         // Channel
-        for (byte = image.data.BYTES_PER_ELEMENT - 1; byte >= 0; byte--) {
+        for (let byte = image.data.BYTES_PER_ELEMENT - 1; byte >= 0; byte--) {
           // Byte
-          sum += filterFns[filterType](
+          sum += filterFns[filterType!]!(
             dataUint8,
             (i + c) * image.data.BYTES_PER_ELEMENT + byte,
             i === lineIndex,
@@ -210,11 +207,11 @@ function pickFilterType(
     filterSums[filterType] = sum;
   }
   let lowestFilterType: FilterType = FilterType.None;
-  let lowestSum = filterSums[FilterType.None];
+  let lowestSum = filterSums[FilterType.None]!;
   for (const filterType of [1, 2, 3, 4] as FilterType[]) {
-    if (filterSums[filterType] < lowestSum) {
+    if (filterSums[filterType]! < lowestSum) {
       lowestFilterType = filterType;
-      lowestSum = filterSums[filterType];
+      lowestSum = filterSums[filterType]!;
     }
   }
   return lowestFilterType;
@@ -236,25 +233,25 @@ function buildFilterFunction(
     ci = 0;
   switch (filterType) {
     case FilterType.None:
-      return (filt, filtX) => filt[filtX];
+      return (filt, filtX) => filt[filtX]!;
     case FilterType.Sub:
       return (filt, filtX, isFirstInLine) => {
         ai = isFirstInLine ? -1 : filtX - bpp;
-        return (filt[filtX] - (ai < 0 ? 0 : filt[filtX - bpp]) + 256) % 256;
+        return (filt[filtX]! - (ai < 0 ? 0 : filt[filtX - bpp]!) + 256) % 256;
       };
     case FilterType.Up:
       return (filt, filtX) => {
         bi = filtX - bpl;
-        return (filt[filtX] - (bi < 0 ? 0 : filt[bi]) + 256) % 256;
+        return (filt[filtX]! - (bi < 0 ? 0 : filt[bi]!) + 256) % 256;
       };
     case FilterType.Average:
       return (filt, filtX, isFirstInLine) => {
         ai = isFirstInLine ? -1 : filtX - bpp;
         bi = filtX - bpl;
         return (
-          (filt[filtX] -
+          (filt[filtX]! -
             Math.floor(
-              ((ai < 0 ? 0 : filt[ai]) + (bi < 0 ? 0 : filt[bi])) / 2,
+              ((ai < 0 ? 0 : filt[ai]!) + (bi < 0 ? 0 : filt[bi]!)) / 2,
             ) +
             256) %
           256
@@ -266,11 +263,11 @@ function buildFilterFunction(
         bi = filtX - bpl;
         ci = isFirstInLine ? -1 : filtX - bpp - bpl;
         return (
-          (filt[filtX] -
+          (filt[filtX]! -
             paethPredicator(
-              ai < 0 ? 0 : filt[ai],
-              bi < 0 ? 0 : filt[bi],
-              ci < 0 ? 0 : filt[ci],
+              ai < 0 ? 0 : filt[ai]!,
+              bi < 0 ? 0 : filt[bi]!,
+              ci < 0 ? 0 : filt[ci]!,
             ) +
             256) %
           256

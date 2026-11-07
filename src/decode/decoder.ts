@@ -190,7 +190,7 @@ export async function decodePng(
   initialCtx.rawChunks = chunks;
 
   // Parse the header
-  const header = parseChunkIHDR(initialCtx, chunks[0]);
+  const header = parseChunkIHDR(initialCtx, chunks[0]!);
 
   // Update ctx to include header
   const ctx: IDecodeContext = {
@@ -212,7 +212,7 @@ export async function decodePng(
 
   // Parse the chunks
   for (let i = 1; i < chunks.length; i++) {
-    const chunk = chunks[i];
+    const chunk = chunks[i]!;
     switch (chunk.type) {
       case KnownChunkTypes.IHDR:
         handleWarning(
@@ -229,9 +229,9 @@ export async function decodePng(
         // Gather all consecutive IDAT entries
         while (
           chunks.length > i + 1 &&
-          chunks[i + 1].type === KnownChunkTypes.IDAT
+          chunks[i + 1]!.type === KnownChunkTypes.IDAT
         ) {
-          dataChunks.push(chunks[++i]);
+          dataChunks.push(chunks[++i]!);
         }
         ctx.image = {
           width: header.width,
@@ -353,19 +353,19 @@ export function readChunks(ctx: IInitialDecodeContext): IPngChunk[] {
     hasData ||= chunk.type === KnownChunkTypes.IDAT;
     hasEnd ||= chunk.type === KnownChunkTypes.IEND;
   }
-  if (chunks[0].type !== KnownChunkTypes.IHDR) {
+  if (chunks[0]!.type !== KnownChunkTypes.IHDR) {
     throw new DecodeError(
       ctx,
       `First chunk is not IHDR`,
-      chunks[0].offset + ChunkPartByteLength.Type,
+      chunks[0]!.offset + ChunkPartByteLength.Type,
     );
   }
-  if (chunks[chunks.length - 1].type !== KnownChunkTypes.IEND) {
+  if (chunks[chunks.length - 1]!.type !== KnownChunkTypes.IEND) {
     handleWarning(
       ctx,
       new DecodeWarning(
         "Last chunk is not IEND",
-        chunks[chunks.length - 1].offset + ChunkPartByteLength.Length,
+        chunks[chunks.length - 1]!.offset + ChunkPartByteLength.Length,
       ),
     );
   }
