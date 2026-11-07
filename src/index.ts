@@ -1,8 +1,8 @@
-export type { IEncodedPng } from "./shared/types";
 export type {
+  IEncodedPng,
+  IEncodePngOptions,
   IDecodedPng,
   IDecodePngOptions,
-  IEncodePngOptions,
   IImage32,
   IImage64,
 } from "./shared/types";
