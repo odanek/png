@@ -6,7 +6,7 @@
  */
 
 export class ByteStream {
-  readonly array: Uint8Array;
+  readonly array: Uint8Array<ArrayBuffer>;
   readonly view: DataView;
 
   offset: number = 0;

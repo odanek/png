@@ -5,9 +5,9 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import * as pako from "pako";
 import { ByteStream } from "../byteStream";
 import { paethPredicator } from "../../shared/paeth";
+import { deflate } from "../../shared/z";
 import {
   ColorType,
   FilterType,
@@ -28,7 +28,7 @@ export async function encodeChunk(
   writeUncompressedData(ctx, image, stream);
 
   // Compress the data
-  const compressed = pako.deflate(stream.array);
+  const compressed = await deflate(stream.array);
   // console.log('uncompressed', dataStream.array, 'compressed', compressed);
 
   // Construct the final IDAT chunk

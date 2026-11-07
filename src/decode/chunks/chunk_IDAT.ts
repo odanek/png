@@ -5,9 +5,9 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import * as pako from "pako";
 import { createChunkDecodeError, DecodeError } from "../assert";
 import { paethPredicator } from "../../shared/paeth";
+import { inflate } from "../../shared/z";
 import {
   ChunkPartByteLength,
   ColorType,
@@ -36,7 +36,7 @@ export async function parseChunk(
   chunks: IPngChunk[],
 ): Promise<Uint8Array | Uint16Array> {
   // Decompress the chunk data.
-  const decompressed = decompress(ctx, chunks);
+  const decompressed = await decompress(ctx, chunks);
 
   // Remove the filter, leaving the packed format. For example an 8-bit grayscale and alpha
   // filter would give an array where each pixel is represented by 2 bytes; grayscale (0-255) and
@@ -77,30 +77,38 @@ export async function parseChunk(
 /**
  * Decompresses the chunk's data using the inflate algorithm.
  */
-function decompress(ctx: IDecodeContext, chunks: IPngChunk[]): Uint8Array {
-  const inflator = new pako.Inflate();
+async function decompress(
+  ctx: IDecodeContext,
+  chunks: IPngChunk[],
+): Promise<Uint8Array> {
+  // The zlib stream may be split across multiple consecutive IDAT chunks, so concatenate their
+  // data before inflating.
+  const totalLength = chunks.reduce((sum, chunk) => sum + chunk.dataLength, 0);
+  const compressed = new Uint8Array(totalLength);
+  let position = 0;
   for (const chunk of chunks) {
     const offset =
-      chunk.offset + ChunkPartByteLength.Length + ChunkPartByteLength.Type;
-    inflator.push(
-      ctx.view.buffer.slice(
-        ctx.view.byteOffset + offset,
-        ctx.view.byteOffset + offset + chunk.dataLength,
-      ),
+      ctx.view.byteOffset +
+      chunk.offset +
+      ChunkPartByteLength.Length +
+      ChunkPartByteLength.Type;
+    compressed.set(
+      new Uint8Array(ctx.view.buffer, offset, chunk.dataLength),
+      position,
     );
+    position += chunk.dataLength;
   }
-  if (inflator.err) {
+
+  try {
+    return await inflate(compressed);
+  } catch (e) {
     throw createChunkDecodeError(
       ctx,
       chunks[0]!,
-      `Inflate error: ${inflator.msg}`,
+      `Inflate error while decompressing chunk data: ${e instanceof Error ? e.message : String(e)}`,
       chunks[0]!.offset,
     );
   }
-  if (inflator.result === undefined) {
-    throw new DecodeError(ctx, "IDAT: Failed to decompress data chunks", 0);
-  }
-  return inflator.result as Uint8Array;
 }
 
 /**

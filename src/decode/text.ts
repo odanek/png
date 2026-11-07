@@ -61,7 +61,7 @@ export async function readText(
     } catch (e) {
       throw createChunkDecodeWarning(
         chunk,
-        `Inflate error: ${e instanceof Error ? e.message : "unknown"}`,
+        `Inflate error while decompressing text: ${e instanceof Error ? e.message : String(e)}`,
         offset,
       );
     }
