@@ -19,11 +19,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11tIME
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataLastModificationTime {
+): Promise<IPngMetadataLastModificationTime> {
   assertChunkSinglular(ctx, chunk);
   assertChunkDataLengthEquals(ctx, chunk, 7);
 

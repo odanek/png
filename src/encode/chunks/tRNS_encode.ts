@@ -13,10 +13,10 @@ import {
 } from "../../shared/types";
 import { writeChunkDataFn } from "../write";
 
-export function encodeChunk(
+export async function encodeChunk(
   ctx: IEncodeContext,
   image: Readonly<IImage32> | Readonly<IImage64>,
-): Uint8Array {
+): Promise<Uint8Array> {
   switch (ctx.colorType) {
     case ColorType.Grayscale: {
       /* istanbul ignore next - this error should never happen in practice */
@@ -28,6 +28,7 @@ export function encodeChunk(
       const firstTransparentColor = ctx.firstTransparentColor;
       return writeChunkDataFn("tRNS", 2, (stream) => {
         if (image.data.BYTES_PER_ELEMENT === 2) {
+          // TODO This is wrong, JS doesn't have 64-bit integers and truncates the shift to 32 bits
           stream.writeUint16((firstTransparentColor >> 48) & 0xffff);
         } else {
           stream.writeUint16((firstTransparentColor >> 24) & 0xff);

@@ -22,11 +22,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11sPLT
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataSuggestedPalette {
+): Promise<IPngMetadataSuggestedPalette> {
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.IDAT);
 
   const dataStartOffset =
@@ -34,7 +34,7 @@ export function parseChunk(
   let offset = dataStartOffset;
   const maxOffset = offset + chunk.dataLength; // Ensures reading outside this chunk is not allowed
   const textDecoder = new TextDecoder("latin1");
-  const readResult = readText(
+  const readResult = await readText(
     ctx,
     chunk,
     textDecoder,

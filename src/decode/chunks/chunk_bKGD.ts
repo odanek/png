@@ -25,11 +25,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11bKGD
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataBackgroundColor {
+): Promise<IPngMetadataBackgroundColor> {
   assertChunkSinglular(ctx, chunk);
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.IDAT);
 

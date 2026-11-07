@@ -9,15 +9,15 @@ import { createChunkDecodeWarning, handleWarning } from "./assert";
 import { readText } from "./text";
 import type { IDecodeContext, IPngChunk } from "../shared/types";
 
-export function readFloat(
+export async function readFloat(
   ctx: IDecodeContext,
   chunk: IPngChunk,
   textDecoder: TextDecoder | undefined,
   offset: number,
   maxOffset: number,
   readTrailingNull: boolean,
-): { bytesRead: number; value: number } {
-  const readResult = readText(
+): Promise<{ bytesRead: number; value: number }> {
+  const readResult = await readText(
     ctx,
     chunk,
     textDecoder,

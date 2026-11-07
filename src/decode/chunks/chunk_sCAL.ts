@@ -26,11 +26,11 @@ import {
  *
  * Spec: http://www.libpng.org/pub/png/spec/register/pngext-1.4.0-pdg.html#C.sCAL
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataPhysicalScaleOfImageSubject {
+): Promise<IPngMetadataPhysicalScaleOfImageSubject> {
   assertChunkSinglular(ctx, chunk);
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.IDAT);
   assertChunkDataLengthGte(ctx, chunk, 4);
@@ -65,11 +65,25 @@ export function parseChunk(
   offset++;
 
   let readResult: { bytesRead: number; value: number };
-  readResult = readFloat(ctx, chunk, textDecoder, offset, maxOffset, true);
+  readResult = await readFloat(
+    ctx,
+    chunk,
+    textDecoder,
+    offset,
+    maxOffset,
+    true,
+  );
   offset += readResult.bytesRead;
   const x = readResult.value;
 
-  readResult = readFloat(ctx, chunk, textDecoder, offset, maxOffset, false);
+  readResult = await readFloat(
+    ctx,
+    chunk,
+    textDecoder,
+    offset,
+    maxOffset,
+    false,
+  );
   offset += readResult.bytesRead;
   const y = readResult.value;
 

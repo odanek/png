@@ -12,10 +12,10 @@ const enum Constants {
   DataLength = 13,
 }
 
-export function encodeChunk(
+export async function encodeChunk(
   ctx: IEncodeContext,
   image: Readonly<IImage32> | Readonly<IImage64>,
-): Uint8Array {
+): Promise<Uint8Array> {
   if (image.width <= 0 || image.height <= 0) {
     throw new Error(`Invalid dimensions ${image.width}x${image.height}`);
   }

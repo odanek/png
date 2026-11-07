@@ -26,11 +26,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11PLTE
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngPaletteInternal {
+): Promise<IPngPaletteInternal> {
   assertChunkSinglular(ctx, chunk);
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.bKGD);
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.hIST);

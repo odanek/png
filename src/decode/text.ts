@@ -5,11 +5,11 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import * as pako from "pako";
 import { createChunkDecodeWarning } from "./assert";
 import type { IDecodeContext, IPngChunk } from "../shared/types";
+import { inflate } from "../shared/z";
 
-export function readText(
+export async function readText(
   ctx: IDecodeContext,
   chunk: IPngChunk,
   textDecoder: TextDecoder | undefined,
@@ -18,7 +18,7 @@ export function readText(
   maxOffset: number,
   readTrailingNull: boolean,
   isCompressed?: boolean,
-): { bytesRead: number; text: string } {
+): Promise<{ bytesRead: number; text: string }> {
   const bytes = [];
   let i = 0;
   for (; maxLength === undefined || i < maxLength; i++) {
@@ -54,18 +54,17 @@ export function readText(
     );
   }
 
-  let typedArray: Uint8Array = new Uint8Array(bytes);
+  let typedArray = new Uint8Array(bytes);
   if (isCompressed) {
-    const inflator = new pako.Inflate();
-    inflator.push(typedArray);
-    if (inflator.err) {
+    try {
+      typedArray = await inflate(typedArray);
+    } catch (e) {
       throw createChunkDecodeWarning(
         chunk,
-        `Inflate error: ${inflator.msg}`,
+        `Inflate error: ${e instanceof Error ? e.message : "unknown"}`,
         offset,
       );
     }
-    typedArray = inflator.result as Uint8Array;
   }
 
   return {

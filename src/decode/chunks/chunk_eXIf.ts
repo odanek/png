@@ -18,11 +18,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11eXIf
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataExif {
+): Promise<IPngMetadataExif> {
   const offset =
     chunk.offset + ChunkPartByteLength.Length + ChunkPartByteLength.Type;
   return {

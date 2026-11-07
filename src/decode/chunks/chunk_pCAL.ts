@@ -27,11 +27,11 @@ import {
  *
  * Spec: http://www.libpng.org/pub/png/spec/register/pngext-1.4.0-pdg.html#C.pCAL
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataCalibrationOfPixelValues {
+): Promise<IPngMetadataCalibrationOfPixelValues> {
   assertChunkSinglular(ctx, chunk);
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.IDAT);
   assertChunkDataLengthGte(ctx, chunk, 4);
@@ -56,7 +56,7 @@ export function parseChunk(
 
   const textDecoder = new TextDecoder("latin1");
   let readTextResult: { bytesRead: number; text: string };
-  readTextResult = readText(
+  readTextResult = await readText(
     ctx,
     chunk,
     textDecoder,
@@ -102,7 +102,7 @@ export function parseChunk(
 
   const parameterCount = ctx.view.getUint8(offset++);
 
-  readTextResult = readText(
+  readTextResult = await readText(
     ctx,
     chunk,
     textDecoder,
@@ -117,7 +117,7 @@ export function parseChunk(
   const params: number[] = [];
   let readFloatResult: { bytesRead: number; value: number };
   for (let i = 0; i < parameterCount; i++) {
-    readFloatResult = readFloat(
+    readFloatResult = await readFloat(
       ctx,
       chunk,
       textDecoder,

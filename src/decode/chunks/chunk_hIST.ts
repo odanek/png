@@ -25,11 +25,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11hIST
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataHistogram {
+): Promise<IPngMetadataHistogram> {
   assertChunkSinglular(ctx, chunk);
   assertChunkFollows(ctx, chunk, KnownChunkTypes.PLTE);
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.IDAT);

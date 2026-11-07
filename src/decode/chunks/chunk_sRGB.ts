@@ -27,11 +27,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11sRGB
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataStandardRgbColorSpace {
+): Promise<IPngMetadataStandardRgbColorSpace> {
   assertChunkSinglular(ctx, chunk);
   assertChunkMutualExclusion(ctx, chunk, KnownChunkTypes.iCCP);
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.PLTE);

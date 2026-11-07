@@ -24,11 +24,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11pYHs
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataPhysicalPixelDimensions {
+): Promise<IPngMetadataPhysicalPixelDimensions> {
   assertChunkSinglular(ctx, chunk);
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.IDAT);
   assertChunkDataLengthEquals(ctx, chunk, 9);

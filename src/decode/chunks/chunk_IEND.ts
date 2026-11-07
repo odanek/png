@@ -18,11 +18,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11IDAT
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): void {
+): Promise<void> {
   assertChunkFollows(ctx, chunk, KnownChunkTypes.IDAT);
   assertChunkDataLengthEquals(ctx, chunk, 0);
 }

@@ -9,12 +9,12 @@ import { EncodeError } from "../../encode/assert";
 import type { IEncodeContext, IImage32, IImage64 } from "../../shared/types";
 import { writeChunkDataFn } from "../write";
 
-export function encodeChunk(
+export async function encodeChunk(
   ctx: IEncodeContext,
   image: Readonly<IImage32> | Readonly<IImage64>,
   keyword: string,
   text: string,
-): Uint8Array {
+): Promise<Uint8Array> {
   if (keyword.length === 0 || keyword.length > 79) {
     throw new EncodeError(
       `tEXt: Invalid keyword length: 0 < ${keyword.length} < 80`,

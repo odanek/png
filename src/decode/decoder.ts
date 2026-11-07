@@ -106,7 +106,7 @@ function getChunkDecoder(type: KnownChunkTypes): Promise<{
     ctx: IDecodeContext,
     header: IPngHeaderDetails,
     chunk: IPngChunk,
-  ) => PngMetadata;
+  ) => Promise<PngMetadata>;
 }> {
   switch (type) {
     case KnownChunkTypes.bKGD:
@@ -190,7 +190,7 @@ export async function decodePng(
   initialCtx.rawChunks = chunks;
 
   // Parse the header
-  const header = parseChunkIHDR(initialCtx, chunks[0]!);
+  const header = await parseChunkIHDR(initialCtx, chunks[0]!);
 
   // Update ctx to include header
   const ctx: IDecodeContext = {
@@ -237,16 +237,14 @@ export async function decodePng(
           width: header.width,
           height: header.height,
           // HACK: Not sure why TS doesn't like unioned typed arrays
-          data: parseChunkIDAT(ctx, header, dataChunks) as Uint8Array,
+          data: (await parseChunkIDAT(ctx, header, dataChunks)) as Uint8Array,
         };
         break;
       }
       case KnownChunkTypes.PLTE:
-        ctx.palette = (await import(`./chunks/chunk_PLTE.js`)).parseChunk(
-          ctx,
-          header,
-          chunk,
-        );
+        ctx.palette = await (
+          await import(`./chunks/chunk_PLTE.js`)
+        ).parseChunk(ctx, header, chunk);
         break;
       case KnownChunkTypes.IEND:
         parseChunkIEND(ctx, header, chunk);
@@ -255,11 +253,9 @@ export async function decodePng(
         if (parseChunkTypes.includes(chunk.type)) {
           try {
             ctx.metadata.push(
-              (await getChunkDecoder(chunk.type as KnownChunkTypes)).parseChunk(
-                ctx,
-                header,
-                chunk,
-              ),
+              await (
+                await getChunkDecoder(chunk.type as KnownChunkTypes)
+              ).parseChunk(ctx, header, chunk),
             );
           } catch (e: unknown) {
             if (e instanceof DecodeWarning) {

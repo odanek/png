@@ -26,11 +26,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11tRNS
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataTransparency {
+): Promise<IPngMetadataTransparency> {
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.IDAT);
 
   switch (header.colorType) {

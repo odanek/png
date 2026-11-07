@@ -7,6 +7,6 @@
 
 import { writeChunk } from "../write";
 
-export function encodeChunk(): Uint8Array {
+export async function encodeChunk(): Promise<Uint8Array> {
   return writeChunk("IEND", new Uint8Array(0));
 }

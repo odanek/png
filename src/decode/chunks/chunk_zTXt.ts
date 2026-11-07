@@ -23,11 +23,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11tEXt
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataCompressedTextualData {
+): Promise<IPngMetadataCompressedTextualData> {
   assertChunkDataLengthGte(ctx, chunk, 6);
 
   // Format:
@@ -41,7 +41,15 @@ export function parseChunk(
   const textDecoder = new TextDecoder("latin1");
   let readResult: { bytesRead: number; text: string };
 
-  readResult = readText(ctx, chunk, textDecoder, 79, offset, maxOffset, true);
+  readResult = await readText(
+    ctx,
+    chunk,
+    textDecoder,
+    79,
+    offset,
+    maxOffset,
+    true,
+  );
   offset += readResult.bytesRead;
   const keyword = readResult.text;
 
@@ -49,7 +57,7 @@ export function parseChunk(
   assertChunkCompressionMethod(ctx, chunk, compressionMethod, offset);
   offset++;
 
-  readResult = readText(
+  readResult = await readText(
     ctx,
     chunk,
     textDecoder,

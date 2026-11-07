@@ -29,12 +29,11 @@ function getChunkDecoder(type: KnownChunkTypes): Promise<{
   encodeChunk: (
     ctx: IEncodeContext,
     image: Readonly<IImage32> | Readonly<IImage64>,
-  ) => Uint8Array;
+  ) => Promise<Uint8Array>;
 }> {
   switch (type) {
     case KnownChunkTypes.tRNS:
       return import(`./chunks/tRNS_encode.js`);
-    /* istanbul ignore next - this error should never happen in practice */
     default:
       // Throw a regular error as this is unexpected
       throw new Error(`Could not get encoder for chunk type "${type}"`);
@@ -64,42 +63,37 @@ export async function encodePng(
 
   const ctx = analyze(image, options);
 
-  sections.push(encodeIHDR(ctx, image));
+  sections.push(await encodeIHDR(ctx, image));
   if (ctx.colorType === ColorType.Indexed) {
-    const result = (await import(`./chunks/PLTE_encode.js`)).encodeChunk(
-      ctx,
-      image,
-    );
+    const result = await (
+      await import(`./chunks/PLTE_encode.js`)
+    ).encodeChunk(ctx, image);
     ctx.palette = result.palette;
     sections.push(result.chunkData);
   }
   if (ctx.useTransparencyChunk) {
     sections.push(
-      (await getChunkDecoder(KnownChunkTypes.tRNS)).encodeChunk(ctx, image),
+      await (
+        await getChunkDecoder(KnownChunkTypes.tRNS)
+      ).encodeChunk(ctx, image),
     );
   }
-  sections.push(encodeIDAT(ctx, image));
+  sections.push(await encodeIDAT(ctx, image));
   // tEXt chunks
   if (options?.ancillaryChunks === undefined) {
     sections.push(
-      (await import(`./chunks/tEXt_encode.js`)).encodeChunk(
-        ctx,
-        image,
-        "Software",
-        "@lunapaint/png-codec",
-      ),
+      await (
+        await import(`./chunks/tEXt_encode.js`)
+      ).encodeChunk(ctx, image, "Software", "@lunapaint/png-codec"),
     );
   } else {
     for (const chunk of options.ancillaryChunks) {
       switch (chunk.type) {
         case KnownChunkTypes.tEXt:
           sections.push(
-            (await import(`./chunks/tEXt_encode.js`)).encodeChunk(
-              ctx,
-              image,
-              chunk.keyword,
-              chunk.text,
-            ),
+            await (
+              await import(`./chunks/tEXt_encode.js`)
+            ).encodeChunk(ctx, image, chunk.keyword, chunk.text),
           );
           break;
         default:
@@ -107,7 +101,7 @@ export async function encodePng(
       }
     }
   }
-  sections.push(encodeIEND());
+  sections.push(await encodeIEND());
   // console.log('sections', sections);
 
   // Merge sections into a single typed array

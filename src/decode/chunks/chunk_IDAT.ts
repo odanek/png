@@ -30,11 +30,11 @@ import {
  * deflate algorithm. Note that a single image may contain multiple IDAT chunks, if they do they
  * must appear consecutively.
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunks: IPngChunk[],
-): Uint8Array | Uint16Array {
+): Promise<Uint8Array | Uint16Array> {
   // Decompress the chunk data.
   const decompressed = decompress(ctx, chunks);
 

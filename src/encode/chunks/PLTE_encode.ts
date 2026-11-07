@@ -8,10 +8,10 @@
 import type { IEncodeContext, IImage32, IImage64 } from "../../shared/types";
 import { writeChunkDataFn } from "../write";
 
-export function encodeChunk(
+export async function encodeChunk(
   ctx: IEncodeContext,
   image: Readonly<IImage32> | Readonly<IImage64>,
-): { chunkData: Uint8Array; palette: Map<number, number> } {
+): Promise<{ chunkData: Uint8Array; palette: Map<number, number> }> {
   /* istanbul ignore next - this error should never happen in practice */
   if (ctx.bitDepth === 16 || image.data.BYTES_PER_ELEMENT === 2) {
     throw new Error("Cannot encode 16 bit images using indexed color type");

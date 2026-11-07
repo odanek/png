@@ -26,11 +26,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11gAMA
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataGamma {
+): Promise<IPngMetadataGamma> {
   assertChunkSinglular(ctx, chunk);
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.PLTE);
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.IDAT);

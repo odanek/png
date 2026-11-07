@@ -27,11 +27,11 @@ import {
  *
  * Spec: https://www.w3.org/TR/PNG/#11iCCP
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataEmbeddedIccProfile {
+): Promise<IPngMetadataEmbeddedIccProfile> {
   assertChunkSinglular(ctx, chunk);
   assertChunkMutualExclusion(ctx, chunk, KnownChunkTypes.sRGB);
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.PLTE);
@@ -44,7 +44,7 @@ export function parseChunk(
   let offset = chunkDataOffset;
   const textDecoder = new TextDecoder("latin1");
 
-  const readResult = readText(
+  const readResult = await readText(
     ctx,
     chunk,
     textDecoder,

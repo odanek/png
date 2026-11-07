@@ -25,11 +25,11 @@ import {
  *
  * Spec: http://www.libpng.org/pub/png/spec/register/pngext-1.4.0-pdg.html#C.oFFs
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IDecodeContext,
   header: IPngHeaderDetails,
   chunk: IPngChunk,
-): IPngMetadataOffset {
+): Promise<IPngMetadataOffset> {
   assertChunkSinglular(ctx, chunk);
   assertChunkPrecedes(ctx, chunk, KnownChunkTypes.IDAT);
   assertChunkDataLengthEquals(ctx, chunk, 9);

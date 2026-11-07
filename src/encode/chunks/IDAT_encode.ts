@@ -18,10 +18,10 @@ import {
 } from "../../shared/types";
 import { writeChunk } from "../write";
 
-export function encodeChunk(
+export async function encodeChunk(
   ctx: IEncodeContext,
   image: Readonly<IImage32> | Readonly<IImage64>,
-): Uint8Array {
+): Promise<Uint8Array> {
   // First generate the uncompressed data
   const dataStreamLength = calculateDataLength(ctx, image);
   const stream = new ByteStream(dataStreamLength);

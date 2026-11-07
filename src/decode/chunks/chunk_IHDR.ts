@@ -35,10 +35,10 @@ import {
  * dimensions and bit depth, this information is used when looking at later chunks and it's required
  * that this chunk is the first chunk in the datastream.
  */
-export function parseChunk(
+export async function parseChunk(
   ctx: IInitialDecodeContext,
   chunk: IPngChunk,
-): IPngHeaderDetails {
+): Promise<IPngHeaderDetails> {
   assertChunkDataLengthEquals(ctx, chunk, 13);
 
   let offset =
