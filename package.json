@@ -14,7 +14,19 @@
     "url": "git+https://github.com/odanek/png.git"
   },
   "type": "module",
-  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
   "publishConfig": {
     "access": "public"
   },
