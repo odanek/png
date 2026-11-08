@@ -1,0 +1,234 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "/wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//HwD//x8A//8fAP//HwD//x8A//8fAP//HwD//x8A//8fAP//HwD//x8A//8fAP//HwD//x8A//8fAP//HwD//x8A//8fAP//HwD//x8A//8fAP//HwD//x8A//8fAP//HwD//x8A//8fAP//HwD//x8A//8fAP//HwD//x8A//8/AP//PwD//z8A//8/AP//PwD//z8A//8/AP//PwD//z8A//8/AP//PwD//z8A//8/AP//PwD//z8A//8/AP//PwD//z8A//8/AP//PwD//z8A//8/AP//PwD//z8A//8/AP//PwD//z8A//8/AP//PwD//z8A//8/AP//PwD//18A//9fAP//XwD//18A//9fAP//XwD//18A//9fAP//XwD//18A//9fAP//XwD//18A//9fAP//XwD//18A//9fAP//XwD//18A//9fAP//XwD//18A//9fAP//XwD//18A//9fAP//XwD//18A//9fAP//XwD//18A//9fAP//fwD//38A//9/AP//fwD//38A//9/AP//fwD//38A//9/AP//fwD//38A//9/AP//fwD//38A//9/AP//fwD//38A//9/AP//fwD//38A//9/AP//fwD//38A//9/AP//fwD//38A//9/AP//fwD//38A//9/AP//fwD//38A//+fAP//nwD//58A//+fAP//nwD//58A//+fAP//nwD//58A//+fAP//nwD//58A//+fAP//nwD//58A//+fAP//nwD//58A//+fAP//nwD//58A//+fAP//nwD//58A//+fAP//nwD//58A//+fAP//nwD//58A//+fAP//nwD//78A//+/AP//vwD//78A//+/AP//vwD//78A//+/AP//vwD//78A//+/AP//vwD//78A//+/AP//vwD//78A//+/AP//vwD//78A//+/AP//vwD//78A//+/AP//vwD//78A//+/AP//vwD//78A//+/AP//vwD//78A//+/AP//3wD//98A///fAP//3wD//98A///fAP//3wD//98A///fAP//3wD//98A///fAP//3wD//98A///fAP//3wD//98A///fAP//3wD//98A///fAP//3wD//98A///fAP//3wD//98A///fAP//3wD//98A///fAP//3wD//98A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/4P8A/+D/AP/g/wD/4P8A/+D/AP/g/wD/4P8A/+D/AP/g/wD/4P8A/+D/AP/g/wD/4P8A/+D/AP/g/wD/4P8A/+D/AP/g/wD/4P8A/+D/AP/g/wD/4P8A/+D/AP/g/wD/4P8A/+D/AP/g/wD/4P8A/+D/AP/g/wD/4P8A/+D/AP/A/wD/wP8A/8D/AP/A/wD/wP8A/8D/AP/A/wD/wP8A/8D/AP/A/wD/wP8A/8D/AP/A/wD/wP8A/8D/AP/A/wD/wP8A/8D/AP/A/wD/wP8A/8D/AP/A/wD/wP8A/8D/AP/A/wD/wP8A/8D/AP/A/wD/wP8A/8D/AP/A/wD/wP8A/6D/AP+g/wD/oP8A/6D/AP+g/wD/oP8A/6D/AP+g/wD/oP8A/6D/AP+g/wD/oP8A/6D/AP+g/wD/oP8A/6D/AP+g/wD/oP8A/6D/AP+g/wD/oP8A/6D/AP+g/wD/oP8A/6D/AP+g/wD/oP8A/6D/AP+g/wD/oP8A/6D/AP+g/wD/gP8A/4D/AP+A/wD/gP8A/4D/AP+A/wD/gP8A/4D/AP+A/wD/gP8A/4D/AP+A/wD/gP8A/4D/AP+A/wD/gP8A/4D/AP+A/wD/gP8A/4D/AP+A/wD/gP8A/4D/AP+A/wD/gP8A/4D/AP+A/wD/gP8A/4D/AP+A/wD/gP8A/4D/AP9g/wD/YP8A/2D/AP9g/wD/YP8A/2D/AP9g/wD/YP8A/2D/AP9g/wD/YP8A/2D/AP9g/wD/YP8A/2D/AP9g/wD/YP8A/2D/AP9g/wD/YP8A/2D/AP9g/wD/YP8A/2D/AP9g/wD/YP8A/2D/AP9g/wD/YP8A/2D/AP9g/wD/YP8A/0D/AP9A/wD/QP8A/0D/AP9A/wD/QP8A/0D/AP9A/wD/QP8A/0D/AP9A/wD/QP8A/0D/AP9A/wD/QP8A/0D/AP9A/wD/QP8A/0D/AP9A/wD/QP8A/0D/AP9A/wD/QP8A/0D/AP9A/wD/QP8A/0D/AP9A/wD/QP8A/0D/AP9A/wD/IP8A/yD/AP8g/wD/IP8A/yD/AP8g/wD/IP8A/yD/AP8g/wD/IP8A/yD/AP8g/wD/IP8A/yD/AP8g/wD/IP8A/yD/AP8g/wD/IP8A/yD/AP8g/wD/IP8A/yD/AP8g/wD/IP8A/yD/AP8g/wD/IP8A/yD/AP8g/wD/IP8A/yD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/H/8A/x//AP8f/wD/H/8A/x//AP8f/wD/H/8A/x//AP8f/wD/H/8A/x//AP8f/wD/H/8A/x//AP8f/wD/H/8A/x//AP8f/wD/H/8A/x//AP8f/wD/H/8A/x//AP8f/wD/H/8A/x//AP8f/wD/H/8A/x//AP8f/wD/H/8A/x//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/1//AP9f/wD/X/8A/1//AP9f/wD/X/8A/1//AP9f/wD/X/8A/1//AP9f/wD/X/8A/1//AP9f/wD/X/8A/1//AP9f/wD/X/8A/1//AP9f/wD/X/8A/1//AP9f/wD/X/8A/1//AP9f/wD/X/8A/1//AP9f/wD/X/8A/1//AP9f/wD/f/8A/3//AP9//wD/f/8A/3//AP9//wD/f/8A/3//AP9//wD/f/8A/3//AP9//wD/f/8A/3//AP9//wD/f/8A/3//AP9//wD/f/8A/3//AP9//wD/f/8A/3//AP9//wD/f/8A/3//AP9//wD/f/8A/3//AP9//wD/f/8A/3//AP+f/wD/n/8A/5//AP+f/wD/n/8A/5//AP+f/wD/n/8A/5//AP+f/wD/n/8A/5//AP+f/wD/n/8A/5//AP+f/wD/n/8A/5//AP+f/wD/n/8A/5//AP+f/wD/n/8A/5//AP+f/wD/n/8A/5//AP+f/wD/n/8A/5//AP+f/wD/n/8A/7//AP+//wD/v/8A/7//AP+//wD/v/8A/7//AP+//wD/v/8A/7//AP+//wD/v/8A/7//AP+//wD/v/8A/7//AP+//wD/v/8A/7//AP+//wD/v/8A/7//AP+//wD/v/8A/7//AP+//wD/v/8A/7//AP+//wD/v/8A/7//AP+//wD/3/8A/9//AP/f/wD/3/8A/9//AP/f/wD/3/8A/9//AP/f/wD/3/8A/9//AP/f/wD/3/8A/9//AP/f/wD/3/8A/9//AP/f/wD/3/8A/9//AP/f/wD/3/8A/9//AP/f/wD/3/8A/9//AP/f/wD/3/8A/9//AP/f/wD/3/8A/9//AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A4P//AOD//wDg//8A4P//AOD//wDg//8A4P//AOD//wDg//8A4P//AOD//wDg//8A4P//AOD//wDg//8A4P//AOD//wDg//8A4P//AOD//wDg//8A4P//AOD//wDg//8A4P//AOD//wDg//8A4P//AOD//wDg//8A4P//AOD//wDA//8AwP//AMD//wDA//8AwP//AMD//wDA//8AwP//AMD//wDA//8AwP//AMD//wDA//8AwP//AMD//wDA//8AwP//AMD//wDA//8AwP//AMD//wDA//8AwP//AMD//wDA//8AwP//AMD//wDA//8AwP//AMD//wDA//8AwP//AKD//wCg//8AoP//AKD//wCg//8AoP//AKD//wCg//8AoP//AKD//wCg//8AoP//AKD//wCg//8AoP//AKD//wCg//8AoP//AKD//wCg//8AoP//AKD//wCg//8AoP//AKD//wCg//8AoP//AKD//wCg//8AoP//AKD//wCg//8AgP//AID//wCA//8AgP//AID//wCA//8AgP//AID//wCA//8AgP//AID//wCA//8AgP//AID//wCA//8AgP//AID//wCA//8AgP//AID//wCA//8AgP//AID//wCA//8AgP//AID//wCA//8AgP//AID//wCA//8AgP//AID//wBg//8AYP//AGD//wBg//8AYP//AGD//wBg//8AYP//AGD//wBg//8AYP//AGD//wBg//8AYP//AGD//wBg//8AYP//AGD//wBg//8AYP//AGD//wBg//8AYP//AGD//wBg//8AYP//AGD//wBg//8AYP//AGD//wBg//8AYP//AED//wBA//8AQP//AED//wBA//8AQP//AED//wBA//8AQP//AED//wBA//8AQP//AED//wBA//8AQP//AED//wBA//8AQP//AED//wBA//8AQP//AED//wBA//8AQP//AED//wBA//8AQP//AED//wBA//8AQP//AED//wBA//8AIP//ACD//wAg//8AIP//ACD//wAg//8AIP//ACD//wAg//8AIP//ACD//wAg//8AIP//ACD//wAg//8AIP//ACD//wAg//8AIP//ACD//wAg//8AIP//ACD//wAg//8AIP//ACD//wAg//8AIP//ACD//wAg//8AIP//ACD//w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 8,
+        "colorType": 3,
+        "interlaceMethod": 0
+      },
+      "palette": [
+        [
+          32,
+          255,
+          0
+        ],
+        [
+          255,
+          31,
+          0
+        ],
+        [
+          0,
+          255,
+          31
+        ],
+        [
+          0,
+          255,
+          223
+        ],
+        [
+          160,
+          255,
+          0
+        ],
+        [
+          0,
+          255,
+          63
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          0,
+          255,
+          0
+        ],
+        [
+          128,
+          255,
+          0
+        ],
+        [
+          0,
+          255,
+          95
+        ],
+        [
+          0,
+          255,
+          127
+        ],
+        [
+          96,
+          255,
+          0
+        ],
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          224,
+          255,
+          0
+        ],
+        [
+          0,
+          255,
+          159
+        ],
+        [
+          0,
+          224,
+          255
+        ],
+        [
+          64,
+          255,
+          0
+        ],
+        [
+          255,
+          255,
+          0
+        ],
+        [
+          0,
+          192,
+          255
+        ],
+        [
+          255,
+          223,
+          0
+        ],
+        [
+          0,
+          160,
+          255
+        ],
+        [
+          255,
+          191,
+          0
+        ],
+        [
+          0,
+          128,
+          255
+        ],
+        [
+          192,
+          255,
+          0
+        ],
+        [
+          0,
+          255,
+          191
+        ],
+        [
+          255,
+          159,
+          0
+        ],
+        [
+          0,
+          96,
+          255
+        ],
+        [
+          255,
+          127,
+          0
+        ],
+        [
+          0,
+          64,
+          255
+        ],
+        [
+          255,
+          95,
+          0
+        ],
+        [
+          0,
+          32,
+          255
+        ],
+        [
+          255,
+          63,
+          0
+        ]
+      ],
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "PLTE",
+          "dataLength": 96,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 157,
+          "type": "IDAT",
+          "dataLength": 75,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 244,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

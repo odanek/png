@@ -1,0 +1,17 @@
+{
+  "description": "Grayscale with a single fully transparent gray that is also used by opaque pixels",
+  "image": {
+    "width": 1,
+    "height": 1,
+    "data": {
+      "$uint16": "BwAHAAcAAAA="
+    }
+  },
+  "options": {
+    "colorType": 0
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Truecolor with a single fully transparent color, uses tRNS",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint8": "AQIDAKUFwf9D5bf/4+GF/zE32f8BAgMAodp7/8tSJf8JsLj/mNlB/wECAwB7IZD/Ytp4//bge/8K4jz/AQIDAOtPQP9aMm//WTrd/45v4v8BAgMA"
+    }
+  },
+  "options": {
+    "colorType": 2
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

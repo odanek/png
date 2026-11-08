@@ -1,0 +1,18 @@
+{
+  "description": "Truecolor with a single fully transparent color, uses tRNS",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint16": "AQACAAMAAAAFpUPBt+X//+HjMYXZN///2qHLeyVS//+wCZi4Qdn//wEAAgADAAAAIXtikHja///g9gp7POL//0/rWkBvMv//OlmO3eJv//8BAAIAAwAAAFXML+PFhv//riMUwqdu//8Ujq+jiwP//zSShm5vjf//AQACAAMAAADywgZdvaL//xJc+jJkMP//FA577py+//+OPr/6mDP//wEAAgADAAAA"
+    }
+  },
+  "options": {
+    "colorType": 2
+  },
+  "knownBug": "16-bit tRNS color is written with `>> 48`/`>> 32` shifts, which JS truncates to 32 bits (see TODO.md)",
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

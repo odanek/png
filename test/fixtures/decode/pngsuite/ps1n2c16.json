@@ -1,0 +1,1599 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint16": "/////wAA//+99///AAD//3vv//8AAP//Oef//wAA///33v//AAD//7XW//8AAP//c87//wAA//8xxv//AAD//++9//8AAP//rbX//wAA//9rrf//AAD//yml//8AAP//55z//wAA//+llP//AAD//2OM//8AAP//IYT//wAA///ee///AAD//5xz//8AAP//Wmv//wAA//8YY///AAD//9Za//8AAP//lFL//wAA//9SSv//AAD//xBC//8AAP//zjn//wAA//+MMf//AAD//0op//8AAP//CCH//wAA///GGP//AAD//4QQ//8AAP//Qgj//wAA//8AAP//AAD/////vfcAAP//vfe99wAA//977733AAD//znnvfcAAP//99699wAA//+11r33AAD//3POvfcAAP//Mca99wAA///vvb33AAD//621vfcAAP//a6299wAA//8ppb33AAD//+ecvfcAAP//pZS99wAA//9jjL33AAD//yGEvfcAAP//3nu99wAA//+cc733AAD//1prvfcAAP//GGO99wAA///WWr33AAD//5RSvfcAAP//Ukq99wAA//8QQr33AAD//845vfcAAP//jDG99wAA//9KKb33AAD//wghvfcAAP//xhi99wAA//+EEL33AAD//0IIvfcAAP//AAC990II/////3vvAAD//733e+8AAP//e+977wAA//8553vvAAD///fee+8AAP//tdZ77wAA//9zznvvAAD//zHGe+8AAP//77177wAA//+ttXvvAAD//2ute+8AAP//KaV77wAA///nnHvvAAD//6WUe+8AAP//Y4x77wAA//8hhHvvAAD//957e+8AAP//nHN77wAA//9aa3vvAAD//xhje+8AAP//1lp77wAA//+UUnvvAAD//1JKe+8AAP//EEJ77wAA///OOXvvAAD//4wxe+8AAP//Sil77wAA//8IIXvvAAD//8YYe+8AAP//hBB77wAA//9CCHvvQgj//wAAe++EEP////855wAA//+99znnAAD//3vvOecAAP//Oec55wAA///33jnnAAD//7XWOecAAP//c8455wAA//8xxjnnAAD//++9OecAAP//rbU55wAA//9rrTnnAAD//ymlOecAAP//55w55wAA//+llDnnAAD//2OMOecAAP//IYQ55wAA///eeznnAAD//5xzOecAAP//Wms55wAA//8YYznnAAD//9ZaOecAAP//lFI55wAA//9SSjnnAAD//xBCOecAAP//zjk55wAA//+MMTnnAAD//0opOecAAP//CCE55wAA///GGDnnAAD//4QQOedCCP//Qgg554QQ//8AADnnxhj/////994AAP//vff33gAA//977/feAAD//znn994AAP//99733gAA//+11vfeAAD//3PO994AAP//Mcb33gAA///vvffeAAD//621994AAP//a6333gAA//8ppffeAAD//+ec994AAP//pZT33gAA//9jjPfeAAD//yGE994AAP//3nv33gAA//+cc/feAAD//1pr994AAP//GGP33gAA///WWvfeAAD//5RS994AAP//Ukr33gAA//8QQvfeAAD//845994AAP//jDH33gAA//9KKffeAAD//wgh994AAP//xhj33kII//+EEPfehBD//0II997GGP//AAD33ggh/////7XWAAD//733tdYAAP//e++11gAA//8557XWAAD///fetdYAAP//tda11gAA//9zzrXWAAD//zHGtdYAAP//77211gAA//+ttbXWAAD//2uttdYAAP//KaW11gAA///nnLXWAAD//6WUtdYAAP//Y4y11gAA//8hhLXWAAD//957tdYAAP//nHO11gAA//9aa7XWAAD//xhjtdYAAP//1lq11gAA//+UUrXWAAD//1JKtdYAAP//EEK11gAA///OObXWAAD//4wxtdYAAP//Sim11gAA//8IIbXWQgj//8YYtdaEEP//hBC11sYY//9CCLXWCCH//wAAtdZKKf////9zzgAA//+993POAAD//3vvc84AAP//OedzzgAA///33nPOAAD//7XWc84AAP//c85zzgAA//8xxnPOAAD//++9c84AAP//rbVzzgAA//9rrXPOAAD//ymlc84AAP//55xzzgAA//+llHPOAAD//2OMc84AAP//IYRzzgAA///ee3POAAD//5xzc84AAP//WmtzzgAA//8YY3POAAD//9Zac84AAP//lFJzzgAA//9SSnPOAAD//xBCc84AAP//zjlzzgAA//+MMXPOAAD//0opc85CCP//CCFzzoQQ///GGHPOxhj//4QQc84IIf//Qghzzkop//8AAHPOjDH/////McYAAP//vfcxxgAA//977zHGAAD//znnMcYAAP//994xxgAA//+11jHGAAD//3POMcYAAP//McYxxgAA///vvTHGAAD//621McYAAP//a60xxgAA//8ppTHGAAD//+ecMcYAAP//pZQxxgAA//9jjDHGAAD//yGEMcYAAP//3nsxxgAA//+cczHGAAD//1prMcYAAP//GGMxxgAA///WWjHGAAD//5RSMcYAAP//UkoxxgAA//8QQjHGAAD//845McYAAP//jDExxkII//9KKTHGhBD//wghMcbGGP//xhgxxggh//+EEDHGSin//0IIMcaMMf//AAAxxs45/////++9AAD//733770AAP//e+/vvQAA//855++9AAD///fe770AAP//tdbvvQAA//9zzu+9AAD//zHG770AAP//773vvQAA//+tte+9AAD//2ut770AAP//KaXvvQAA///nnO+9AAD//6WU770AAP//Y4zvvQAA//8hhO+9AAD//957770AAP//nHPvvQAA//9aa++9AAD//xhj770AAP//1lrvvQAA//+UUu+9AAD//1JK770AAP//EELvvQAA///OOe+9Qgj//4wx772EEP//SinvvcYY//8IIe+9CCH//8YY771KKf//hBDvvYwx//9CCO+9zjn//wAA770QQv////+ttQAA//+99621AAD//3vvrbUAAP//OeettQAA///33q21AAD//7XWrbUAAP//c86ttQAA//8xxq21AAD//++9rbUAAP//rbWttQAA//9rra21AAD//ymlrbUAAP//55yttQAA//+llK21AAD//2OMrbUAAP//IYSttQAA///ee621AAD//5xzrbUAAP//WmuttQAA//8YY621AAD//9ZarbUAAP//lFKttQAA//9SSq21AAD//xBCrbVCCP//zjmttYQQ//+MMa21xhj//0oprbUIIf//CCGttUop///GGK21jDH//4QQrbXOOf//QgittRBC//8AAK21Ukr/////a60AAP//vfdrrQAA//9772utAAD//znna60AAP//995rrQAA//+11mutAAD//3POa60AAP//McZrrQAA///vvWutAAD//621a60AAP//a61rrQAA//8ppWutAAD//+eca60AAP//pZRrrQAA//9jjGutAAD//yGEa60AAP//3ntrrQAA//+cc2utAAD//1pra60AAP//GGNrrQAA///WWmutAAD//5RSa60AAP//UkprrUII//8QQmuthBD//845a63GGP//jDFrrQgh//9KKWutSin//wgha62MMf//xhhrrc45//+EEGutEEL//0IIa61SSv//AABrrZRS/////ymlAAD//733KaUAAP//e+8ppQAA//855ymlAAD///feKaUAAP//tdYppQAA//9zzimlAAD//zHGKaUAAP//770ppQAA//+ttSmlAAD//2utKaUAAP//KaUppQAA///nnCmlAAD//6WUKaUAAP//Y4wppQAA//8hhCmlAAD//957KaUAAP//nHMppQAA//9aaymlAAD//xhjKaUAAP//1loppQAA//+UUimlQgj//1JKKaWEEP//EEIppcYY///OOSmlCCH//4wxKaVKKf//SikppYwx//8IISmlzjn//8YYKaUQQv//hBAppVJK//9CCCmllFL//wAAKaXWWv/////nnAAA//+99+ecAAD//3vv55wAAP//OefnnAAA///33uecAAD//7XW55wAAP//c87nnAAA//8xxuecAAD//++955wAAP//rbXnnAAA//9rreecAAD//yml55wAAP//55znnAAA//+llOecAAD//2OM55wAAP//IYTnnAAA///ee+ecAAD//5xz55wAAP//WmvnnAAA//8YY+ecAAD//9Za55xCCP//lFLnnIQQ//9SSuecxhj//xBC55wIIf//zjnnnEop//+MMeecjDH//0op55zOOf//CCHnnBBC///GGOecUkr//4QQ55yUUv//QgjnnNZa//8AAOecGGP/////pZQAAP//vfellAAA//9776WUAAD//znnpZQAAP//996llAAA//+11qWUAAD//3POpZQAAP//McallAAA///vvaWUAAD//621pZQAAP//a62llAAA//8ppaWUAAD//+ecpZQAAP//pZSllAAA//9jjKWUAAD//yGEpZQAAP//3nullAAA//+cc6WUAAD//1prpZQAAP//GGOllEII///WWqWUhBD//5RSpZTGGP//UkqllAgh//8QQqWUSin//845pZSMMf//jDGllM45//9KKaWUEEL//wghpZRSSv//xhillJRS//+EEKWU1lr//0IIpZQYY///AACllFpr/////2OMAAD//733Y4wAAP//e+9jjAAA//8552OMAAD///feY4wAAP//tdZjjAAA//9zzmOMAAD//zHGY4wAAP//771jjAAA//+ttWOMAAD//2utY4wAAP//KaVjjAAA///nnGOMAAD//6WUY4wAAP//Y4xjjAAA//8hhGOMAAD//957Y4wAAP//nHNjjAAA//9aa2OMQgj//xhjY4yEEP//1lpjjMYY//+UUmOMCCH//1JKY4xKKf//EEJjjIwx///OOWOMzjn//4wxY4wQQv//SiljjFJK//8IIWOMlFL//8YYY4zWWv//hBBjjBhj//9CCGOMWmv//wAAY4ycc/////8hhAAA//+99yGEAAD//3vvIYQAAP//OechhAAA///33iGEAAD//7XWIYQAAP//c84hhAAA//8xxiGEAAD//++9IYQAAP//rbUhhAAA//9rrSGEAAD//ymlIYQAAP//55whhAAA//+llCGEAAD//2OMIYQAAP//IYQhhAAA///eeyGEAAD//5xzIYRCCP//WmshhIQQ//8YYyGExhj//9ZaIYQIIf//lFIhhEop//9SSiGEjDH//xBCIYTOOf//zjkhhBBC//+MMSGEUkr//0opIYSUUv//CCEhhNZa///GGCGEGGP//4QQIYRaa///QgghhJxz//8AACGE3nv/////3nsAAP//vffeewAA//977957AAD//znn3nsAAP//997eewAA//+11t57AAD//3PO3nsAAP//McbeewAA///vvd57AAD//6213nsAAP//a63eewAA//8ppd57AAD//+ec3nsAAP//pZTeewAA//9jjN57AAD//yGE3nsAAP//3nvee0II//+cc957hBD//1pr3nvGGP//GGPeewgh///WWt57Sin//5RS3nuMMf//Ukree845//8QQt57EEL//8453ntSSv//jDHee5RS//9KKd571lr//wgh3nsYY///xhjee1pr//+EEN57nHP//0II3nvee///AADeeyGE/////5xzAAD//733nHMAAP//e++ccwAA//8555xzAAD///fenHMAAP//tdaccwAA//9zzpxzAAD//zHGnHMAAP//772ccwAA//+ttZxzAAD//2utnHMAAP//KaWccwAA///nnJxzAAD//6WUnHMAAP//Y4yccwAA//8hhJxzQgj//957nHOEEP//nHOcc8YY//9aa5xzCCH//xhjnHNKKf//1lqcc4wx//+UUpxzzjn//1JKnHMQQv//EEKcc1JK///OOZxzlFL//4wxnHPWWv//Simccxhj//8IIZxzWmv//8YYnHOcc///hBCcc957//9CCJxzIYT//wAAnHNjjP////9aawAA//+991prAAD//3vvWmsAAP//OedaawAA///33lprAAD//7XWWmsAAP//c85aawAA//8xxlprAAD//++9WmsAAP//rbVaawAA//9rrVprAAD//ymlWmsAAP//55xaawAA//+llFprAAD//2OMWmtCCP//IYRaa4QQ///ee1prxhj//5xzWmsIIf//Wmtaa0op//8YY1prjDH//9ZaWmvOOf//lFJaaxBC//9SSlprUkr//xBCWmuUUv//zjlaa9Za//+MMVprGGP//0opWmtaa///CCFaa5xz///GGFpr3nv//4QQWmshhP//Qghaa2OM//8AAFprpZT/////GGMAAP//vfcYYwAA//977xhjAAD//znnGGMAAP//994YYwAA//+11hhjAAD//3POGGMAAP//McYYYwAA///vvRhjAAD//621GGMAAP//a60YYwAA//8ppRhjAAD//+ecGGMAAP//pZQYY0II//9jjBhjhBD//yGEGGPGGP//3nsYYwgh//+ccxhjSin//1prGGOMMf//GGMYY845///WWhhjEEL//5RSGGNSSv//UkoYY5RS//8QQhhj1lr//845GGMYY///jDEYY1pr//9KKRhjnHP//wghGGPee///xhgYYyGE//+EEBhjY4z//0IIGGOllP//AAAYY+ec/////9ZaAAD//7331loAAP//e+/WWgAA//8559ZaAAD///fe1loAAP//tdbWWgAA//9zztZaAAD//zHG1loAAP//773WWgAA//+ttdZaAAD//2ut1loAAP//KaXWWgAA///nnNZaQgj//6WU1lqEEP//Y4zWWsYY//8hhNZaCCH//9571lpKKf//nHPWWowx//9aa9Zazjn//xhj1loQQv//1lrWWlJK//+UUtZalFL//1JK1lrWWv//EELWWhhj///OOdZaWmv//4wx1lqcc///SinWWt57//8IIdZaIYT//8YY1lpjjP//hBDWWqWU//9CCNZa55z//wAA1loppf////+UUgAA//+995RSAAD//3vvlFIAAP//OeeUUgAA///33pRSAAD//7XWlFIAAP//c86UUgAA//8xxpRSAAD//++9lFIAAP//rbWUUgAA//9rrZRSAAD//ymllFJCCP//55yUUoQQ//+llJRSxhj//2OMlFIIIf//IYSUUkop///ee5RSjDH//5xzlFLOOf//WmuUUhBC//8YY5RSUkr//9ZalFKUUv//lFKUUtZa//9SSpRSGGP//xBClFJaa///zjmUUpxz//+MMZRS3nv//0oplFIhhP//CCGUUmOM///GGJRSpZT//4QQlFLnnP//QgiUUiml//8AAJRSa63/////UkoAAP//vfdSSgAA//9771JKAAD//znnUkoAAP//995SSgAA//+11lJKAAD//3POUkoAAP//McZSSgAA///vvVJKAAD//621UkoAAP//a61SSkII//8ppVJKhBD//+ecUkrGGP//pZRSSggh//9jjFJKSin//yGEUkqMMf//3ntSSs45//+cc1JKEEL//1prUkpSSv//GGNSSpRS///WWlJK1lr//5RSUkoYY///UkpSSlpr//8QQlJKnHP//845Ukree///jDFSSiGE//9KKVJKY4z//wghUkqllP//xhhSSuec//+EEFJKKaX//0IIUkprrf//AABSSq21/////xBCAAD//733EEIAAP//e+8QQgAA//855xBCAAD///feEEIAAP//tdYQQgAA//9zzhBCAAD//zHGEEIAAP//770QQgAA//+ttRBCQgj//2utEEKEEP//KaUQQsYY///nnBBCCCH//6WUEEJKKf//Y4wQQowx//8hhBBCzjn//957EEIQQv//nHMQQlJK//9aaxBClFL//xhjEELWWv//1loQQhhj//+UUhBCWmv//1JKEEKcc///EEIQQt57///OORBCIYT//4wxEEJjjP//SikQQqWU//8IIRBC55z//8YYEEIppf//hBAQQmut//9CCBBCrbX//wAAEELvvf/////OOQAA//+99845AAD//3vvzjkAAP//OefOOQAA///33s45AAD//7XWzjkAAP//c87OOQAA//8xxs45AAD//++9zjlCCP//rbXOOYQQ//9rrc45xhj//ymlzjkIIf//55zOOUop//+llM45jDH//2OMzjnOOf//IYTOORBC///ee845Ukr//5xzzjmUUv//WmvOOdZa//8YY845GGP//9Zazjlaa///lFLOOZxz//9SSs453nv//xBCzjkhhP//zjnOOWOM//+MMc45pZT//0opzjnnnP//CCHOOSml///GGM45a63//4QQzjmttf//QgjOOe+9//8AAM45Mcb/////jDEAAP//vfeMMQAA//9774wxAAD//znnjDEAAP//996MMQAA//+11owxAAD//3POjDEAAP//McaMMUII///vvYwxhBD//621jDHGGP//a62MMQgh//8ppYwxSin//+ecjDGMMf//pZSMMc45//9jjIwxEEL//yGEjDFSSv//3nuMMZRS//+cc4wx1lr//1prjDEYY///GGOMMVpr///WWowxnHP//5RSjDHee///UkqMMSGE//8QQowxY4z//845jDGllP//jDGMMeec//9KKYwxKaX//wghjDFrrf//xhiMMa21//+EEIwx773//0IIjDExxv//AACMMXPO/////0opAAD//733SikAAP//e+9KKQAA//8550opAAD///feSikAAP//tdZKKQAA//9zzkopQgj//zHGSimEEP//771KKcYY//+ttUopCCH//2utSilKKf//KaVKKYwx///nnEopzjn//6WUSikQQv//Y4xKKVJK//8hhEoplFL//957SinWWv//nHNKKRhj//9aa0opWmv//xhjSimcc///1lpKKd57//+UUkopIYT//1JKSiljjP//EEJKKaWU///OOUop55z//4wxSikppf//SilKKWut//8IIUoprbX//8YYSinvvf//hBBKKTHG//9CCEopc87//wAASim11v////8IIQAA//+99wghAAD//3vvCCEAAP//OecIIQAA///33gghAAD//7XWCCFCCP//c84IIYQQ//8xxgghxhj//++9CCEIIf//rbUIIUop//9rrQghjDH//ymlCCHOOf//55wIIRBC//+llAghUkr//2OMCCGUUv//IYQIIdZa///eewghGGP//5xzCCFaa///WmsIIZxz//8YYwgh3nv//9ZaCCEhhP//lFIIIWOM//9SSgghpZT//xBCCCHnnP//zjkIISml//+MMQgha63//0opCCGttf//CCEIIe+9///GGAghMcb//4QQCCFzzv//QggIIbXW//8AAAgh997/////xhgAAP//vffGGAAA//9778YYAAD//znnxhgAAP//997GGEII//+11sYYhBD//3POxhjGGP//McbGGAgh///vvcYYSin//621xhiMMf//a63GGM45//8ppcYYEEL//+ecxhhSSv//pZTGGJRS//9jjMYY1lr//yGExhgYY///3nvGGFpr//+cc8YYnHP//1prxhjee///GGPGGCGE///WWsYYY4z//5RSxhillP//UkrGGOec//8QQsYYKaX//845xhhrrf//jDHGGK21//9KKcYY773//wghxhgxxv//xhjGGHPO//+EEMYYtdb//0IIxhj33v//AADGGDnn/////4QQAAD//733hBAAAP//e++EEAAA//8554QQQgj///fehBCEEP//tdaEEMYY//9zzoQQCCH//zHGhBBKKf//772EEIwx//+ttYQQzjn//2uthBAQQv//KaWEEFJK///nnIQQlFL//6WUhBDWWv//Y4yEEBhj//8hhIQQWmv//957hBCcc///nHOEEN57//9aa4QQIYT//xhjhBBjjP//1lqEEKWU//+UUoQQ55z//1JKhBAppf//EEKEEGut///OOYQQrbX//4wxhBDvvf//SimEEDHG//8IIYQQc87//8YYhBC11v//hBCEEPfe//9CCIQQOef//wAAhBB77/////9CCAAA//+990IIAAD//3vvQghCCP//OedCCIQQ///33kIIxhj//7XWQggIIf//c85CCEop//8xxkIIjDH//++9QgjOOf//rbVCCBBC//9rrUIIUkr//ymlQgiUUv//55xCCNZa//+llEIIGGP//2OMQghaa///IYRCCJxz///ee0II3nv//5xzQgghhP//WmtCCGOM//8YY0IIpZT//9ZaQgjnnP//lFJCCCml//9SSkIIa63//xBCQgittf//zjlCCO+9//+MMUIIMcb//0opQghzzv//CCFCCLXW///GGEII997//4QQQgg55///QghCCHvv//8AAEIIvff/////AAAAAP//vfcAAEII//977wAAhBD//znnAADGGP//994AAAgh//+11gAASin//3POAACMMf//McYAAM45///vvQAAEEL//621AABSSv//a60AAJRS//8ppQAA1lr//+ecAAAYY///pZQAAFpr//9jjAAAnHP//yGEAADee///3nsAACGE//+ccwAAY4z//1prAACllP//GGMAAOec///WWgAAKaX//5RSAABrrf//UkoAAK21//8QQgAA773//845AAAxxv//jDEAAHPO//9KKQAAtdb//wghAAD33v//xhgAADnn//+EEAAAe+///0IIAAC99///AAAAAP////8="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 16,
+        "colorType": 2,
+        "interlaceMethod": 0
+      },
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        },
+        {
+          "type": "sPLT",
+          "name": "six-cube",
+          "sampleDepth": 8,
+          "entries": [
+            {
+              "red": 0,
+              "green": 0,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 0,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 0,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 0,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 0,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 0,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 51,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 51,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 51,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 51,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 51,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 51,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 102,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 102,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 102,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 102,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 102,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 102,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 153,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 153,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 153,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 153,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 153,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 153,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 204,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 204,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 204,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 204,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 204,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 204,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 255,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 255,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 255,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 255,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 255,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 0,
+              "green": 255,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 0,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 0,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 0,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 0,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 0,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 0,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 51,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 51,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 51,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 51,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 51,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 51,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 102,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 102,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 102,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 102,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 102,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 102,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 153,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 153,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 153,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 153,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 153,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 153,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 204,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 204,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 204,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 204,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 204,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 204,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 255,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 255,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 255,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 255,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 255,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 51,
+              "green": 255,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 0,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 0,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 0,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 0,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 0,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 0,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 51,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 51,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 51,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 51,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 51,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 51,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 102,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 102,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 102,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 102,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 102,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 102,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 153,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 153,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 153,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 153,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 153,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 153,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 204,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 204,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 204,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 204,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 204,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 204,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 255,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 255,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 255,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 255,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 255,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 102,
+              "green": 255,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 0,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 0,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 0,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 0,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 0,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 0,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 51,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 51,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 51,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 51,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 51,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 51,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 102,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 102,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 102,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 102,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 102,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 102,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 153,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 153,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 153,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 153,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 153,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 153,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 204,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 204,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 204,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 204,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 204,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 204,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 255,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 255,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 255,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 255,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 255,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 153,
+              "green": 255,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 0,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 0,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 0,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 0,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 0,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 0,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 51,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 51,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 51,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 51,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 51,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 51,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 102,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 102,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 102,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 102,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 102,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 102,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 153,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 153,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 153,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 153,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 153,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 153,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 204,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 204,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 204,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 204,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 204,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 204,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 255,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 255,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 255,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 255,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 255,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 204,
+              "green": 255,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 0,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 0,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 0,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 0,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 0,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 0,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 51,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 51,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 51,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 51,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 51,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 51,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 102,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 102,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 102,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 102,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 102,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 102,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 153,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 153,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 153,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 153,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 153,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 153,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 204,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 204,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 204,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 204,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 204,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 204,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 255,
+              "blue": 0,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 255,
+              "blue": 51,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 255,
+              "blue": 102,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 255,
+              "blue": 153,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 255,
+              "blue": 204,
+              "alpha": 255,
+              "frequency": 0
+            },
+            {
+              "red": 255,
+              "green": 255,
+              "blue": 255,
+              "alpha": 255,
+              "frequency": 0
+            }
+          ]
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "sPLT",
+          "dataLength": 1306,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1367,
+          "type": "IDAT",
+          "dataLength": 229,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1608,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": {
+    "image": {
+      "width": 32,
+      "height": 32,
+      "data": {
+        "$uint8": "//8A//f/AP/v/wD/5/8A/97/AP/W/wD/zv8A/8b/AP+9/wD/tf8A/63/AP+l/wD/nP8A/5T/AP+M/wD/hP8A/3v/AP9z/wD/a/8A/2P/AP9a/wD/Uv8A/0r/AP9C/wD/Of8A/zH/AP8p/wD/If8A/xj/AP8Q/wD/CP8A/wD/AP//9wD/9/cA/+/3AP/n9wD/3vcA/9b3AP/O9wD/xvcA/733AP+19wD/rfcA/6X3AP+c9wD/lPcA/4z3AP+E9wD/e/cA/3P3AP9r9wD/Y/cA/1r3AP9S9wD/SvcA/0L3AP859wD/MfcA/yn3AP8h9wD/GPcA/xD3AP8I9wD/APcI///vAP/37wD/7+8A/+fvAP/e7wD/1u8A/87vAP/G7wD/ve8A/7XvAP+t7wD/pe8A/5zvAP+U7wD/jO8A/4TvAP977wD/c+8A/2vvAP9j7wD/Wu8A/1LvAP9K7wD/Qu8A/znvAP8x7wD/Ke8A/yHvAP8Y7wD/EO8A/wjvCP8A7xD//+cA//fnAP/v5wD/5+cA/97nAP/W5wD/zucA/8bnAP+95wD/tecA/63nAP+l5wD/nOcA/5TnAP+M5wD/hOcA/3vnAP9z5wD/a+cA/2PnAP9a5wD/UucA/0rnAP9C5wD/OecA/zHnAP8p5wD/IecA/xjnAP8Q5wj/COcQ/wDnGP//3gD/994A/+/eAP/n3gD/3t4A/9beAP/O3gD/xt4A/73eAP+13gD/rd4A/6XeAP+c3gD/lN4A/4zeAP+E3gD/e94A/3PeAP9r3gD/Y94A/1reAP9S3gD/St4A/0LeAP853gD/Md4A/yneAP8h3gD/GN4I/xDeEP8I3hj/AN4h///WAP/31gD/79YA/+fWAP/e1gD/1tYA/87WAP/G1gD/vdYA/7XWAP+t1gD/pdYA/5zWAP+U1gD/jNYA/4TWAP971gD/c9YA/2vWAP9j1gD/WtYA/1LWAP9K1gD/QtYA/znWAP8x1gD/KdYA/yHWCP8Y1hD/ENYY/wjWIf8A1in//84A//fOAP/vzgD/584A/97OAP/WzgD/zs4A/8bOAP+9zgD/tc4A/63OAP+lzgD/nM4A/5TOAP+MzgD/hM4A/3vOAP9zzgD/a84A/2POAP9azgD/Us4A/0rOAP9CzgD/Oc4A/zHOAP8pzgj/Ic4Q/xjOGP8QziH/CM4p/wDOMf//xgD/98YA/+/GAP/nxgD/3sYA/9bGAP/OxgD/xsYA/73GAP+1xgD/rcYA/6XGAP+cxgD/lMYA/4zGAP+ExgD/e8YA/3PGAP9rxgD/Y8YA/1rGAP9SxgD/SsYA/0LGAP85xgD/McYI/ynGEP8hxhj/GMYh/xDGKf8IxjH/AMY5//+9AP/3vQD/770A/+e9AP/evQD/1r0A/869AP/GvQD/vb0A/7W9AP+tvQD/pb0A/5y9AP+UvQD/jL0A/4S9AP97vQD/c70A/2u9AP9jvQD/Wr0A/1K9AP9KvQD/Qr0A/zm9CP8xvRD/Kb0Y/yG9If8YvSn/EL0x/wi9Of8AvUL//7UA//e1AP/vtQD/57UA/961AP/WtQD/zrUA/8a1AP+9tQD/tbUA/621AP+ltQD/nLUA/5S1AP+MtQD/hLUA/3u1AP9ztQD/a7UA/2O1AP9atQD/UrUA/0q1AP9CtQj/ObUQ/zG1GP8ptSH/IbUp/xi1Mf8QtTn/CLVC/wC1Sv//rQD/960A/++tAP/nrQD/3q0A/9atAP/OrQD/xq0A/72tAP+1rQD/ra0A/6WtAP+crQD/lK0A/4ytAP+ErQD/e60A/3OtAP9rrQD/Y60A/1qtAP9SrQD/Sq0I/0KtEP85rRj/Ma0h/ymtKf8hrTH/GK05/xCtQv8IrUr/AK1S//+lAP/3pQD/76UA/+elAP/epQD/1qUA/86lAP/GpQD/vaUA/7WlAP+tpQD/paUA/5ylAP+UpQD/jKUA/4SlAP97pQD/c6UA/2ulAP9jpQD/WqUA/1KlCP9KpRD/QqUY/zmlIf8xpSn/KaUx/yGlOf8YpUL/EKVK/wilUv8ApVr//5wA//ecAP/vnAD/55wA/96cAP/WnAD/zpwA/8acAP+9nAD/tZwA/62cAP+lnAD/nJwA/5ScAP+MnAD/hJwA/3ucAP9znAD/a5wA/2OcAP9anAj/UpwQ/0qcGP9CnCH/OZwp/zGcMf8pnDn/IZxC/xicSv8QnFL/CJxa/wCcY///lAD/95QA/++UAP/nlAD/3pQA/9aUAP/OlAD/xpQA/72UAP+1lAD/rZQA/6WUAP+clAD/lJQA/4yUAP+ElAD/e5QA/3OUAP9rlAD/Y5QI/1qUEP9SlBj/SpQh/0KUKf85lDH/MZQ5/ymUQv8hlEr/GJRS/xCUWv8IlGP/AJRr//+MAP/3jAD/74wA/+eMAP/ejAD/1owA/86MAP/GjAD/vYwA/7WMAP+tjAD/pYwA/5yMAP+UjAD/jIwA/4SMAP97jAD/c4wA/2uMCP9jjBD/WowY/1KMIf9KjCn/Qowx/zmMOf8xjEL/KYxK/yGMUv8YjFr/EIxj/wiMa/8AjHP//4QA//eEAP/vhAD/54QA/96EAP/WhAD/zoQA/8aEAP+9hAD/tYQA/62EAP+lhAD/nIQA/5SEAP+MhAD/hIQA/3uEAP9zhAj/a4QQ/2OEGP9ahCH/UoQp/0qEMf9ChDn/OYRC/zGESv8phFL/IYRa/xiEY/8QhGv/CIRz/wCEe///ewD/93sA/+97AP/newD/3nsA/9Z7AP/OewD/xnsA/717AP+1ewD/rXsA/6V7AP+cewD/lHsA/4x7AP+EewD/e3sI/3N7EP9rexj/Y3sh/1p7Kf9SezH/Sns5/0J7Qv85e0r/MXtS/yl7Wv8he2P/GHtr/xB7c/8Ie3v/AHuE//9zAP/3cwD/73MA/+dzAP/ecwD/1nMA/85zAP/GcwD/vXMA/7VzAP+tcwD/pXMA/5xzAP+UcwD/jHMA/4RzCP97cxD/c3MY/2tzIf9jcyn/WnMx/1JzOf9Kc0L/QnNK/zlzUv8xc1r/KXNj/yFza/8Yc3P/EHN7/whzhP8Ac4z//2sA//drAP/vawD/52sA/95rAP/WawD/zmsA/8ZrAP+9awD/tWsA/61rAP+lawD/nGsA/5RrAP+Mawj/hGsQ/3trGP9zayH/a2sp/2NrMf9aazn/UmtC/0prSv9Ca1L/OWta/zFrY/8pa2v/IWtz/xhre/8Qa4T/CGuM/wBrlP//YwD/92MA/+9jAP/nYwD/3mMA/9ZjAP/OYwD/xmMA/71jAP+1YwD/rWMA/6VjAP+cYwD/lGMI/4xjEP+EYxj/e2Mh/3NjKf9rYzH/Y2M5/1pjQv9SY0r/SmNS/0JjWv85Y2P/MWNr/yljc/8hY3v/GGOE/xBjjP8IY5T/AGOc//9aAP/3WgD/71oA/+daAP/eWgD/1loA/85aAP/GWgD/vVoA/7VaAP+tWgD/pVoA/5xaCP+UWhD/jFoY/4RaIf97Win/c1ox/2taOf9jWkL/WlpK/1JaUv9KWlr/Qlpj/zlaa/8xWnP/KVp7/yFahP8YWoz/EFqU/whanP8AWqX//1IA//dSAP/vUgD/51IA/95SAP/WUgD/zlIA/8ZSAP+9UgD/tVIA/61SAP+lUgj/nFIQ/5RSGP+MUiH/hFIp/3tSMf9zUjn/a1JC/2NSSv9aUlL/UlJa/0pSY/9CUmv/OVJz/zFSe/8pUoT/IVKM/xhSlP8QUpz/CFKl/wBSrf//SgD/90oA/+9KAP/nSgD/3koA/9ZKAP/OSgD/xkoA/71KAP+1SgD/rUoI/6VKEP+cShj/lEoh/4xKKf+ESjH/e0o5/3NKQv9rSkr/Y0pS/1pKWv9SSmP/Skpr/0JKc/85Snv/MUqE/ylKjP8hSpT/GEqc/xBKpf8ISq3/AEq1//9CAP/3QgD/70IA/+dCAP/eQgD/1kIA/85CAP/GQgD/vUIA/7VCCP+tQhD/pUIY/5xCIf+UQin/jEIx/4RCOf97QkL/c0JK/2tCUv9jQlr/WkJj/1JCa/9KQnP/QkJ7/zlChP8xQoz/KUKU/yFCnP8YQqX/EEKt/whCtf8AQr3//zkA//c5AP/vOQD/5zkA/945AP/WOQD/zjkA/8Y5AP+9OQj/tTkQ/605GP+lOSH/nDkp/5Q5Mf+MOTn/hDlC/3s5Sv9zOVL/azla/2M5Y/9aOWv/Ujlz/0o5e/9COYT/OTmM/zE5lP8pOZz/ITml/xg5rf8QObX/CDm9/wA5xv//MQD/9zEA/+8xAP/nMQD/3jEA/9YxAP/OMQD/xjEI/70xEP+1MRj/rTEh/6UxKf+cMTH/lDE5/4wxQv+EMUr/ezFS/3MxWv9rMWP/YzFr/1oxc/9SMXv/SjGE/0IxjP85MZT/MTGc/ykxpf8hMa3/GDG1/xAxvf8IMcb/ADHO//8pAP/3KQD/7ykA/+cpAP/eKQD/1ikA/84pCP/GKRD/vSkY/7UpIf+tKSn/pSkx/5wpOf+UKUL/jClK/4QpUv97KVr/cylj/2spa/9jKXP/Wil7/1IphP9KKYz/QimU/zkpnP8xKaX/KSmt/yEptf8YKb3/ECnG/wgpzv8AKdb//yEA//chAP/vIQD/5yEA/94hAP/WIQj/ziEQ/8YhGP+9ISH/tSEp/60hMf+lITn/nCFC/5QhSv+MIVL/hCFa/3shY/9zIWv/ayFz/2Mhe/9aIYT/UiGM/0ohlP9CIZz/OSGl/zEhrf8pIbX/ISG9/xghxv8QIc7/CCHW/wAh3v//GAD/9xgA/+8YAP/nGAD/3hgI/9YYEP/OGBj/xhgh/70YKf+1GDH/rRg5/6UYQv+cGEr/lBhS/4wYWv+EGGP/exhr/3MYc/9rGHv/YxiE/1oYjP9SGJT/Shic/0IYpf85GK3/MRi1/ykYvf8hGMb/GBjO/xAY1v8IGN7/ABjn//8QAP/3EAD/7xAA/+cQCP/eEBD/1hAY/84QIf/GECn/vRAx/7UQOf+tEEL/pRBK/5wQUv+UEFr/jBBj/4QQa/97EHP/cxB7/2sQhP9jEIz/WhCU/1IQnP9KEKX/QhCt/zkQtf8xEL3/KRDG/yEQzv8YENb/EBDe/wgQ5/8AEO///wgA//cIAP/vCAj/5wgQ/94IGP/WCCH/zggp/8YIMf+9CDn/tQhC/60ISv+lCFL/nAha/5QIY/+MCGv/hAhz/3sIe/9zCIT/awiM/2MIlP9aCJz/Ugil/0oIrf9CCLX/OQi9/zEIxv8pCM7/IQjW/xgI3v8QCOf/CAjv/wAI9///AAD/9wAI/+8AEP/nABj/3gAh/9YAKf/OADH/xgA5/70AQv+1AEr/rQBS/6UAWv+cAGP/lABr/4wAc/+EAHv/ewCE/3MAjP9rAJT/YwCc/1oApf9SAK3/SgC1/0IAvf85AMb/MQDO/ykA1v8hAN7/GADn/xAA7/8IAPf/AAD//w=="
+      }
+    }
+  }
+}

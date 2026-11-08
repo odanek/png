@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "..",
+    "noEmit": true,
+    "isolatedDeclarations": false,
+    // scripts/ are run directly by Node, which requires explicit .ts extensions
+    "allowImportingTsExtensions": true,
+    "types": ["node"]
+  },
+  "include": ["../src/**/*.ts", "./**/*.ts"]
+}

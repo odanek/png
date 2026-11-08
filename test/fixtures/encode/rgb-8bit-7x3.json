@@ -1,0 +1,17 @@
+{
+  "description": "Truecolor",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint8": "AGMD/wUDDv8KRxn/D0kk/xTLL/8Z8zr/HkNF/yMEUP8oD1v/LU9m/zIBcf83Cnz/PIOH/0GKkv9Gy53/S0+o/1C3s/9V977/WqTJ/1+C1P9ku9//"
+    }
+  },
+  "options": {
+    "colorType": 2
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

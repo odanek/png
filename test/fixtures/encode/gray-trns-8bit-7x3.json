@@ -1,0 +1,17 @@
+{
+  "description": "Grayscale with a single fully transparent gray, uses tRNS",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint8": "BwcHAEpKSv8KCgr/q6ur/3x8fP8HBwcAlpaW/y8vL/+lpaX/YWFh/wcHBwDY2Nj/3t7e/2pqav+ysrL/BwcHAM3Nzf92dnb/+/v7/0FBQf8HBwcA"
+    }
+  },
+  "options": {
+    "colorType": 0
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "/////////v////3////8////+/////r////5////+P////f////2////9f////T////z////8v////H////w////7////+7////t////7P///+v////q////6f///+j////n////5v///+X////k////4////+L////h////4P///9/////e////3f///9z////b////2v///9n////Y////1////9b////V////1P///9P////S////0f///9D////P////zv///83////M////y////8r////J////yP///8f////G////xf///8T////D////wv///8H////A////v////77///+9////vP///7v///+6////uf///7j///+3////tv///7X///+0////s////7L///+x////sP///6////+u////rf///6z///+r////qv///6n///+o////p////6b///+l////pP///6P///+i////of///6D///+f////nv///53///+c////m////5r///+Z////mP///5f///+W////lf///5T///+T////kv///5H///+Q////j////47///+N////jP///4v///+K////if///4j///+H////hv///4X///+E////g////4L///+B////gP///3////9+////ff///3z///97////ev///3n///94////d////3b///91////dP///3P///9y////cf///3D///9v////bv///23///9s////a////2r///9p////aP///2f///9m////Zf///2T///9j////Yv///2H///9g////X////17///9d////XP///1v///9a////Wf///1j///9X////Vv///1X///9U////U////1L///9R////UP///0////9O////Tf///0z///9L////Sv///0n///9I////R////0b///9F////RP///0P///9C////Qf///0D///8/////Pv///z3///88////O////zr///85////OP///zf///82////Nf///zT///8z////Mv///zH///8w////L////y7///8t////LP///yv///8q////Kf///yj///8n////Jv///yX///8k////I////yL///8h////IP///x////8e////Hf///xz///8b////Gv///xn///8Y////F////xb///8V////FP///xP///8S////Ef///xD///8P////Dv///w3///8M////C////wr///8J////CP///wf///8G////Bf///wT///8D////Av///wH///8A/////////v////3////8////+/////r////5////+P////f////2////9f////T////z////8v////H////w////7////+7////t////7P///+v////q////6f///+j////n////5v///+X////k////4////+L////h////4P///9/////e////3f///9z////b////2v///9n////Y////1////9b////V////1P///9P////S////0f///9D////P////zv///83////M////y////8r////J////yP///8f////G////xf///8T////D////wv///8H////A////v////77///+9////vP///7v///+6////uf///7j///+3////tv///7X///+0////s////7L///+x////sP///6////+u////rf///6z///+r////qv///6n///+o////p////6b///+l////pP///6P///+i////of///6D///+f////nv///53///+c////m////5r///+Z////mP///5f///+W////lf///5T///+T////kv///5H///+Q////j////47///+N////jP///4v///+K////if///4j///+H////hv///4X///+E////g////4L///+B////gP///3////9+////ff///3z///97////ev///3n///94////d////3b///91////dP///3P///9y////cf///3D///9v////bv///23///9s////a////2r///9p////aP///2f///9m////Zf///2T///9j////Yv///2H///9g////X////17///9d////XP///1v///9a////Wf///1j///9X////Vv///1X///9U////U////1L///9R////UP///0////9O////Tf///0z///9L////Sv///0n///9I////R////0b///9F////RP///0P///9C////Qf///0D///8/////Pv///z3///88////O////zr///85////OP///zf///82////Nf///zT///8z////Mv///zH///8w////L////y7///8t////LP///yv///8q////Kf///yj///8n////Jv///yX///8k////I////yL///8h////IP///x////8e////Hf///xz///8b////Gv///xn///8Y////F////xb///8V////FP///xP///8S////Ef///xD///8P////Dv///w3///8M////C////wr///8J////CP///wf///8G////Bf///wT///8D////Av///wH///8A/////////v////3////8////+/////r////5////+P////f////2////9f////T////z////8v////H////w////7////+7////t////7P///+v////q////6f///+j////n////5v///+X////k////4////+L////h////4P///9/////e////3f///9z////b////2v///9n////Y////1////9b////V////1P///9P////S////0f///9D////P////zv///83////M////y////8r////J////yP///8f////G////xf///8T////D////wv///8H////A////v////77///+9////vP///7v///+6////uf///7j///+3////tv///7X///+0////s////7L///+x////sP///6////+u////rf///6z///+r////qv///6n///+o////p////6b///+l////pP///6P///+i////of///6D///+f////nv///53///+c////m////5r///+Z////mP///5f///+W////lf///5T///+T////kv///5H///+Q////j////47///+N////jP///4v///+K////if///4j///+H////hv///4X///+E////g////4L///+B////gP///3////9+////ff///3z///97////ev///3n///94////d////3b///91////dP///3P///9y////cf///3D///9v////bv///23///9s////a////2r///9p////aP///2f///9m////Zf///2T///9j////Yv///2H///9g////X////17///9d////XP///1v///9a////Wf///1j///9X////Vv///1X///9U////U////1L///9R////UP///0////9O////Tf///0z///9L////Sv///0n///9I////R////0b///9F////RP///0P///9C////Qf///0D///8/////Pv///z3///88////O////zr///85////OP///zf///82////Nf///zT///8z////Mv///zH///8w////L////y7///8t////LP///yv///8q////Kf///yj///8n////Jv///yX///8k////I////yL///8h////IP///x////8e////Hf///xz///8b////Gv///xn///8Y////F////xb///8V////FP///xP///8S////Ef///xD///8P////Dv///w3///8M////C////wr///8J////CP///wf///8G////Bf///wT///8D////Av///wH///8A//////////7+/v/9/f3//Pz8//v7+//6+vr/+fn5//j4+P/39/f/9vb2//X19f/09PT/8/Pz//Ly8v/x8fH/8PDw/+/v7//u7u7/7e3t/+zs7P/r6+v/6urq/+np6f/o6Oj/5+fn/+bm5v/l5eX/5OTk/+Pj4//i4uL/4eHh/+Dg4P/f39//3t7e/93d3f/c3Nz/29vb/9ra2v/Z2dn/2NjY/9fX1//W1tb/1dXV/9TU1P/T09P/0tLS/9HR0f/Q0ND/z8/P/87Ozv/Nzc3/zMzM/8vLy//Kysr/ycnJ/8jIyP/Hx8f/xsbG/8XFxf/ExMT/w8PD/8LCwv/BwcH/wMDA/7+/v/++vr7/vb29/7y8vP+7u7v/urq6/7m5uf+4uLj/t7e3/7a2tv+1tbX/tLS0/7Ozs/+ysrL/sbGx/7CwsP+vr6//rq6u/62trf+srKz/q6ur/6qqqv+pqan/qKio/6enp/+mpqb/paWl/6SkpP+jo6P/oqKi/6Ghof+goKD/n5+f/56env+dnZ3/nJyc/5ubm/+ampr/mZmZ/5iYmP+Xl5f/lpaW/5WVlf+UlJT/k5OT/5KSkv+RkZH/kJCQ/4+Pj/+Ojo7/jY2N/4yMjP+Li4v/ioqK/4mJif+IiIj/h4eH/4aGhv+FhYX/hISE/4ODg/+CgoL/gYGB/4CAgP9/f3//fn5+/319ff98fHz/e3t7/3p6ev95eXn/eHh4/3d3d/92dnb/dXV1/3R0dP9zc3P/cnJy/3Fxcf9wcHD/b29v/25ubv9tbW3/bGxs/2tra/9qamr/aWlp/2hoaP9nZ2f/ZmZm/2VlZf9kZGT/Y2Nj/2JiYv9hYWH/YGBg/19fX/9eXl7/XV1d/1xcXP9bW1v/Wlpa/1lZWf9YWFj/V1dX/1ZWVv9VVVX/VFRU/1NTU/9SUlL/UVFR/1BQUP9PT0//Tk5O/01NTf9MTEz/S0tL/0pKSv9JSUn/SEhI/0dHR/9GRkb/RUVF/0RERP9DQ0P/QkJC/0FBQf9AQED/Pz8//z4+Pv89PT3/PDw8/zs7O/86Ojr/OTk5/zg4OP83Nzf/NjY2/zU1Nf80NDT/MzMz/zIyMv8xMTH/MDAw/y8vL/8uLi7/LS0t/ywsLP8rKyv/Kioq/ykpKf8oKCj/Jycn/yYmJv8lJSX/JCQk/yMjI/8iIiL/ISEh/yAgIP8fHx//Hh4e/x0dHf8cHBz/Gxsb/xoaGv8ZGRn/GBgY/xcXF/8WFhb/FRUV/xQUFP8TExP/EhIS/xEREf8QEBD/Dw8P/w4ODv8NDQ3/DAwM/wsLC/8KCgr/CQkJ/wgICP8HBwf/BgYG/wUFBf8EBAT/AwMD/wICAv8BAQH/AAAA/w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 8,
+        "colorType": 2,
+        "interlaceMethod": 1
+      },
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "IDAT",
+          "dataLength": 242,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 303,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

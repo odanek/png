@@ -1,0 +1,96 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "/wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//MwD//0QA//9VAP//ZgD//2YA//9mAP//VQD//zMA//8RAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8iAP//ZgD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//RAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8RAP//VQD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//ZgD//yIA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//IgD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//0QA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//0QA//+qAP//qgD//6oA//+qAP//qgD//6oA//+qAP//qgD/3aoA/92qAP/MqgD/3aoA/+6qAP//qgD//6oA//+qAP//qgD//6oA//+qAP//qgD//3cA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8iAP//uwD///8A////AP///wD///8A////AP/u/wD/qv8A/4j/AP93/wD/d/8A/3f/AP93/wD/d/8A/5n/AP/M/wD///8A////AP///wD///8A////AP//7gD//0QA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//EQD//2YA//+7AP///wD///8A////AP///wD/qv8A/3f/AP93/wD/d/8A/3f/AP93/wD/d/8A/3f/AP93/wD/d/8A/3f/AP+I/wD/3f8A////AP///wD///8A///uAP//dwD//zMA//8AAP//AAD//wAA//8AAP//AAD//wAA//9VAP//dwD//7sA////AP///wD/7v8A/5n/AP93/wD/d/8A/3f/AP93/wD/d/8A/3f/AP93/wD/d/8A/3f/AP93/wD/d/8A/3f/AP93/wD/zP8A////AP///wD//+4A//93AP//dwD//xEA//8AAP//AAD//wAA//8AAP//EQD//3cA//93AP//uwD///8A////AP93/wD/AP8A/wD/AP8A/wD/AP8A/wD/M/8A/1X/AP9m/wD/d/8A/2b/AP9E/wD/Ef8A/wD/AP8A/wD/AP8i/wD/3f8A////AP//7gD//3cA//93AP//RAD//wAA//8AAP//AAD//wAA//9VAP//dwD//3cA//+7AP///wD/u/8A/1X/AP8A/wD/AP8A/wD/Iv8A/2b/AP93/wD/d/8A/3f/AP93/wD/d/8A/3f/AP93/wD/Vf8A/wD/AP8A/xH/AP+I/wD/7v8A///uAP//dwD//3cA//93AP//EQD//wAA//8AAP//AAD//3cA//93AP//dwD//7sA/+7/AP93/wD/Vf8A/wD/AP8A/yL/AP/u/wD/7v8A7u7/ALvu/wCZ7v8Ame7/AKru/wDM7v8A/+7/AP/u/wD/qv8A/wD/Ef8A/3f/AP+q/wD//+4A//93AP//dwD//3cA//8zAP//AAD//wAA//8iAP//dwD//3cA//93AP//uwD/qv8A/3f/AP9V/wD/AP8R/wD/Zv8A////AN3//wBm//8AVf//AFX//xFV//8AVf//AFX//wCI//8A////AP/M/wD/RP8R/wD/d/8A/3f/AP/u7gD//3cA//93AP//dwD//1UA//8AAP//AAD//0QA//93AP//dwD//3cA//+7AP+I/wD/d/8A/1X/AP8A/0T/AP93/wDu//8AVf//AAD//0QA//93AP//dwD//2YA//8iAP//AAD//wCZ//8A/8z/AP93/xH/Ef93/wD/d/8A/8zuAP//dwD//3cA//93AP//dwD//wAA//8AAP//VQD//3cA//93AP//dwD/3bsA/3f/AP93/wD/Vf8A/wD/Zv8A/3f/ALv//wBE//93AP//7gDu/+4Aqv/uAJn/7gC7/90A//8iAP//AHf//wDuzP8A/3f/Ef8z/3f/AP93/wD/qu4A//93AP//dwD//3cA//93AP//EQD//wAA//9mAP//dwD//3cA//93AP/MuwD/d/8A/3f/AP9V/xH/AP93/wD/d/8AiP//EUT//6oA////AIj//wB3//8Ad///AHf/7gC7/1UA//8Ad///ALvM/wD/d/8R/0T/d/8A/3f/AP+Z7gD//3cA//93AP//dwD//3cA//8iAP//AAD//3cA//93AP//dwD//3cA/8y7AP93/wD/d/8A/1X/Iv8A/3f/AP93/wB3//8zRP//qgDd//8Ad///AHf//wB3//8Ad//uAJn/dwD//wB3//8Aqsz/AP93/xH/Vf93/wD/d/8A/4juAP//dwD//3cA//93AP//dwD//zMA//8AAP//dwD//3cA//93AP//dwD/zLsA/3f/AP93/wD/Vf8i/wD/d/8A/3f/AIj//yJE//+qAO7//wB3//8Ad///AHf//wB3/+4Amf9mAP//AHf//wCqzP8A/3f/Ef9V/3f/AP93/wD/iO4A//93AP//dwD//3cA//93AP//IgD//wAA//9mAP//dwD//3cA//93AP/MuwD/d/8A/3f/AP9V/xH/AP93/wD/d/8Amf//AET//5kA////ALv//wB3//8Ad///AIj/7gDd/0QA//8Ad///AMzM/wD/d/8R/0T/d/8A/3f/AP+Z7gD//3cA//93AP//dwD//3cA//8iAP//AAD//1UA//93AP//dwD//3cA/+67AP93/wD/d/8A/1X/AP8A/2b/AP93/wDM//8ARP//RAD//6oA//+qAO7/qgDd/6oA//+ZAP//EQD//wB3//8A7sz/AP93/xH/M/93/wD/d/8A/6ruAP//dwD//3cA//93AP//dwD//xEA//8AAP//RAD//3cA//93AP//dwD//7sA/4j/AP93/wD/Vf8A/wD/M/8A/3f/AP///wB3//8AIv//ESL//0Qi//9VIv//MyL//wAi//8AIv//ALv//wD/zP8A/2b/Ef8A/3f/AP93/wD/zO4A//93AP//dwD//3cA//93AP//AAD//wAA//8iAP//dwD//3cA//93AP//uwD/u/8A/3f/AP9V/wD/AP8A/wD/Zv8A////AP///wC7//8Ad///AHf//wB3//8Ad///AIj//wDM//8A////AP/M/wD/M/8R/wD/d/8A/4j/AP/u7gD//3cA//93AP//dwD//1UA//8AAP//AAD//wAA//93AP//dwD//3cA//+7AP/u/wD/d/8A/1X/AP8A/wD/AP8R/wD/qv8A/7v/AP+7/wDuu/8AzLv/ALu7/wDMu/8A/7v/AP+7/wD/u/8A/3f/AP8A/xH/AP93/wD/u/8A///uAP//dwD//3cA//93AP//MwD//wAA//8AAP//AAD//0QA//93AP//dwD//7sA////AP/M/wD/Vf8A/wD/AP8A/wD/AP8R/wD/Zv8A/3f/AP93/wD/d/8A/3f/AP93/wD/d/8A/3f/AP9E/wD/AP8A/wD/Ef8A/4j/AP///wD//+4A//93AP//dwD//3cA//8RAP//AAD//wAA//8AAP//EQD//3cA//93AP//uwD///8A////AP+I/wD/Ef8A/xH/AP8R/wD/Ef8A/xH/Iv8R/0T/Ef9V/xH/Zv8R/1X/Ef8z/xH/Ef8R/wD/Ef8A/xH/AP8z/wD/3f8A////AP//7gD//3cA//93AP//MwD//wAA//8AAP//AAD//wAA//8AAP//RAD//3cA//+7AP///wD///8A////AP+q/wD/d/8A/3f/AP93/wD/d/8A/3f/AP93/wD/d/8A/3f/AP93/wD/d/8A/3f/AP93/wD/iP8A/93/AP///wD///8A///uAP//dwD//3cA//8RAP//AAD//wAA//8AAP//AAD//wAA//8AAP//ZgD//7sA////AP///wD///8A////AP+7/wD/iP8A/3f/AP93/wD/d/8A/3f/AP93/wD/d/8A/3f/AP93/wD/d/8A/5n/AP/u/wD///8A////AP///wD//+4A//93AP//IgD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8RAP//qgD///8A////AP///wD///8A////AP/u/wD/u/8A/5n/AP93/wD/d/8A/3f/AP93/wD/iP8A/6r/AP/d/wD///8A////AP///wD///8A////AP//7gD//zMA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8zAP//iAD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP/umQD/3ZkA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//9VAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8RAP//ZgD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//MwD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//RAD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//VQD//xEA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//EQD//1UA//9mAP//dwD//3cA//93AP//dwD//3cA//93AP//dwD//3cA//93AP//ZgD//zMA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8iAP//MwD//0QA//9VAP//VQD//1UA//9EAP//IgD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA/w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 8,
+        "colorType": 2,
+        "interlaceMethod": 0
+      },
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        },
+        {
+          "type": "sBIT",
+          "value": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "type": "pHYs",
+          "pixelsPerUnit": {
+            "x": 1000,
+            "y": 1000
+          },
+          "unitType": "meter"
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "sBIT",
+          "dataLength": 3,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 64,
+          "type": "pHYs",
+          "dataLength": 9,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": true
+        },
+        {
+          "offset": 85,
+          "type": "IDAT",
+          "dataLength": 615,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 712,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

@@ -1,0 +1,91 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wf/W/1v9jf8w/2f/W/99/7L/vf/8//z//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////4j/tv8H/2D/DP9a/w//Uf8N/0H/Cf8q/zT/O//M/8T///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+I/7z/CP9s/xL/av8X/2T/G/9c/xr/TP8V/zX/GP8c/zL/C/+k/4P//v/9////////////////////////////////////////////////////////////////////////////////////////////////////////////zf/l/wn/eP8S/3b/Hf90/yT/b/8o/2f/J/9Y/yP/QP8m/yb/Pv8R/1H/B/+V/1T/+P/z//////////////////////////////////////////////////////////////////////////////////////////////////////9F/6D/Ef+A/x3/f/8o/37/MP96/zb/c/81/2T/Mf9M/zb/MP9O/xv/YP8R/2//Cf+b/zz/+f/w////////////////////////////////////////////////////////////////////////////////////////////sv/b/wr/h/8Z/4n/J/+J/zP/h/89/4X/Q/9+/0P/cf8//1n/Rf88/13/Jv9v/x3/fv8T/4v/Cv+y/zz/+//x//////////////////////////////////////////////////////////////////////////////////////82/6T/Ev+Q/yL/kf8x/5L/Pv+R/0n/j/9Q/4n/Uv99/07/Zf9V/0j/bf8z/3//Kf+M/x//mv8U/6r/Cv/K/zz//v/6////////////////////////////////////////////////////////////////////////////y//q/wr/lv8b/5j/Kv+Z/zv/m/9K/5v/Vv+Z/17/lf9h/4r/Xf9y/2X/VP99/0H/jf82/5v/K/+q/x//uv8T/8r/Cv/m/1H////7//////////////////////////////////////////////////////////////////////9n/8P/Ef+e/yL/oP8z/6L/RP+k/1X/pf9i/6P/bP+g/3D/lv9s/4D/dv9h/43/T/+c/0P/qv83/7n/K//K/x7/2/8T/+7/Cf/9/Gv/////////////////////////////////////////////////////////////////8f/6/xT/qf8Y/6b/Kf+o/zz/q/9N/6z/X/+u/27/rv96/6v/f/+j/3z/jf+H/2//nP9e/6v/Uv+6/0T/yf83/9r/Kv/t/x7//PsS///oCP//6X////////////////////////////////////////////////////////////+k/+H/Df+s/x7/rv8x/7H/RP+z/1b/tf9o/7f/ev+4/4f/tv+O/7D/jP+b/5j/ff+s/27/u/9g/8n/Uv/a/0P/7P82//z8Kf//6B3//9MS//+/CP//3pn//////////////////////////////////////////////////////2H/0P8S/7X/Jf+3/zj/uf9L/7v/X/+9/3L/wP+E/8H/lP/B/5z/vP+c/6n/qf+M/7v/ff/K/2//2v9f/+v/Uf/8/EP//+k1///UKP//wBz//64R//+cB///zZH/////////////////////////////////////////////////H//D/xj/vv8r/8D/P//B/1P/w/9n/8b/e//I/47/yv+g/8v/q//I/6z/t/+6/5v/y/+N/9r/ff/r/27/+/xe///qUP//1UL//8I0//+wJ///nxv//40Q//9+CP//1rf//////////////////////////////////////9L/9f8K/8X/Hf/H/zD/yf9E/8v/Wf/N/2//zv+D/9H/mP/T/6v/1f+5/9T/vP/F/8r/q//a/53/6v+M//v9fP//623//9dd///ET///skH//6Ez//+PJv//fxr//24P//9pFf/+1sT/////////////////////////////////k//q/w//z/8i/9H/Nv/S/0r/1P9f/9b/df/Y/4v/2f+g/9v/tf/e/8f/3//M/9T/2/+8/+r/rP/6/Zz//+yL///YfP//xmz//7Rc//+iTf//kT///4Ex//9xJP//YRj//1IN//tNFP/7183///////////////////////////9n/+n/Ev/b/yb/3P86/93/T//e/2X/3/97/+H/kv/j/6j/5f++/+f/0v/p/93/4v/r/83/+v28///urP//2pv//8iK//+2ev//pWr//5Ra//+DTP//cz7//2Iw//9SI///Qxf//zQN//g2GP/84N3//////////////////////zz/7P8W/+f/Kv/o/z7/6f9U/+r/af/r/4D/7P+X/+3/rv/u/8X/8P/c//L/7f/w//r+3v//8M3//927///Kqv//uJn//6aJ//+Uef//gWn//29a//9dTf//S0D//zs0//8rKf//HR7//xAV//4oL///4+X////////////9////Ev/0/xn/9P8t//X/Qv/1/1f/9/9t//j/hP/5/5v/+f+y//r/yv/7/+L+/P/4/Pz///Hv///g4P//ztH//7zD//+qtf//mKf//4ea//93jf//Z4H//1h0//9JaP//PFz//y5R//8hRf//Fjv//wsw//8xUP//7fH//////97///8K+/z/HPr9/zD6/f9F+f3/W/j+/3H3/v+H9v7/nvX+/7X0/v/M8v//4+v///rb/f//z+///8Lj//+22P//qs3//57D//+Suf//hq7//3mk//9smf//X47//1KD//9FeP//OW3//yxh//8gVv//FEr//wo///5Baf//9Pf/wPr//wzs/f8f7P7/M+r+/0fq/v9d6f7/c+f+/4nm//+f5P//teD//8nU///lv///+rL8//+m7P//mt3//4/Q//+DxP//d7n//2yu//9hpP//V5r//0yR//9Dh///OX7//y91//8mbP//HmP//xZa//8OUv/+Ckv//kt5///T3v+l8///Dt7+/yHd/v812///Sdr//17Y//9z1f//iNP//53O//+vvf//zaT//+iX///5i/n//3/q//902f//acv//169//9Tsv//Sab//z+b//81kf//LIf//yN+//8adP//E2v//wti//wGV//2HV3/+Xyf//3g6P///////////5Lq//8Pzv//Icz//zTK//9Ix///XcX//3HB//+Fuv//lab//7SK///SfP//6XH///dm9v/+Wuf//1DW//9Gxv//Pbn//zOs//8qoP//IJT//xiK//8Qf///CXT/+ARm/+gEVP/nSXv/8q/B//77/P//////////////////////k+P//w68//8huf//NLf//0e0//9arv//bKb//3yP//+bcv//vGL//9RY///qTv//9kPz//455P//L9T//ybD//8etP//Fqf//w+b//4Ijf/0A3r/3gFf/8waWf/cfJn/9uDm//////////////////////////////////////+X3P//Dqn//x+m//8yov//RJz//1SR//9ief//gVv//6VK//+/QP//1jf//+su/v/1JPH//Bvh//8T0f//DMH//Aat//AClP/XAHH/tgNN/71JcP/fr7z//fv8/////////////////////////////////////////////////6zd//8Mlf//HZH//y6J//89ff//SmT//2dF//+ONP//qSr//8Eh///XGf//6hL8//MK7f/1BNf/6AG0/80AiP+pAFn/mBpN/718kf/v4OT/////////////////////////////////////////////////////////////////yeX//wp///8Zdv//Jmj//zNP//9NMf//dyD//5MW//+rD///wgj+/9IE9v/SAdj/vACk/50Abf98A0P/k0lm/82ut//8+/v////////////////////////////////////////////////////////////////////////////4+///GnH//xFU//8cO///NR///14P//97Bvz/iwLv/5IA1v+PALL/hgCI/2sAVP9lGkP/oXuK/+jg4v////////////////////////////////////////////////////////////////////////////////////////////////+wxf//EzP//xgQ+f8wBuf/PQLJ/z8Bov8+AH3/PABZ/zkDO/9sSWD/vK+0//z7+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////19v7/3d74/93d8//IyNz/ubnJ/7q4w/+6uL3/5uTl/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 8,
+        "colorType": 2,
+        "interlaceMethod": 0
+      },
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        },
+        {
+          "type": "cHRM",
+          "whitePoint": {
+            "x": 0.3127,
+            "y": 0.329
+          },
+          "red": {
+            "x": 0.64,
+            "y": 0.33
+          },
+          "green": {
+            "x": 0.3,
+            "y": 0.6
+          },
+          "blue": {
+            "x": 0.15,
+            "y": 0.06
+          }
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "cHRM",
+          "dataLength": 32,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 93,
+          "type": "IDAT",
+          "dataLength": 1397,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1502,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

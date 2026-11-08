@@ -1,0 +1,51 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "/wAI//8ID///EBf//xgf//8gJ///KS///zE3//85P///QUf//0pP//9SV///Wl///2Jn//9qb///c3f//3t///+Dh///i4///5SX//+cn///pKf//6yv//+0t///vb///8XH///Nz///1df//97f///m5///7u////b3///////uHQf//x8I//8mD///LRf//zQf//87J///Qy///0o3//9RP///WEf//2BP//9nV///bl///3Vn//98b///hHf//4t///+Sh///mY///6GX//+on///r6f//7av//+9t///xb///8zH///Tz///2tf//+Lf///p5///8O////f3/983B//uOwf//z8I//9FD///Sxf//1Ef//9XJ///XS///2Q3//9qP///cEf//3ZP//98V///g1///4ln//+Pb///lXf//5t///+ih///qI///66X//+0n///uqf//8Gv///Ht///zb///9PH///Zz///4Nf//+bf///s5///8u//0E0G/99TB//uWAf//18I//9kD///aRf//24f//9zJ///eC///303//+DP///iEf//41P//+SV///l1///5xn//+ib///p3f//6x///+xh///to///7uX///Bn///xqf//8uv///Qt///1b///9rH///gz///5df//+rf///v5//BYAX/0GcF/99vBv/udgb//38H//+DD///hxf//4sf//+PJ///ky7//5c3//+bP///oEf//6RO//+oV///rF///7Bn//+0bv//uHf//7x////Bh///xY7//8mX///Nn///0ab//9Wu///Zt///3b///+LG///mzv//6tf//+7f/7NvBP/BeAX/0IEF/9+LBv/ulAb//58H//+iD///pRf//6gf//+rJ///ri7//7E3//+0P///t0f//7pO//+9V///wV///8Rn///Hbv//ynf//81////Qh///047//9aX///Zn///3Kb//+Cu///jt///5r///+nG///szv//79f/pXwE/7OGBP/BkAX/0JsF/9+nBv/usgb//78H///BD///wxf//8Uf///HJ///yS7//8s3///NP///z0f//9FO///TV///1V///9dn///Zbv//23f//91////gh///4o7//+SX///mn///6Kb//+qu///st///7r////DG///yzv+YhQT/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"
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 8,
+        "colorType": 2,
+        "interlaceMethod": 0
+      },
+      "metadata": [],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "IDAT",
+          "dataLength": 1234,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1279,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

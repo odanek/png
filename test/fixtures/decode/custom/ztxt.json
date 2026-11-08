@@ -1,0 +1,65 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 16,
+        "height": 16,
+        "data": {
+          "$uint8": "KKwDwMS22K6TN9ozZOCp2dCU41JpA+RqaL/kz30t8tr47lFoFaqZ+OSGOBW8iw9XyyfkFTB4S3+JPWwulCViPSFAJWSvebPpNlKSnHl07G41DMpjf1O3oqAVXrsJZtcFy1LsEBPrehVcqXfSKLU+WhNAzwrK0Qbm27NbzikOgGXiocA+TRQIsMMzCpALOO0uRdVG0z2uyXfYIReuDLZlX8m//WAD14nmZ5JLB6AxqWNh451gTNcRTyJ2F/ETLQ1EnWe6y1lILNHd1JgjkqtbZEguk+m71TS7411tzaixxIZgIioy9D4RZcMGEb3FOZ6Jk91zafC63Oknmax0cMB0eO3ADAf3o5i/RC6d9DWlaXFFynl7eZo8yWOGUD2EcFCnaAte2kd8fvUNRXj6X5FtCLxdLpFi0RtGuqb7WzHbehZnJTfngaJgn4yvlHn1aCfRuwK2ROzeTgPFw0oUbilj0JzKQLMaVS3qPnSNdg+9+j/zlgrVpADkcJY0LrmdZKTi7f6I8sOw/OicbQ8Mo3Vcw5Iyo/HBxvLkYKOFPexZaNSE71jc+IAErErsm1TwKPdDbPuZkxcidyS0KUNd8J86Sxy/JHCtKiXOTe260BiXFyovPc/w/mlPetI37YUs4tF/fCn5Bwbed/HD12XVz4OJD/b4lKZDy5Emh/adJLCUWRcYb3jL3zzRpm4pCneEYRuV4M0fDfWYSfl30hU8S8Fv9dyAnB4rqNgxeeFuRC0ItiFg0XybeuH3C59Kucp7NCe23xXsh2Ir4pKUM1QdrGKfj3vKXf5gag9raQ6FfzYchIZ9gUSInrE9RXu34WmDYAi6GgFoLzDSkUHIkYR9goJaSOGxUC8Dwgdeyk/ivgAzHlQH1DqPV+cdPlpsCBzmtwZcMkbrR5Wn/1QKBktgUJ6iFfTt1jtEw+aUUsJoD7FH6H37NFaNjJBeXWR6ePs/8e2ztg7WUT1A9kS6cGuT42B7l3UY72W6+dl9PuGpybBIZw8N0xDsPqUDfgS0/eRrA2ljkarMFc+1KlwynH6eLtXO6bkr0mt0VGMTNqCVBpLrw6CyIsk4b4nbkO2rJlwjcxGtLHPn8n/tGwcdj+kGOHOLk4qJW7dMLr18uNQ/767kXgant+uMigkSf5BHRZ0xm4BC6J1+70Nm5hoJJDZQuB+nIxl1pclyXxV/lA4ca7g3Xeea38VwqcbCA0fsIur9KjLbvXPBjED4RUgkRYlQfnR4vdson0J4N6zvnTHtAV9ko13C6giRuOhmY9FheNuIGjjZmxrvSjVxjlyB36aiZk8XV9/cX5qCXnUh07A8Ox4G6TVPBN0rcNcmnbHTf/vxzyT4k8zLQEBxgo7s6iOS3EkWLA=="
+        }
+      },
+      "details": {
+        "width": 16,
+        "height": 16,
+        "bitDepth": 8,
+        "colorType": 6,
+        "interlaceMethod": 0
+      },
+      "metadata": [
+        {
+          "type": "zTXt",
+          "keyword": "Comment",
+          "text": "Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! Hello, compressed world! "
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "zTXt",
+          "dataLength": 47,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": true
+        },
+        {
+          "offset": 92,
+          "type": "IDAT",
+          "dataLength": 1051,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1155,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

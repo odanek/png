@@ -1,0 +1,17 @@
+{
+  "description": "Grayscale",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint16": "AQABAAEA//8WABYAFgD//w4ADgAOAP//FwAXABcA//8gACAAIAD//yoAKgAqAP//OAA4ADgA//8yADIAMgD//0AAQABAAP//SABIAEgA//9PAE8ATwD//1wAXABcAP//XQBdAF0A//9fAF8AXwD//3AAcABwAP//bQBtAG0A//94AHgAeAD//3sAewB7AP//gACAAIAA//+MAIwAjAD//5YAlgCWAP//"
+    }
+  },
+  "options": {
+    "colorType": 0
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

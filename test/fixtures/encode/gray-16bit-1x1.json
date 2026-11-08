@@ -1,0 +1,17 @@
+{
+  "description": "Grayscale",
+  "image": {
+    "width": 1,
+    "height": 1,
+    "data": {
+      "$uint16": "AQABAAEA//8="
+    }
+  },
+  "options": {
+    "colorType": 0
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

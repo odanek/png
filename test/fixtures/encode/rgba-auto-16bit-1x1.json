@@ -1,0 +1,18 @@
+{
+  "description": "Random RGBA with the color type picked by the encoder",
+  "image": {
+    "width": 1,
+    "height": 1,
+    "data": {
+      "$uint16": "BsYKhkQu5aA="
+    }
+  },
+  "options": {},
+  "knownBug": "encoder uses tRNS when there is exactly one non-opaque color, even if it is only partially transparent",
+  "expected": {
+    "warnings": [],
+    "info": [
+      "Using color type 2"
+    ]
+  }
+}

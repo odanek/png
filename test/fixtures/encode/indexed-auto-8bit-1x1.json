@@ -1,0 +1,17 @@
+{
+  "description": "Few colors with the color type picked by the encoder",
+  "image": {
+    "width": 1,
+    "height": 1,
+    "data": {
+      "$uint8": "MM8ogA=="
+    }
+  },
+  "options": {},
+  "expected": {
+    "warnings": [],
+    "info": [
+      "Using color type 3"
+    ]
+  }
+}

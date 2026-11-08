@@ -1,0 +1,17 @@
+{
+  "description": "Grayscale with a single fully transparent gray, uses tRNS",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint16": "BwAHAAcAAAAKSgpKCkr//3yrfKt8q///L5Yvli+W//9hpWGlYaX//wcABwAHAAAA3tje2N7Y//+yarJqsmr//3bNds12zf//QftB+0H7//8HAAcABwAAANpL2kvaS///UDxQPFA8///rH+sf6x///7oXuhe6F///BwAHAAcAAABxwXHBccH//xjqGOoY6v//bN1s3Wzd//+S6JLokuj//wcABwAHAAAA"
+    }
+  },
+  "options": {
+    "colorType": 0
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

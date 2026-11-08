@@ -1,0 +1,17 @@
+{
+  "description": "Random RGBA with the color type picked by the encoder",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint8": "xgaGCi5EoOWKfjbTIlCwhOXSrTIDybiXbmwxsyGfYoOrWT+iMwrbgJfwD6tIZHaCLSNC7Aa6YPl2OSzTLr3fqkULxCiax+SNDgy0OMnqEhS7TLUO"
+    }
+  },
+  "options": {},
+  "expected": {
+    "warnings": [],
+    "info": [
+      "Using color type 3"
+    ]
+  }
+}

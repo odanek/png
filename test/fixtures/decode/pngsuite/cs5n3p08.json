@@ -1,0 +1,250 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "/wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//GQD//xkA//8ZAP//GQD//xkA//8ZAP//GQD//xkA//8ZAP//GQD//xkA//8ZAP//GQD//xkA//8ZAP//GQD//xkA//8ZAP//GQD//xkA//8ZAP//GQD//xkA//8ZAP//GQD//xkA//8ZAP//GQD//xkA//8ZAP//GQD//xkA//86AP//OgD//zoA//86AP//OgD//zoA//86AP//OgD//zoA//86AP//OgD//zoA//86AP//OgD//zoA//86AP//OgD//zoA//86AP//OgD//zoA//86AP//OgD//zoA//86AP//OgD//zoA//86AP//OgD//zoA//86AP//OgD//1oA//9aAP//WgD//1oA//9aAP//WgD//1oA//9aAP//WgD//1oA//9aAP//WgD//1oA//9aAP//WgD//1oA//9aAP//WgD//1oA//9aAP//WgD//1oA//9aAP//WgD//1oA//9aAP//WgD//1oA//9aAP//WgD//1oA//9aAP//ewD//3sA//97AP//ewD//3sA//97AP//ewD//3sA//97AP//ewD//3sA//97AP//ewD//3sA//97AP//ewD//3sA//97AP//ewD//3sA//97AP//ewD//3sA//97AP//ewD//3sA//97AP//ewD//3sA//97AP//ewD//3sA//+cAP//nAD//5wA//+cAP//nAD//5wA//+cAP//nAD//5wA//+cAP//nAD//5wA//+cAP//nAD//5wA//+cAP//nAD//5wA//+cAP//nAD//5wA//+cAP//nAD//5wA//+cAP//nAD//5wA//+cAP//nAD//5wA//+cAP//nAD//70A//+9AP//vQD//70A//+9AP//vQD//70A//+9AP//vQD//70A//+9AP//vQD//70A//+9AP//vQD//70A//+9AP//vQD//70A//+9AP//vQD//70A//+9AP//vQD//70A//+9AP//vQD//70A//+9AP//vQD//70A//+9AP//3gD//94A///eAP//3gD//94A///eAP//3gD//94A///eAP//3gD//94A///eAP//3gD//94A///eAP//3gD//94A///eAP//3gD//94A///eAP//3gD//94A///eAP//3gD//94A///eAP//3gD//94A///eAP//3gD//94A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/5v8A/+b/AP/m/wD/5v8A/+b/AP/m/wD/5v8A/+b/AP/m/wD/5v8A/+b/AP/m/wD/5v8A/+b/AP/m/wD/5v8A/+b/AP/m/wD/5v8A/+b/AP/m/wD/5v8A/+b/AP/m/wD/5v8A/+b/AP/m/wD/5v8A/+b/AP/m/wD/5v8A/+b/AP/F/wD/xf8A/8X/AP/F/wD/xf8A/8X/AP/F/wD/xf8A/8X/AP/F/wD/xf8A/8X/AP/F/wD/xf8A/8X/AP/F/wD/xf8A/8X/AP/F/wD/xf8A/8X/AP/F/wD/xf8A/8X/AP/F/wD/xf8A/8X/AP/F/wD/xf8A/8X/AP/F/wD/xf8A/6X/AP+l/wD/pf8A/6X/AP+l/wD/pf8A/6X/AP+l/wD/pf8A/6X/AP+l/wD/pf8A/6X/AP+l/wD/pf8A/6X/AP+l/wD/pf8A/6X/AP+l/wD/pf8A/6X/AP+l/wD/pf8A/6X/AP+l/wD/pf8A/6X/AP+l/wD/pf8A/6X/AP+l/wD/hP8A/4T/AP+E/wD/hP8A/4T/AP+E/wD/hP8A/4T/AP+E/wD/hP8A/4T/AP+E/wD/hP8A/4T/AP+E/wD/hP8A/4T/AP+E/wD/hP8A/4T/AP+E/wD/hP8A/4T/AP+E/wD/hP8A/4T/AP+E/wD/hP8A/4T/AP+E/wD/hP8A/4T/AP9j/wD/Y/8A/2P/AP9j/wD/Y/8A/2P/AP9j/wD/Y/8A/2P/AP9j/wD/Y/8A/2P/AP9j/wD/Y/8A/2P/AP9j/wD/Y/8A/2P/AP9j/wD/Y/8A/2P/AP9j/wD/Y/8A/2P/AP9j/wD/Y/8A/2P/AP9j/wD/Y/8A/2P/AP9j/wD/Y/8A/0L/AP9C/wD/Qv8A/0L/AP9C/wD/Qv8A/0L/AP9C/wD/Qv8A/0L/AP9C/wD/Qv8A/0L/AP9C/wD/Qv8A/0L/AP9C/wD/Qv8A/0L/AP9C/wD/Qv8A/0L/AP9C/wD/Qv8A/0L/AP9C/wD/Qv8A/0L/AP9C/wD/Qv8A/0L/AP9C/wD/If8A/yH/AP8h/wD/If8A/yH/AP8h/wD/If8A/yH/AP8h/wD/If8A/yH/AP8h/wD/If8A/yH/AP8h/wD/If8A/yH/AP8h/wD/If8A/yH/AP8h/wD/If8A/yH/AP8h/wD/If8A/yH/AP8h/wD/If8A/yH/AP8h/wD/If8A/yH/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/Gf8A/xn/AP8Z/wD/Gf8A/xn/AP8Z/wD/Gf8A/xn/AP8Z/wD/Gf8A/xn/AP8Z/wD/Gf8A/xn/AP8Z/wD/Gf8A/xn/AP8Z/wD/Gf8A/xn/AP8Z/wD/Gf8A/xn/AP8Z/wD/Gf8A/xn/AP8Z/wD/Gf8A/xn/AP8Z/wD/Gf8A/xn/AP86/wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/Ov8A/1r/AP9a/wD/Wv8A/1r/AP9a/wD/Wv8A/1r/AP9a/wD/Wv8A/1r/AP9a/wD/Wv8A/1r/AP9a/wD/Wv8A/1r/AP9a/wD/Wv8A/1r/AP9a/wD/Wv8A/1r/AP9a/wD/Wv8A/1r/AP9a/wD/Wv8A/1r/AP9a/wD/Wv8A/1r/AP9a/wD/e/8A/3v/AP97/wD/e/8A/3v/AP97/wD/e/8A/3v/AP97/wD/e/8A/3v/AP97/wD/e/8A/3v/AP97/wD/e/8A/3v/AP97/wD/e/8A/3v/AP97/wD/e/8A/3v/AP97/wD/e/8A/3v/AP97/wD/e/8A/3v/AP97/wD/e/8A/3v/AP+c/wD/nP8A/5z/AP+c/wD/nP8A/5z/AP+c/wD/nP8A/5z/AP+c/wD/nP8A/5z/AP+c/wD/nP8A/5z/AP+c/wD/nP8A/5z/AP+c/wD/nP8A/5z/AP+c/wD/nP8A/5z/AP+c/wD/nP8A/5z/AP+c/wD/nP8A/5z/AP+c/wD/nP8A/73/AP+9/wD/vf8A/73/AP+9/wD/vf8A/73/AP+9/wD/vf8A/73/AP+9/wD/vf8A/73/AP+9/wD/vf8A/73/AP+9/wD/vf8A/73/AP+9/wD/vf8A/73/AP+9/wD/vf8A/73/AP+9/wD/vf8A/73/AP+9/wD/vf8A/73/AP+9/wD/3v8A/97/AP/e/wD/3v8A/97/AP/e/wD/3v8A/97/AP/e/wD/3v8A/97/AP/e/wD/3v8A/97/AP/e/wD/3v8A/97/AP/e/wD/3v8A/97/AP/e/wD/3v8A/97/AP/e/wD/3v8A/97/AP/e/wD/3v8A/97/AP/e/wD/3v8A/97/AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A5v//AOb//wDm//8A5v//AOb//wDm//8A5v//AOb//wDm//8A5v//AOb//wDm//8A5v//AOb//wDm//8A5v//AOb//wDm//8A5v//AOb//wDm//8A5v//AOb//wDm//8A5v//AOb//wDm//8A5v//AOb//wDm//8A5v//AOb//wDF//8Axf//AMX//wDF//8Axf//AMX//wDF//8Axf//AMX//wDF//8Axf//AMX//wDF//8Axf//AMX//wDF//8Axf//AMX//wDF//8Axf//AMX//wDF//8Axf//AMX//wDF//8Axf//AMX//wDF//8Axf//AMX//wDF//8Axf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8Apf//AKX//wCl//8AhP//AIT//wCE//8AhP//AIT//wCE//8AhP//AIT//wCE//8AhP//AIT//wCE//8AhP//AIT//wCE//8AhP//AIT//wCE//8AhP//AIT//wCE//8AhP//AIT//wCE//8AhP//AIT//wCE//8AhP//AIT//wCE//8AhP//AIT//wBj//8AY///AGP//wBj//8AY///AGP//wBj//8AY///AGP//wBj//8AY///AGP//wBj//8AY///AGP//wBj//8AY///AGP//wBj//8AY///AGP//wBj//8AY///AGP//wBj//8AY///AGP//wBj//8AY///AGP//wBj//8AY///AEL//wBC//8AQv//AEL//wBC//8AQv//AEL//wBC//8AQv//AEL//wBC//8AQv//AEL//wBC//8AQv//AEL//wBC//8AQv//AEL//wBC//8AQv//AEL//wBC//8AQv//AEL//wBC//8AQv//AEL//wBC//8AQv//AEL//wBC//8AIf//ACH//wAh//8AIf//ACH//wAh//8AIf//ACH//wAh//8AIf//ACH//wAh//8AIf//ACH//wAh//8AIf//ACH//wAh//8AIf//ACH//wAh//8AIf//ACH//wAh//8AIf//ACH//wAh//8AIf//ACH//wAh//8AIf//ACH//w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 8,
+        "colorType": 3,
+        "interlaceMethod": 0
+      },
+      "palette": [
+        [
+          255,
+          25,
+          0
+        ],
+        [
+          66,
+          255,
+          0
+        ],
+        [
+          197,
+          255,
+          0
+        ],
+        [
+          0,
+          255,
+          123
+        ],
+        [
+          0,
+          255,
+          189
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          0,
+          255,
+          0
+        ],
+        [
+          0,
+          197,
+          255
+        ],
+        [
+          0,
+          165,
+          255
+        ],
+        [
+          255,
+          222,
+          0
+        ],
+        [
+          165,
+          255,
+          0
+        ],
+        [
+          0,
+          99,
+          255
+        ],
+        [
+          255,
+          156,
+          0
+        ],
+        [
+          0,
+          33,
+          255
+        ],
+        [
+          255,
+          90,
+          0
+        ],
+        [
+          0,
+          255,
+          58
+        ],
+        [
+          255,
+          58,
+          0
+        ],
+        [
+          99,
+          255,
+          0
+        ],
+        [
+          230,
+          255,
+          0
+        ],
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          0,
+          255,
+          90
+        ],
+        [
+          33,
+          255,
+          0
+        ],
+        [
+          0,
+          255,
+          156
+        ],
+        [
+          0,
+          255,
+          222
+        ],
+        [
+          0,
+          230,
+          255
+        ],
+        [
+          255,
+          255,
+          0
+        ],
+        [
+          0,
+          132,
+          255
+        ],
+        [
+          255,
+          189,
+          0
+        ],
+        [
+          0,
+          66,
+          255
+        ],
+        [
+          255,
+          123,
+          0
+        ],
+        [
+          132,
+          255,
+          0
+        ],
+        [
+          0,
+          255,
+          25
+        ]
+      ],
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        },
+        {
+          "type": "sBIT",
+          "value": [
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "sBIT",
+          "dataLength": 3,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 64,
+          "type": "PLTE",
+          "dataLength": 96,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 172,
+          "type": "IDAT",
+          "dataLength": 75,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 259,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

@@ -1,0 +1,84 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm//8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv/u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm//8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/yJm//8iZv//Imb//yJm///u/yL/7v8i/+7/Iv/u/yL/Imb//yJm//8iZv//Imb//+7/Iv/u/yL/7v8i/+7/Iv8iZv//Imb//yJm//8iZv//7v8i/+7/Iv/u/yL/7v8i/w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 1,
+        "colorType": 3,
+        "interlaceMethod": 1
+      },
+      "palette": [
+        [
+          238,
+          255,
+          34
+        ],
+        [
+          34,
+          102,
+          255
+        ]
+      ],
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "PLTE",
+          "dataLength": 6,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 67,
+          "type": "IDAT",
+          "dataLength": 41,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 120,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Truecolor",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint16": "AAADYwMA//8FAElHDgD//woA88sZAP//DwAEQyQA//8UAE8PLwD//xkACgE6AP//HgCKg0UA//8jAE/LUAD//ygA97dbAP//LQCCpGYA//8yAFG7cQD//zcA1mF8AP//PABNFYcA//9BANGhkgD//0YA5/udAP//SwBjlKgA//9QAFPQswD//1UAnt2+AP//WgBF2MkA//9fANqb1AD//2QAn6XfAP//"
+    }
+  },
+  "options": {
+    "colorType": 2
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "/////////////////////xEREf8RERH/ERER/xEREf//////////////////////MzMz/zMzM/8zMzP/MzMz/0RERP9ERET/RERE/0RERP9VVVX/VVVV/1VVVf9VVVX/ZmZm/2ZmZv9mZmb/ZmZm/3d3d/93d3f/d3d3/3d3d///////////////////////ERER/xEREf8RERH/ERER//////////////////////8zMzP/MzMz/zMzM/8zMzP/RERE/0RERP9ERET/RERE/1VVVf9VVVX/VVVV/1VVVf9mZmb/ZmZm/2ZmZv9mZmb/d3d3/3d3d/93d3f/d3d3//////////////////////8RERH/ERER/xEREf8RERH//////////////////////zMzM/8zMzP/MzMz/zMzM/9ERET/RERE/0RERP9ERET/VVVV/1VVVf9VVVX/VVVV/2ZmZv9mZmb/ZmZm/2ZmZv93d3f/d3d3/3d3d/93d3f//////////////////////xEREf8RERH/ERER/xEREf//////////////////////MzMz/zMzM/8zMzP/MzMz/0RERP9ERET/RERE/0RERP9VVVX/VVVV/1VVVf9VVVX/ZmZm/2ZmZv9mZmb/ZmZm/3d3d/93d3f/d3d3/3d3d///////////////////////IiIi/yIiIv8iIiL/IiIi//////////////////////9ERET/RERE/0RERP9ERET/VVVV/1VVVf9VVVX/VVVV/2ZmZv9mZmb/ZmZm/2ZmZv93d3f/d3d3/3d3d/93d3f/iIiI/4iIiP+IiIj/iIiI//////////////////////8iIiL/IiIi/yIiIv8iIiL//////////////////////0RERP9ERET/RERE/0RERP9VVVX/VVVV/1VVVf9VVVX/ZmZm/2ZmZv9mZmb/ZmZm/3d3d/93d3f/d3d3/3d3d/+IiIj/iIiI/4iIiP+IiIj//////////////////////yIiIv8iIiL/IiIi/yIiIv//////////////////////RERE/0RERP9ERET/RERE/1VVVf9VVVX/VVVV/1VVVf9mZmb/ZmZm/2ZmZv9mZmb/d3d3/3d3d/93d3f/d3d3/4iIiP+IiIj/iIiI/4iIiP//////////////////////IiIi/yIiIv8iIiL/IiIi//////////////////////9ERET/RERE/0RERP9ERET/VVVV/1VVVf9VVVX/VVVV/2ZmZv9mZmb/ZmZm/2ZmZv93d3f/d3d3/3d3d/93d3f/iIiI/4iIiP+IiIj/iIiI/////////////////////////////////////////////////////////////////1VVVf9VVVX/VVVV/1VVVf9mZmb/ZmZm/2ZmZv9mZmb/d3d3/3d3d/93d3f/d3d3/4iIiP+IiIj/iIiI/4iIiP+ZmZn/mZmZ/5mZmf+ZmZn/////////////////////////////////////////////////////////////////VVVV/1VVVf9VVVX/VVVV/2ZmZv9mZmb/ZmZm/2ZmZv93d3f/d3d3/3d3d/93d3f/iIiI/4iIiP+IiIj/iIiI/5mZmf+ZmZn/mZmZ/5mZmf////////////////////////////////////////////////////////////////9VVVX/VVVV/1VVVf9VVVX/ZmZm/2ZmZv9mZmb/ZmZm/3d3d/93d3f/d3d3/3d3d/+IiIj/iIiI/4iIiP+IiIj/mZmZ/5mZmf+ZmZn/mZmZ/////////////////////////////////////////////////////////////////1VVVf9VVVX/VVVV/1VVVf9mZmb/ZmZm/2ZmZv9mZmb/d3d3/3d3d/93d3f/d3d3/4iIiP+IiIj/iIiI/4iIiP+ZmZn/mZmZ/5mZmf+ZmZn//////////////////////0RERP9ERET/RERE/0RERP//////////////////////ZmZm/2ZmZv9mZmb/ZmZm/3d3d/93d3f/d3d3/3d3d/8AAAD/AAAA/wAAAP8AAAD/mZmZ/5mZmf+ZmZn/mZmZ/wAAAP8AAAD/AAAA/wAAAP//////////////////////RERE/0RERP9ERET/RERE//////////////////////9mZmb/ZmZm/2ZmZv9mZmb/d3d3/3d3d/93d3f/d3d3/wAAAP8AAAD/AAAA/wAAAP+ZmZn/mZmZ/5mZmf+ZmZn/AAAA/wAAAP8AAAD/AAAA//////////////////////9ERET/RERE/0RERP9ERET//////////////////////2ZmZv9mZmb/ZmZm/2ZmZv93d3f/d3d3/3d3d/93d3f/AAAA/wAAAP8AAAD/AAAA/5mZmf+ZmZn/mZmZ/5mZmf8AAAD/AAAA/wAAAP8AAAD//////////////////////0RERP9ERET/RERE/0RERP//////////////////////ZmZm/2ZmZv9mZmb/ZmZm/3d3d/93d3f/d3d3/3d3d/8AAAD/AAAA/wAAAP8AAAD/mZmZ/5mZmf+ZmZn/mZmZ/wAAAP8AAAD/AAAA/wAAAP//////////////////////VVVV/1VVVf9VVVX/VVVV//////////////////////93d3f/d3d3/3d3d/93d3f/iIiI/4iIiP+IiIj/iIiI/wAAAP8AAAD/AAAA/wAAAP+qqqr/qqqq/6qqqv+qqqr/AAAA/wAAAP8AAAD/AAAA//////////////////////9VVVX/VVVV/1VVVf9VVVX//////////////////////3d3d/93d3f/d3d3/3d3d/+IiIj/iIiI/4iIiP+IiIj/AAAA/wAAAP8AAAD/AAAA/6qqqv+qqqr/qqqq/6qqqv8AAAD/AAAA/wAAAP8AAAD//////////////////////1VVVf9VVVX/VVVV/1VVVf//////////////////////d3d3/3d3d/93d3f/d3d3/4iIiP+IiIj/iIiI/4iIiP8AAAD/AAAA/wAAAP8AAAD/qqqq/6qqqv+qqqr/qqqq/wAAAP8AAAD/AAAA/wAAAP//////////////////////VVVV/1VVVf9VVVX/VVVV//////////////////////93d3f/d3d3/3d3d/93d3f/iIiI/4iIiP+IiIj/iIiI/wAAAP8AAAD/AAAA/wAAAP+qqqr/qqqq/6qqqv+qqqr/AAAA/wAAAP8AAAD/AAAA/1VVVf9VVVX/VVVV/1VVVf9mZmb/ZmZm/2ZmZv9mZmb/d3d3/3d3d/93d3f/d3d3/4iIiP+IiIj/iIiI/4iIiP+ZmZn/mZmZ/5mZmf+ZmZn/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/VVVV/1VVVf9VVVX/VVVV/2ZmZv9mZmb/ZmZm/2ZmZv93d3f/d3d3/3d3d/93d3f/iIiI/4iIiP+IiIj/iIiI/5mZmf+ZmZn/mZmZ/5mZmf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP9VVVX/VVVV/1VVVf9VVVX/ZmZm/2ZmZv9mZmb/ZmZm/3d3d/93d3f/d3d3/3d3d/+IiIj/iIiI/4iIiP+IiIj/mZmZ/5mZmf+ZmZn/mZmZ/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/1VVVf9VVVX/VVVV/1VVVf9mZmb/ZmZm/2ZmZv9mZmb/d3d3/3d3d/93d3f/d3d3/4iIiP+IiIj/iIiI/4iIiP+ZmZn/mZmZ/5mZmf+ZmZn/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/ZmZm/2ZmZv9mZmb/ZmZm/3d3d/93d3f/d3d3/3d3d/+IiIj/iIiI/4iIiP+IiIj/mZmZ/5mZmf+ZmZn/mZmZ/6qqqv+qqqr/qqqq/6qqqv8AAAD/AAAA/wAAAP8AAAD/zMzM/8zMzP/MzMz/zMzM/wAAAP8AAAD/AAAA/wAAAP9mZmb/ZmZm/2ZmZv9mZmb/d3d3/3d3d/93d3f/d3d3/4iIiP+IiIj/iIiI/4iIiP+ZmZn/mZmZ/5mZmf+ZmZn/qqqq/6qqqv+qqqr/qqqq/wAAAP8AAAD/AAAA/wAAAP/MzMz/zMzM/8zMzP/MzMz/AAAA/wAAAP8AAAD/AAAA/2ZmZv9mZmb/ZmZm/2ZmZv93d3f/d3d3/3d3d/93d3f/iIiI/4iIiP+IiIj/iIiI/5mZmf+ZmZn/mZmZ/5mZmf+qqqr/qqqq/6qqqv+qqqr/AAAA/wAAAP8AAAD/AAAA/8zMzP/MzMz/zMzM/8zMzP8AAAD/AAAA/wAAAP8AAAD/ZmZm/2ZmZv9mZmb/ZmZm/3d3d/93d3f/d3d3/3d3d/+IiIj/iIiI/4iIiP+IiIj/mZmZ/5mZmf+ZmZn/mZmZ/6qqqv+qqqr/qqqq/6qqqv8AAAD/AAAA/wAAAP8AAAD/zMzM/8zMzP/MzMz/zMzM/wAAAP8AAAD/AAAA/wAAAP93d3f/d3d3/3d3d/93d3f/iIiI/4iIiP+IiIj/iIiI/5mZmf+ZmZn/mZmZ/5mZmf+qqqr/qqqq/6qqqv+qqqr/u7u7/7u7u/+7u7v/u7u7/wAAAP8AAAD/AAAA/wAAAP/d3d3/3d3d/93d3f/d3d3/AAAA/wAAAP8AAAD/AAAA/3d3d/93d3f/d3d3/3d3d/+IiIj/iIiI/4iIiP+IiIj/mZmZ/5mZmf+ZmZn/mZmZ/6qqqv+qqqr/qqqq/6qqqv+7u7v/u7u7/7u7u/+7u7v/AAAA/wAAAP8AAAD/AAAA/93d3f/d3d3/3d3d/93d3f8AAAD/AAAA/wAAAP8AAAD/d3d3/3d3d/93d3f/d3d3/4iIiP+IiIj/iIiI/4iIiP+ZmZn/mZmZ/5mZmf+ZmZn/qqqq/6qqqv+qqqr/qqqq/7u7u/+7u7v/u7u7/7u7u/8AAAD/AAAA/wAAAP8AAAD/3d3d/93d3f/d3d3/3d3d/wAAAP8AAAD/AAAA/wAAAP93d3f/d3d3/3d3d/93d3f/iIiI/4iIiP+IiIj/iIiI/5mZmf+ZmZn/mZmZ/5mZmf+qqqr/qqqq/6qqqv+qqqr/u7u7/7u7u/+7u7v/u7u7/wAAAP8AAAD/AAAA/wAAAP/d3d3/3d3d/93d3f/d3d3/AAAA/wAAAP8AAAD/AAAA/w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 4,
+        "colorType": 0,
+        "interlaceMethod": 0
+      },
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        },
+        {
+          "type": "iTXt",
+          "keyword": "Title",
+          "languageTag": "hi",
+          "translatedKeyword": "शीर्षक",
+          "text": "PngSuite"
+        },
+        {
+          "type": "iTXt",
+          "keyword": "Author",
+          "languageTag": "hi",
+          "translatedKeyword": "लेखक",
+          "text": "Willem van Schaik (willem@schaik.com)"
+        },
+        {
+          "type": "iTXt",
+          "keyword": "Copyright",
+          "languageTag": "hi",
+          "translatedKeyword": "कॉपीराइट",
+          "text": "कॉपीराइट Willem van Schaik, 2011 कनाडा"
+        },
+        {
+          "type": "iTXt",
+          "keyword": "Description",
+          "languageTag": "hi",
+          "translatedKeyword": "विवरण",
+          "text": "करने के लिए PNG प्रारूप के विभिन्न रंग प्रकार परीक्षण बनाया छवियों का एक सेट का एक संकलन. शामिल काले और सफेद, रंग, पैलेटेड हैं, अल्फा चैनल के साथ पारदर्शिता स्वरूपों के साथ. सभी बिट गहराई कल्पना के अनुसार की अनुमति दी मौजूद हैं."
+        },
+        {
+          "type": "iTXt",
+          "keyword": "Software",
+          "languageTag": "hi",
+          "translatedKeyword": "सॉफ्टवेयर",
+          "text": "एक NeXTstation \"pnmtopng 'का उपयोग कर रंग पर बनाया गया."
+        },
+        {
+          "type": "iTXt",
+          "keyword": "Disclaimer",
+          "languageTag": "hi",
+          "translatedKeyword": "अस्वीकरण",
+          "text": "फ्रीवेयर."
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "iTXt",
+          "dataLength": 38,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": true
+        },
+        {
+          "offset": 99,
+          "type": "iTXt",
+          "dataLength": 62,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": true
+        },
+        {
+          "offset": 173,
+          "type": "iTXt",
+          "dataLength": 104,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": true
+        },
+        {
+          "offset": 289,
+          "type": "iTXt",
+          "dataLength": 613,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": true
+        },
+        {
+          "offset": 914,
+          "type": "iTXt",
+          "dataLength": 145,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": true
+        },
+        {
+          "offset": 1071,
+          "type": "iTXt",
+          "dataLength": 66,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": true
+        },
+        {
+          "offset": 1149,
+          "type": "IDAT",
+          "dataLength": 96,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1257,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

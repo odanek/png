@@ -1,0 +1,19 @@
+{
+  "description": "No ancillary chunks, suppressing the default Software chunk",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint8": "hAQEDDRn+VOgRfzuK3SOelotmKmLITIOiQg1hgFGofR6IgLIEa0+XcN1Gh1qZyq2YdDYnEoQl3oWQL0q4zKjaGM7Rn6DSgP+0pKBA5Rww8K37vak"
+    }
+  },
+  "options": {
+    "ancillaryChunks": []
+  },
+  "expected": {
+    "warnings": [],
+    "info": [
+      "Using color type 3"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 6,
+        "height": 6,
+        "data": {
+          "$uint8": "/wD///8A////AP///wD///8A////AP///wD//wB3//8Ad///AHf//wB3////AP///wD//wB3//8A/wD/AP8A/wB3////AP///wD//wB3//8A/wD/AP8A/wB3////AP///wD//wB3//8Ad///AHf//wB3////AP///wD///8A////AP///wD///8A////AP//"
+        }
+      },
+      "details": {
+        "width": 6,
+        "height": 6,
+        "bitDepth": 2,
+        "colorType": 3,
+        "interlaceMethod": 0
+      },
+      "palette": [
+        [
+          0,
+          255,
+          0
+        ],
+        [
+          0,
+          119,
+          255
+        ],
+        [
+          255,
+          0,
+          255
+        ]
+      ],
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        },
+        {
+          "type": "sBIT",
+          "value": [
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "sBIT",
+          "dataLength": 3,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 64,
+          "type": "PLTE",
+          "dataLength": 9,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 85,
+          "type": "IDAT",
+          "dataLength": 22,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 119,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

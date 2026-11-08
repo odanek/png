@@ -1,0 +1,51 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6//u7u7/8fHx//T09P/29vb/+Pj4//r6+v/7+/v//Pz8//39/f/+/v7//v7+//////92dnb/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6//u7u7/8fHx//T09P/29vb/+Pj4//r6+v/7+/v//Pz8//39/f/+/v7//v7+/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6//u7u7/8fHx//T09P/29vb/+Pj4//r6+v/7+/v//Pz8//39/f/+/v7/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6//u7u7/8fHx//T09P/29vb/+Pj4//r6+v/7+/v//Pz8//39/f9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6//u7u7/8fHx//T09P/29vb/+Pj4//r6+v/7+/v//Pz8/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6//u7u7/8fHx//T09P/29vb/+Pj4//r6+v/7+/v/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6//u7u7/8fHx//T09P/29vb/+Pj4//r6+v9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6//u7u7/8fHx//T09P/29vb/+Pj4/0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6//u7u7/8fHx//T09P/29vb/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6//u7u7/8fHx//T09P86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//wAAAP8AAAD/AAAA/52dnf+kpKT/q6ur/7Kysv8AAAD/AAAA/wAAAP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6//u7u7/8fHx/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/AAAA/wAAAP+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv8AAAD/AAAA/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6//u7u7/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/8AAAD/AAAA/4eHh/+Ojo7/lpaW/52dnf+kpKT/AAAA/wAAAP8AAAD/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/+vr6/8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/wAAAP8AAAD/f39//4eHh/+Ojo7/lpaW/wAAAP8AAAD/AAAA/wAAAP+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/6Ojo/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/AAAA/wAAAP92dnb/f39//4eHh/8AAAD/AAAA/wAAAP8AAAD/AAAA/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f/k5OT/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf8AAAD/AAAA/29vb/92dnb/AAAA/wAAAP8AAAD/lpaW/wAAAP8AAAD/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/+Hh4f8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/wAAAP8AAAD/Z2dn/wAAAP8AAAD/AAAA/4eHh/+Ojo7/AAAA/wAAAP+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/3Nzc/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/AAAA/wAAAP8AAAD/AAAA/wAAAP92dnb/f39//4eHh/8AAAD/AAAA/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0//Y2Nj/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf8AAAD/AAAA/wAAAP8AAAD/Z2dn/29vb/92dnb/f39//wAAAP8AAAD/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/9PT0/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//wAAAP8AAAD/AAAA/1lZWf9gYGD/Z2dn/29vb/92dnb/AAAA/wAAAP+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/zs7O/w8PD/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/AAAA/wAAAP9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/8AAAD/AAAA/4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP/Jycn/DQ0N/w8PD/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP8AAAD/AAAA/wAAAP9MTEz/UlJS/1lZWf9gYGD/AAAA/wAAAP8AAAD/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/8TExP8KCgr/DQ0N/w8PD/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/vr6+/wgICP8KCgr/DQ0N/w8PD/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv+4uLj/BgYG/wgICP8KCgr/DQ0N/w8PD/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/7Kysv8EBAT/BgYG/wgICP8KCgr/DQ0N/w8PD/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/q6ur/wMDA/8EBAT/BgYG/wgICP8KCgr/DQ0N/w8PD/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf+kpKT/AgIC/wMDA/8EBAT/BgYG/wgICP8KCgr/DQ0N/w8PD/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/52dnf8BAQH/AgIC/wMDA/8EBAT/BgYG/wgICP8KCgr/DQ0N/w8PD/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/lpaW/wAAAP8BAQH/AgIC/wMDA/8EBAT/BgYG/wgICP8KCgr/DQ0N/w8PD/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//4eHh/+Ojo7/AAAA/wAAAP8BAQH/AgIC/wMDA/8EBAT/BgYG/wgICP8KCgr/DQ0N/w8PD/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//4eHh/8AAAD/AAAA/wAAAP8BAQH/AgIC/wMDA/8EBAT/BgYG/wgICP8KCgr/DQ0N/w8PD/8TExP/FhYW/xkZGf8dHR3/ISEh/yYmJv8qKir/Ly8v/zQ0NP86Ojr/Pz8//0VFRf9MTEz/UlJS/1lZWf9gYGD/Z2dn/29vb/92dnb/f39//w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 8,
+        "colorType": 0,
+        "interlaceMethod": 0
+      },
+      "metadata": [],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "IDAT",
+          "dataLength": 262,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 307,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

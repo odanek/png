@@ -1,0 +1,21 @@
+{
+  "description": "Same as truecolor-with-transparency in strict mode, which throws the warning",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint8": "hAQEDDRn+VOgRfzuK3SOelotmKmLITIOiQg1hgFGofR6IgLIEa0+XcN1Gh1qZyq2YdDYnEoQl3oWQL0q4zKjaGM7Rn6DSgP+0pKBA5Rww8K37vak"
+    }
+  },
+  "options": {
+    "colorType": 2,
+    "strictMode": true
+  },
+  "expected": {
+    "error": {
+      "type": "EncodeWarning",
+      "message": "Cannot encode image as color type Truecolor as it contains 21 transparent colors",
+      "offset": 0
+    }
+  }
+}

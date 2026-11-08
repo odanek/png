@@ -1,0 +1,11 @@
+{
+  "expected": {
+    "error": {
+      "type": "DecodeError",
+      "message": "Png signature is not correct (0x09504e470d0a1a0a != 0x89504e470d0a1a0a)",
+      "offset": 0
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

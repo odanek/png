@@ -1,0 +1,17 @@
+{
+  "description": "Grayscale",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint8": "AQEB/wgICP8TExP/JCQk/x0dHf8jIyP/NDQ0/zMzM/89PT3/Q0ND/1FRUf9UVFT/Xl5e/2lpaf9nZ2f/ampq/3h4eP9/f3//f39//46Ojv+Pj4//"
+    }
+  },
+  "options": {
+    "colorType": 0
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

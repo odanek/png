@@ -1,0 +1,18 @@
+{
+  "description": "Truecolor with a single fully transparent color, uses tRNS",
+  "image": {
+    "width": 1,
+    "height": 1,
+    "data": {
+      "$uint16": "AQACAAMAAAA="
+    }
+  },
+  "options": {
+    "colorType": 2
+  },
+  "knownBug": "16-bit tRNS color is written with `>> 48`/`>> 32` shifts, which JS truncates to 32 bits (see TODO.md)",
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

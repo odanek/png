@@ -1,0 +1,1251 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 16,
+        "height": 16,
+        "data": {
+          "$uint8": "KKwDwMS22K6TN9ozZOCp2dCU41JpA+RqaL/kz30t8tr47lFoFaqZ+OSGOBW8iw9XyyfkFTB4S3+JPWwulCViPSFAJWSvebPpNlKSnHl07G41DMpjf1O3oqAVXrsJZtcFy1LsEBPrehVcqXfSKLU+WhNAzwrK0Qbm27NbzikOgGXiocA+TRQIsMMzCpALOO0uRdVG0z2uyXfYIReuDLZlX8m//WAD14nmZ5JLB6AxqWNh451gTNcRTyJ2F/ETLQ1EnWe6y1lILNHd1JgjkqtbZEguk+m71TS7411tzaixxIZgIioy9D4RZcMGEb3FOZ6Jk91zafC63Oknmax0cMB0eO3ADAf3o5i/RC6d9DWlaXFFynl7eZo8yWOGUD2EcFCnaAte2kd8fvUNRXj6X5FtCLxdLpFi0RtGuqb7WzHbehZnJTfngaJgn4yvlHn1aCfRuwK2ROzeTgPFw0oUbilj0JzKQLMaVS3qPnSNdg+9+j/zlgrVpADkcJY0LrmdZKTi7f6I8sOw/OicbQ8Mo3Vcw5Iyo/HBxvLkYKOFPexZaNSE71jc+IAErErsm1TwKPdDbPuZkxcidyS0KUNd8J86Sxy/JHCtKiXOTe260BiXFyovPc/w/mlPetI37YUs4tF/fCn5Bwbed/HD12XVz4OJD/b4lKZDy5Emh/adJLCUWRcYb3jL3zzRpm4pCneEYRuV4M0fDfWYSfl30hU8S8Fv9dyAnB4rqNgxeeFuRC0ItiFg0XybeuH3C59Kucp7NCe23xXsh2Ir4pKUM1QdrGKfj3vKXf5gag9raQ6FfzYchIZ9gUSInrE9RXu34WmDYAi6GgFoLzDSkUHIkYR9goJaSOGxUC8Dwgdeyk/ivgAzHlQH1DqPV+cdPlpsCBzmtwZcMkbrR5Wn/1QKBktgUJ6iFfTt1jtEw+aUUsJoD7FH6H37NFaNjJBeXWR6ePs/8e2ztg7WUT1A9kS6cGuT42B7l3UY72W6+dl9PuGpybBIZw8N0xDsPqUDfgS0/eRrA2ljkarMFc+1KlwynH6eLtXO6bkr0mt0VGMTNqCVBpLrw6CyIsk4b4nbkO2rJlwjcxGtLHPn8n/tGwcdj+kGOHOLk4qJW7dMLr18uNQ/767kXgant+uMigkSf5BHRZ0xm4BC6J1+70Nm5hoJJDZQuB+nIxl1pclyXxV/lA4ca7g3Xeea38VwqcbCA0fsIur9KjLbvXPBjED4RUgkRYlQfnR4vdson0J4N6zvnTHtAV9ko13C6giRuOhmY9FheNuIGjjZmxrvSjVxjlyB36aiZk8XV9/cX5qCXnUh07A8Ox4G6TVPBN0rcNcmnbHTf/vxzyT4k8zLQEBxgo7s6iOS3EkWLA=="
+        }
+      },
+      "details": {
+        "width": 16,
+        "height": 16,
+        "bitDepth": 8,
+        "colorType": 6,
+        "interlaceMethod": 0
+      },
+      "metadata": [],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 52,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 71,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 90,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 109,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 128,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 147,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 166,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 185,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 204,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 223,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 242,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 261,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 280,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 299,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 318,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 337,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 356,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 375,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 394,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 413,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 432,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 451,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 470,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 489,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 508,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 527,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 546,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 565,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 584,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 603,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 622,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 641,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 660,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 679,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 698,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 717,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 736,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 755,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 774,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 793,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 812,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 831,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 850,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 869,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 888,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 907,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 926,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 945,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 964,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 983,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1002,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1021,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1040,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1059,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1078,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1097,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1116,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1135,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1154,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1173,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1192,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1211,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1230,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1249,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1268,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1287,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1306,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1325,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1344,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1363,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1382,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1401,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1420,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1439,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1458,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1477,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1496,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1515,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1534,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1553,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1572,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1591,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1610,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1629,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1648,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1667,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1686,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1705,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1724,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1743,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1762,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1781,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1800,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1819,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1838,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1857,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1876,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1895,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1914,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1933,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1952,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1971,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1990,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2009,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2028,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2047,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2066,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2085,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2104,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2123,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2142,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2161,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2180,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2199,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2218,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2237,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2256,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2275,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2294,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2313,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2332,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2351,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2370,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2389,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2408,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2427,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2446,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2465,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2484,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2503,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2522,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2541,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2560,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2579,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2598,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2617,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2636,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2655,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2674,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2693,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2712,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2731,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2750,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2769,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2788,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2807,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2826,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2845,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2864,
+          "type": "IDAT",
+          "dataLength": 7,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2883,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 2896,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

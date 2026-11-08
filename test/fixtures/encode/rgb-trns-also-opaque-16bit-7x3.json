@@ -1,0 +1,18 @@
+{
+  "description": "Truecolor with a single fully transparent color that is also used by opaque pixels",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint16": "AQACAAMAAAABAAIAAwD//wyMdi1ruP//hAWgUmFc//8m78VLCK7//wEAAgADAAAAAQACAAMA//9ikSIcLa///x2vq9vz/P//EYrdYrNm//8BAAIAAwAAAAEAAgADAP//1CO//oPx//9FHf77eA7//1F4fy+9Bv//AQACAAMAAAABAAIAAwD//0cgd2fATv//cLe7ErTT//8OWN9ajR///wEAAgADAAAA"
+    }
+  },
+  "options": {
+    "colorType": 2
+  },
+  "knownBug": "16-bit tRNS color is written with `>> 48`/`>> 32` shifts, which JS truncates to 32 bits (see TODO.md); encoder uses tRNS for the single transparent color even if opaque pixels have the same color, making them transparent",
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

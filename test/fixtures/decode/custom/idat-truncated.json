@@ -1,0 +1,11 @@
+{
+  "expected": {
+    "error": {
+      "type": "DecodeError",
+      "message": "IDAT: Inflate error while decompressing chunk data: <zlib error>",
+      "offset": 33
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

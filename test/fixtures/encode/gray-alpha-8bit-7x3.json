@@ -1,0 +1,17 @@
+{
+  "description": "Grayscale and alpha",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint8": "AAAAQgMDAwIGBgaCCQkJBgwMDBoPDw8jEhISWRUVFbYYGBgqGxsbOx4eHsohISE9JCQkCScnJyQqKio+LS0t/jAwML8zMzP/NjY2NTk5OZs8PDyI"
+    }
+  },
+  "options": {
+    "colorType": 4
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

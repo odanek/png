@@ -1,0 +1,80 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "/wAIAP8ACAj/AAgQ/wAIGP8ACCD/AAgp/wAIMf8ACDn/AAhB/wAISv8ACFL/AAha/wAIYv8ACGr/AAhz/wAIe/8ACIP/AAiL/wAIlP8ACJz/AAik/wAIrP8ACLT/AAi9/wAIxf8ACM3/AAjV/wAI3v8ACOb/AAju/wAI9v8ACP//HwgA/x8ICP8fCBD/HwgY/x8IIP8fCCn/Hwgx/x8IOf8fCEH/HwhK/x8IUv8fCFr/Hwhi/x8Iav8fCHP/Hwh7/x8Ig/8fCIv/HwiU/x8InP8fCKT/Hwis/x8ItP8fCL3/HwjF/x8Izf8fCNX/Hwje/x8I5v8fCO7/Hwj2/x8I//8/CAD/PwgI/z8IEP8/CBj/Pwgg/z8IKf8/CDH/Pwg5/z8IQf8/CEr/PwhS/z8IWv8/CGL/Pwhq/z8Ic/8/CHv/PwiD/z8Ii/8/CJT/Pwic/z8IpP8/CKz/Pwi0/z8Ivf8/CMX/PwjN/z8I1f8/CN7/Pwjm/z8I7v8/CPb/Pwj//18IAP9fCAj/XwgQ/18IGP9fCCD/Xwgp/18IMf9fCDn/XwhB/18ISv9fCFL/Xwha/18IYv9fCGr/Xwhz/18Ie/9fCIP/XwiL/18IlP9fCJz/Xwik/18IrP9fCLT/Xwi9/18Ixf9fCM3/XwjV/18I3v9fCOb/Xwju/18I9v9fCP//fwcA/38HCP9/BxD/fwcY/38HIP9/Byn/fwcx/38HOf9/B0H/fwdK/38HUv9/B1r/fwdi/38Hav9/B3P/fwd7/38Hg/9/B4v/fweU/38HnP9/B6T/fwes/38HtP9/B73/fwfF/38Hzf9/B9X/fwfe/38H5v9/B+7/fwf2/38H//+fBwD/nwcI/58HEP+fBxj/nwcg/58HKf+fBzH/nwc5/58HQf+fB0r/nwdS/58HWv+fB2L/nwdq/58Hc/+fB3v/nweD/58Hi/+fB5T/nwec/58HpP+fB6z/nwe0/58Hvf+fB8X/nwfN/58H1f+fB97/nwfm/58H7v+fB/b/nwf//78HAP+/Bwj/vwcQ/78HGP+/ByD/vwcp/78HMf+/Bzn/vwdB/78HSv+/B1L/vwda/78HYv+/B2r/vwdz/78He/+/B4P/vweL/78HlP+/B5z/vwek/78HrP+/B7T/vwe9/78Hxf+/B83/vwfV/78H3v+/B+b/vwfu/78H9v+/B///3wcA/98HCP/fBxD/3wcY/98HIP/fByn/3wcx/98HOf/fB0H/3wdK/98HUv/fB1r/3wdi/98Hav/fB3P/3wd7/98Hg//fB4v/3weU/98HnP/fB6T/3wes/98HtP/fB73/3wfF/98Hzf/fB9X/3wfe/98H5v/fB+7/3wf2/98H////BgD//wYI//8GEP//Bhj//wYg//8GKf//BjH//wY5//8GQf//Bkr//wZS//8GWv//BmL//wZq//8Gc///Bnv//waD//8Gi///BpT//wac//8GpP//Bqz//wa0//8Gvf//BsX//wbN//8G1f//Bt7//wbm//8G7v//Bvb//wb/4P8GAOD/Bgjg/wYQ4P8GGOD/BiDg/wYp4P8GMeD/Bjng/wZB4P8GSuD/BlLg/wZa4P8GYuD/Bmrg/wZz4P8Ge+D/BoPg/waL4P8GlOD/Bpzg/wak4P8GrOD/BrTg/wa94P8GxeD/Bs3g/wbV4P8G3uD/Bubg/wbu4P8G9uD/Bv/A/wYAwP8GCMD/BhDA/wYYwP8GIMD/BinA/wYxwP8GOcD/BkHA/wZKwP8GUsD/BlrA/wZiwP8GasD/BnPA/wZ7wP8Gg8D/BovA/waUwP8GnMD/BqTA/waswP8GtMD/Br3A/wbFwP8GzcD/BtXA/wbewP8G5sD/Bu7A/wb2wP8G/6D/BQCg/wUIoP8FEKD/BRig/wUgoP8FKaD/BTGg/wU5oP8FQaD/BUqg/wVSoP8FWqD/BWKg/wVqoP8Fc6D/BXug/wWDoP8Fi6D/BZSg/wWcoP8FpKD/Bayg/wW0oP8FvaD/BcWg/wXNoP8F1aD/Bd6g/wXmoP8F7qD/Bfag/wX/gP8FAID/BQiA/wUQgP8FGID/BSCA/wUpgP8FMYD/BTmA/wVBgP8FSoD/BVKA/wVagP8FYoD/BWqA/wVzgP8Fe4D/BYOA/wWLgP8FlID/BZyA/wWkgP8FrID/BbSA/wW9gP8FxYD/Bc2A/wXVgP8F3oD/BeaA/wXugP8F9oD/Bf9g/wUAYP8FCGD/BRBg/wUYYP8FIGD/BSlg/wUxYP8FOWD/BUFg/wVKYP8FUmD/BVpg/wViYP8FamD/BXNg/wV7YP8Fg2D/BYtg/wWUYP8FnGD/BaRg/wWsYP8FtGD/Bb1g/wXFYP8FzWD/BdVg/wXeYP8F5mD/Be5g/wX2YP8F/0D/BQBA/wUIQP8FEED/BRhA/wUgQP8FKUD/BTFA/wU5QP8FQUD/BUpA/wVSQP8FWkD/BWJA/wVqQP8Fc0D/BXtA/wWDQP8Fi0D/BZRA/wWcQP8FpED/BaxA/wW0QP8FvUD/BcVA/wXNQP8F1UD/Bd5A/wXmQP8F7kD/BfZA/wX/IP8EACD/BAgg/wQQIP8EGCD/BCAg/wQpIP8EMSD/BDkg/wRBIP8ESiD/BFIg/wRaIP8EYiD/BGog/wRzIP8EeyD/BIMg/wSLIP8ElCD/BJwg/wSkIP8ErCD/BLQg/wS9IP8ExSD/BM0g/wTVIP8E3iD/BOYg/wTuIP8E9iD/BP8E/wAABP8ACAT/ABAE/wAYBP8AIAT/ACkE/wAxBP8AOQT/AEEE/wBKBP8AUgT/AFoE/wBiBP8AagT/AHME/wB7BP8AgwT/AIsE/wCUBP8AnAT/AKQE/wCsBP8AtAT/AL0E/wDFBP8AzQT/ANUE/wDeBP8A5gT/AO4E/wD2BP8A/wT/HwAE/x8IBP8fEAT/HxgE/x8gBP8fKQT/HzEE/x85BP8fQQT/H0oE/x9SBP8fWgT/H2IE/x9qBP8fcwT/H3sE/x+DBP8fiwT/H5QE/x+cBP8fpAT/H6wE/x+0BP8fvQT/H8UE/x/NBP8f1QT/H94E/x/mBP8f7gT/H/YE/x//A/8/AAP/PwgD/z8QA/8/GAP/PyAD/z8pA/8/MQP/PzkD/z9BA/8/SgP/P1ID/z9aA/8/YgP/P2oD/z9zA/8/ewP/P4MD/z+LA/8/lAP/P5wD/z+kA/8/rAP/P7QD/z+9A/8/xQP/P80D/z/VA/8/3gP/P+YD/z/uA/8/9gP/P/8D/18AA/9fCAP/XxAD/18YA/9fIAP/XykD/18xA/9fOQP/X0ED/19KA/9fUgP/X1oD/19iA/9fagP/X3MD/197A/9fgwP/X4sD/1+UA/9fnAP/X6QD/1+sA/9ftAP/X70D/1/FA/9fzQP/X9UD/1/eA/9f5gP/X+4D/1/2A/9f/wP/fwAD/38IA/9/EAP/fxgD/38gA/9/KQP/fzED/385A/9/QQP/f0oD/39SA/9/WgP/f2ID/39qA/9/cwP/f3sD/3+DA/9/iwP/f5QD/3+cA/9/pAP/f6wD/3+0A/9/vQP/f8UD/3/NA/9/1QP/f94D/3/mA/9/7gP/f/YD/3//A/+fAAP/nwgD/58QA/+fGAP/nyAD/58pA/+fMQP/nzkD/59BA/+fSgP/n1ID/59aA/+fYgP/n2oD/59zA/+fewP/n4MD/5+LA/+flAP/n5wD/5+kA/+frAP/n7QD/5+9A/+fxQP/n80D/5/VA/+f3gP/n+YD/5/uA/+f9gP/n/8C/78AAv+/CAL/vxAC/78YAv+/IAL/vykC/78xAv+/OQL/v0EC/79KAv+/UgL/v1oC/79iAv+/agL/v3MC/797Av+/gwL/v4sC/7+UAv+/nAL/v6QC/7+sAv+/tAL/v70C/7/FAv+/zQL/v9UC/7/eAv+/5gL/v+4C/7/2Av+//wL/3wAC/98IAv/fEAL/3xgC/98gAv/fKQL/3zEC/985Av/fQQL/30oC/99SAv/fWgL/32IC/99qAv/fcwL/33sC/9+DAv/fiwL/35QC/9+cAv/fpAL/36wC/9+0Av/fvQL/38UC/9/NAv/f1QL/394C/9/mAv/f7gL/3/YC/9//Av//AAL//wgC//8QAv//GAL//yAC//8pAv//MQL//zkC//9BAv//SgL//1IC//9aAv//YgL//2oC//9zAv//ewL//4MC//+LAv//lAL//5wC//+kAv//rAL//7QC//+9Av//xQL//80C///VAv//3gL//+YC///uAv//9gL///8B4P8AAeD/CAHg/xAB4P8YAeD/IAHg/ykB4P8xAeD/OQHg/0EB4P9KAeD/UgHg/1oB4P9iAeD/agHg/3MB4P97AeD/gwHg/4sB4P+UAeD/nAHg/6QB4P+sAeD/tAHg/70B4P/FAeD/zQHg/9UB4P/eAeD/5gHg/+4B4P/2AeD//wHA/wABwP8IAcD/EAHA/xgBwP8gAcD/KQHA/zEBwP85AcD/QQHA/0oBwP9SAcD/WgHA/2IBwP9qAcD/cwHA/3sBwP+DAcD/iwHA/5QBwP+cAcD/pAHA/6wBwP+0AcD/vQHA/8UBwP/NAcD/1QHA/94BwP/mAcD/7gHA//YBwP//AaD/AAGg/wgBoP8QAaD/GAGg/yABoP8pAaD/MQGg/zkBoP9BAaD/SgGg/1IBoP9aAaD/YgGg/2oBoP9zAaD/ewGg/4MBoP+LAaD/lAGg/5wBoP+kAaD/rAGg/7QBoP+9AaD/xQGg/80BoP/VAaD/3gGg/+YBoP/uAaD/9gGg//8BgP8AAYD/CAGA/xABgP8YAYD/IAGA/ykBgP8xAYD/OQGA/0EBgP9KAYD/UgGA/1oBgP9iAYD/agGA/3MBgP97AYD/gwGA/4sBgP+UAYD/nAGA/6QBgP+sAYD/tAGA/70BgP/FAYD/zQGA/9UBgP/eAYD/5gGA/+4BgP/2AYD//wBg/wAAYP8IAGD/EABg/xgAYP8gAGD/KQBg/zEAYP85AGD/QQBg/0oAYP9SAGD/WgBg/2IAYP9qAGD/cwBg/3sAYP+DAGD/iwBg/5QAYP+cAGD/pABg/6wAYP+0AGD/vQBg/8UAYP/NAGD/1QBg/94AYP/mAGD/7gBg//YAYP//AED/AABA/wgAQP8QAED/GABA/yAAQP8pAED/MQBA/zkAQP9BAED/SgBA/1IAQP9aAED/YgBA/2oAQP9zAED/ewBA/4MAQP+LAED/lABA/5wAQP+kAED/rABA/7QAQP+9AED/xQBA/80AQP/VAED/3gBA/+YAQP/uAED/9gBA//8AIP8AACD/CAAg/xAAIP8YACD/IAAg/ykAIP8xACD/OQAg/0EAIP9KACD/UgAg/1oAIP9iACD/agAg/3MAIP97ACD/gwAg/4sAIP+UACD/nAAg/6QAIP+sACD/tAAg/70AIP/FACD/zQAg/9UAIP/eACD/5gAg/+4AIP/2ACD//w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 8,
+        "colorType": 6,
+        "interlaceMethod": 0
+      },
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        },
+        {
+          "type": "bKGD",
+          "color": [
+            255,
+            255,
+            255
+          ]
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "bKGD",
+          "dataLength": 6,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 67,
+          "type": "IDAT",
+          "dataLength": 111,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 190,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

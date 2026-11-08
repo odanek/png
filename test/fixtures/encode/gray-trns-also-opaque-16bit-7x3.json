@@ -1,0 +1,18 @@
+{
+  "description": "Grayscale with a single fully transparent gray that is also used by opaque pixels",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint16": "BwAHAAcAAAAHAAcABwD//wtrC2sLa///M24zbjNu////R/9H/0f//wcABwAHAAAABwAHAAcA///Tv9O/07///6r9qv2q/f//haGFoYWh//8HAAcABwAAAAcABwAHAP//2EfYR9hH///wDvAO8A7//9JD0kPSQ///BwAHAAcAAAAHAAcABwD//0mtSa1Jrf//UixSLFIs///1/PX89fz//wcABwAHAAAA"
+    }
+  },
+  "options": {
+    "colorType": 0
+  },
+  "knownBug": "encoder uses tRNS for the single transparent color even if opaque pixels have the same color, making them transparent",
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

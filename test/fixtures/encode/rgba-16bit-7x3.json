@@ -1,0 +1,17 @@
+{
+  "description": "Truecolor and alpha",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint16": "BIQMBGc0U/lFoO78dCt6ji1aqZghiw4yCImGNUYB9KEiesgCrRFdPnXDHRpnarYq0GGc2BBKepdAFiq9MuNooztjfkZKg/4DktIDgXCUwsPut6T2WAo06eeH0wZ2RULz2B1o5Z/FeIYAI5mjOu0VxNIHvKurtbLVMr9sz0M7d07NkTpP7gou/Ca707guaC/lJIW6KE7t7KVX5TymfbQ3MGWUd9bSu/Lc"
+    }
+  },
+  "options": {
+    "colorType": 6
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

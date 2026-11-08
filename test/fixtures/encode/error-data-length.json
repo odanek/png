@@ -1,0 +1,18 @@
+{
+  "description": "Data length does not match the dimensions",
+  "image": {
+    "width": 2,
+    "height": 2,
+    "data": {
+      "$uint8": "AAAAAAAAAAAAAAAA"
+    }
+  },
+  "options": {},
+  "expected": {
+    "error": {
+      "type": "EncodeError",
+      "message": "Provided image data length (12) is not expected length (16)",
+      "offset": 11
+    }
+  }
+}

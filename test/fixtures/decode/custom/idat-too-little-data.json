@@ -1,0 +1,10 @@
+{
+  "expected": {
+    "error": {
+      "type": "TypeError",
+      "message": "filterFn is not a function"
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

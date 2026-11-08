@@ -1,0 +1,165 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "/wAA//8AAP//AAD//wAA//9mAP//ZgD//2YA//9mAP//uwD//7sA//+7AP//uwD/3f8A/93/AP/d/wD/3f8A/3f/AP93/wD/d/8A/3f/AP8i/wD/Iv8A/yL/AP8i/wD/AP9E/wD/RP8A/0T/AP9E/wD/mf8A/5n/AP+Z/wD/mf//AAD//wAA//8AAP//AAD//2YA//9mAP//ZgD//2YA//+7AP//uwD//7sA//+7AP/d/wD/3f8A/93/AP/d/wD/d/8A/3f/AP93/wD/d/8A/yL/AP8i/wD/Iv8A/yL/AP8A/0T/AP9E/wD/RP8A/0T/AP+Z/wD/mf8A/5n/AP+Z//8AAP//AAD//wAA//8AAP//ZgD//2YA//9mAP//ZgD//7sA//+7AP//uwD//7sA/93/AP/d/wD/3f8A/93/AP93/wD/d/8A/3f/AP93/wD/Iv8A/yL/AP8i/wD/Iv8A/wD/RP8A/0T/AP9E/wD/RP8A/5n/AP+Z/wD/mf8A/5n//wAA//8AAP//AAD//wAA//9mAP//ZgD//2YA//9mAP//uwD//7sA//+7AP//uwD/3f8A/93/AP/d/wD/3f8A/3f/AP93/wD/d/8A/3f/AP8i/wD/Iv8A/yL/AP8i/wD/AP9E/wD/RP8A/0T/AP9E/wD/mf8A/5n/AP+Z/wD/mf//ZgD//2YA//9mAP//ZgD//7sA//+7AP//uwD//7sA/93/AP/d/wD/3f8A/93/AP93/wD/d/8A/3f/AP93/wD/Iv8A/yL/AP8i/wD/Iv8A/wD/RP8A/0T/AP9E/wD/RP8A/5n/AP+Z/wD/mf8A/5n/AP///wD///8A////AP////9mAP//ZgD//2YA//9mAP//uwD//7sA//+7AP//uwD/3f8A/93/AP/d/wD/3f8A/3f/AP93/wD/d/8A/3f/AP8i/wD/Iv8A/yL/AP8i/wD/AP9E/wD/RP8A/0T/AP9E/wD/mf8A/5n/AP+Z/wD/mf8A////AP///wD///8A/////2YA//9mAP//ZgD//2YA//+7AP//uwD//7sA//+7AP/d/wD/3f8A/93/AP/d/wD/d/8A/3f/AP93/wD/d/8A/yL/AP8i/wD/Iv8A/yL/AP8A/0T/AP9E/wD/RP8A/0T/AP+Z/wD/mf8A/5n/AP+Z/wD///8A////AP///wD/////ZgD//2YA//9mAP//ZgD//7sA//+7AP//uwD//7sA/93/AP/d/wD/3f8A/93/AP93/wD/d/8A/3f/AP93/wD/Iv8A/yL/AP8i/wD/Iv8A/wD/RP8A/0T/AP9E/wD/RP8A/5n/AP+Z/wD/mf8A/5n/AP///wD///8A////AP////+7AP//uwD//7sA//+7AP/d/wD/3f8A/93/AP/d/wD/d/8A/3f/AP93/wD/d/8A/yL/AP8i/wD/Iv8A/yL/AP8A/0T/AP9E/wD/RP8A/0T/AP+Z/wD/mf8A/5n/AP+Z/wD///8A////AP///wD///8Amf//AJn//wCZ//8Amf///7sA//+7AP//uwD//7sA/93/AP/d/wD/3f8A/93/AP93/wD/d/8A/3f/AP93/wD/Iv8A/yL/AP8i/wD/Iv8A/wD/RP8A/0T/AP9E/wD/RP8A/5n/AP+Z/wD/mf8A/5n/AP///wD///8A////AP///wCZ//8Amf//AJn//wCZ////uwD//7sA//+7AP//uwD/3f8A/93/AP/d/wD/3f8A/3f/AP93/wD/d/8A/3f/AP8i/wD/Iv8A/yL/AP8i/wD/AP9E/wD/RP8A/0T/AP9E/wD/mf8A/5n/AP+Z/wD/mf8A////AP///wD///8A////AJn//wCZ//8Amf//AJn///+7AP//uwD//7sA//+7AP/d/wD/3f8A/93/AP/d/wD/d/8A/3f/AP93/wD/d/8A/yL/AP8i/wD/Iv8A/yL/AP8A/0T/AP9E/wD/RP8A/0T/AP+Z/wD/mf8A/5n/AP+Z/wD///8A////AP///wD///8Amf//AJn//wCZ//8Amf//3f8A/93/AP/d/wD/3f8A/3f/AP93/wD/d/8A/3f/AP8i/wD/Iv8A/yL/AP8i/wD/AP9E/wD/RP8A/0T/AP9E/wD/mf8A/5n/AP+Z/wD/mf8A////AP///wD///8A////AJn//wCZ//8Amf//AJn//wBE//8ARP//AET//wBE///d/wD/3f8A/93/AP/d/wD/d/8A/3f/AP93/wD/d/8A/yL/AP8i/wD/Iv8A/yL/AP8A/0T/AP9E/wD/RP8A/0T/AP+Z/wD/mf8A/5n/AP+Z/wD///8A////AP///wD///8Amf//AJn//wCZ//8Amf//AET//wBE//8ARP//AET//93/AP/d/wD/3f8A/93/AP93/wD/d/8A/3f/AP93/wD/Iv8A/yL/AP8i/wD/Iv8A/wD/RP8A/0T/AP9E/wD/RP8A/5n/AP+Z/wD/mf8A/5n/AP///wD///8A////AP///wCZ//8Amf//AJn//wCZ//8ARP//AET//wBE//8ARP//3f8A/93/AP/d/wD/3f8A/3f/AP93/wD/d/8A/3f/AP8i/wD/Iv8A/yL/AP8i/wD/AP9E/wD/RP8A/0T/AP9E/wD/mf8A/5n/AP+Z/wD/mf8A////AP///wD///8A////AJn//wCZ//8Amf//AJn//wBE//8ARP//AET//wBE//93/wD/d/8A/3f/AP93/wD/Iv8A/yL/AP8i/wD/Iv8A/wD/RP8A/0T/AP9E/wD/RP8A/5n/AP+Z/wD/mf8A/5n/AP///wD///8A////AP///wCZ//8Amf//AJn//wCZ//8ARP//AET//wBE//8ARP//IgD//yIA//8iAP//IgD//3f/AP93/wD/d/8A/3f/AP8i/wD/Iv8A/yL/AP8i/wD/AP9E/wD/RP8A/0T/AP9E/wD/mf8A/5n/AP+Z/wD/mf8A////AP///wD///8A////AJn//wCZ//8Amf//AJn//wBE//8ARP//AET//wBE//8iAP//IgD//yIA//8iAP//d/8A/3f/AP93/wD/d/8A/yL/AP8i/wD/Iv8A/yL/AP8A/0T/AP9E/wD/RP8A/0T/AP+Z/wD/mf8A/5n/AP+Z/wD///8A////AP///wD///8Amf//AJn//wCZ//8Amf//AET//wBE//8ARP//AET//yIA//8iAP//IgD//yIA//93/wD/d/8A/3f/AP93/wD/Iv8A/yL/AP8i/wD/Iv8A/wD/RP8A/0T/AP9E/wD/RP8A/5n/AP+Z/wD/mf8A/5n/AP///wD///8A////AP///wCZ//8Amf//AJn//wCZ//8ARP//AET//wBE//8ARP//IgD//yIA//8iAP//IgD//yL/AP8i/wD/Iv8A/yL/AP8A/0T/AP9E/wD/RP8A/0T/AP+Z/wD/mf8A/5n/AP+Z/wD///8A////AP///wD///8Amf//AJn//wCZ//8Amf//AET//wBE//8ARP//AET//yIA//8iAP//IgD//yIA//+IAP//iAD//4gA//+IAP//Iv8A/yL/AP8i/wD/Iv8A/wD/RP8A/0T/AP9E/wD/RP8A/5n/AP+Z/wD/mf8A/5n/AP///wD///8A////AP///wCZ//8Amf//AJn//wCZ//8ARP//AET//wBE//8ARP//IgD//yIA//8iAP//IgD//4gA//+IAP//iAD//4gA//8i/wD/Iv8A/yL/AP8i/wD/AP9E/wD/RP8A/0T/AP9E/wD/mf8A/5n/AP+Z/wD/mf8A////AP///wD///8A////AJn//wCZ//8Amf//AJn//wBE//8ARP//AET//wBE//8iAP//IgD//yIA//8iAP//iAD//4gA//+IAP//iAD//yL/AP8i/wD/Iv8A/yL/AP8A/0T/AP9E/wD/RP8A/0T/AP+Z/wD/mf8A/5n/AP+Z/wD///8A////AP///wD///8Amf//AJn//wCZ//8Amf//AET//wBE//8ARP//AET//yIA//8iAP//IgD//yIA//+IAP//iAD//4gA//+IAP//AP9E/wD/RP8A/0T/AP9E/wD/mf8A/5n/AP+Z/wD/mf8A////AP///wD///8A////AJn//wCZ//8Amf//AJn//wBE//8ARP//AET//wBE//8iAP//IgD//yIA//8iAP//iAD//4gA//+IAP//iAD//90A///dAP//3QD//90A//8A/0T/AP9E/wD/RP8A/0T/AP+Z/wD/mf8A/5n/AP+Z/wD///8A////AP///wD///8Amf//AJn//wCZ//8Amf//AET//wBE//8ARP//AET//yIA//8iAP//IgD//yIA//+IAP//iAD//4gA//+IAP//3QD//90A///dAP//3QD//wD/RP8A/0T/AP9E/wD/RP8A/5n/AP+Z/wD/mf8A/5n/AP///wD///8A////AP///wCZ//8Amf//AJn//wCZ//8ARP//AET//wBE//8ARP//IgD//yIA//8iAP//IgD//4gA//+IAP//iAD//4gA///dAP//3QD//90A///dAP//AP9E/wD/RP8A/0T/AP9E/wD/mf8A/5n/AP+Z/wD/mf8A////AP///wD///8A////AJn//wCZ//8Amf//AJn//wBE//8ARP//AET//wBE//8iAP//IgD//yIA//8iAP//iAD//4gA//+IAP//iAD//90A///dAP//3QD//90A//8A/5n/AP+Z/wD/mf8A/5n/AP///wD///8A////AP///wCZ//8Amf//AJn//wCZ//8ARP//AET//wBE//8ARP//IgD//yIA//8iAP//IgD//4gA//+IAP//iAD//4gA///dAP//3QD//90A///dAP///wC7//8Au///ALv//wC7/wD/mf8A/5n/AP+Z/wD/mf8A////AP///wD///8A////AJn//wCZ//8Amf//AJn//wBE//8ARP//AET//wBE//8iAP//IgD//yIA//8iAP//iAD//4gA//+IAP//iAD//90A///dAP//3QD//90A////ALv//wC7//8Au///ALv/AP+Z/wD/mf8A/5n/AP+Z/wD///8A////AP///wD///8Amf//AJn//wCZ//8Amf//AET//wBE//8ARP//AET//yIA//8iAP//IgD//yIA//+IAP//iAD//4gA//+IAP//3QD//90A///dAP//3QD///8Au///ALv//wC7//8Au/8A/5n/AP+Z/wD/mf8A/5n/AP///wD///8A////AP///wCZ//8Amf//AJn//wCZ//8ARP//AET//wBE//8ARP//IgD//yIA//8iAP//IgD//4gA//+IAP//iAD//4gA///dAP//3QD//90A///dAP///wC7//8Au///ALv//wC7/w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 4,
+        "colorType": 3,
+        "interlaceMethod": 1
+      },
+      "palette": [
+        [
+          34,
+          0,
+          255
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          136,
+          0,
+          255
+        ],
+        [
+          34,
+          255,
+          0
+        ],
+        [
+          0,
+          153,
+          255
+        ],
+        [
+          255,
+          102,
+          0
+        ],
+        [
+          221,
+          0,
+          255
+        ],
+        [
+          119,
+          255,
+          0
+        ],
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          0,
+          255,
+          153
+        ],
+        [
+          221,
+          255,
+          0
+        ],
+        [
+          255,
+          0,
+          187
+        ],
+        [
+          255,
+          187,
+          0
+        ],
+        [
+          0,
+          68,
+          255
+        ],
+        [
+          0,
+          255,
+          68
+        ]
+      ],
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        },
+        {
+          "type": "sBIT",
+          "value": [
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "sBIT",
+          "dataLength": 3,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 64,
+          "type": "PLTE",
+          "dataLength": 45,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 121,
+          "type": "IDAT",
+          "dataLength": 182,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 315,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

@@ -1,0 +1,11 @@
+{
+  "expected": {
+    "error": {
+      "type": "DecodeError",
+      "message": "IHDR: Color type \"1\" is not valid with bit depth \"8\"",
+      "offset": 25
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

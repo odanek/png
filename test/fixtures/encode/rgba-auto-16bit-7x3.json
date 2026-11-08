@@ -1,0 +1,17 @@
+{
+  "description": "Random RGBA with the color type picked by the encoder",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint16": "BsYKhkQu5aB+itM2UCKEsNLlMq3JA5e4bG6zMZ8hg2JZq6I/CjOA2/CXqw9kSIJ2Iy3sQroG+WA5dtMsvS6q3wtFKMTHmo3kDA44tOrJFBJMuw6129dlumloZF7EugCzkFCv2LR6PGtXogmpKyodafXyrk/SLFGn5+r3KB8ung9S8orShTBsIV/BTa8YRv1DLJzegOwVIrL5GRljMY16HuW5T1lTRaHb"
+    }
+  },
+  "options": {},
+  "expected": {
+    "warnings": [],
+    "info": [
+      "Using color type 6"
+    ]
+  }
+}

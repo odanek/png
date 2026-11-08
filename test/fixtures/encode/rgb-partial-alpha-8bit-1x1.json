@@ -1,0 +1,18 @@
+{
+  "description": "Truecolor with a single partially transparent color",
+  "image": {
+    "width": 1,
+    "height": 1,
+    "data": {
+      "$uint8": "AQIDfw=="
+    }
+  },
+  "options": {
+    "colorType": 2
+  },
+  "knownBug": "encoder uses tRNS when there is exactly one non-opaque color, even if it is only partially transparent",
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

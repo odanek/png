@@ -1,0 +1,816 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint16": "AAAAAAAA//8ACQAJAAn//wASABIAEv//ABsAGwAb//8AJAAkACT//wAtAC0ALf//ADYANgA2//8APwA/AD///wBIAEgASP//AFEAUQBR//8AWgBaAFr//wBjAGMAY///AGwAbABs//8AdQB1AHX//wB+AH4Afv//AIcAhwCH//8AkACQAJD//wCZAJkAmf//AKIAogCi//8AqwCrAKv//wC0ALQAtP//AL0AvQC9//8AxgDGAMb//wDPAM8Az///ANgA2ADY//8A4QDhAOH//wDqAOoA6v//APMA8wDz//8A/AD8APz////w//D/8P///9X/1f/V////uv+6/7r//wACAAIAAv//AAsACwAL//8AFAAUABT//wAdAB0AHf//ACYAJgAm//8ALwAvAC///wA4ADgAOP//AEEAQQBB//8ASgBKAEr//wBTAFMAU///AFwAXABc//8AZQBlAGX//wBuAG4Abv//AHcAdwB3//8AgACAAID//wCJAIkAif//AJIAkgCS//8AmwCbAJv//wCkAKQApP//AK0ArQCt//8AtgC2ALb//wC/AL8Av///AMgAyADI//8A0QDRANH//wDaANoA2v//AOMA4wDj//8A7ADsAOz//wD1APUA9f//AP4A/gD+////6v/q/+r////P/8//z////7T/tP+0//8ABAAEAAT//wANAA0ADf//ABYAFgAW//8AHwAfAB///wAoACgAKP//ADEAMQAx//8AOgA6ADr//wBDAEMAQ///AEwATABM//8AVQBVAFX//wBeAF4AXv//AGcAZwBn//8AcABwAHD//wB5AHkAef//AIIAggCC//8AiwCLAIv//wCUAJQAlP//AJ0AnQCd//8ApgCmAKb//wCvAK8Ar///ALgAuAC4//8AwQDBAMH//wDKAMoAyv//ANMA0wDT//8A3ADcANz//wDlAOUA5f//AO4A7gDu//8A9wD3APf//////////////+T/5P/k////yf/J/8n///+u/67/rv//AAYABgAG//8ADwAPAA///wAYABgAGP//ACEAIQAh//8AKgAqACr//wAzADMAM///ADwAPAA8//8ARQBFAEX//wBOAE4ATv//AFcAVwBX//8AYABgAGD//wBpAGkAaf//AHIAcgBy//8AewB7AHv//wCEAIQAhP//AI0AjQCN//8AlgCWAJb//wCfAJ8An///AKgAqACo//8AsQCxALH//wC6ALoAuv//AMMAwwDD//8AzADMAMz//wDVANUA1f//AN4A3gDe//8A5wDnAOf//wDwAPAA8P//APkA+QD5////+f/5//n////e/97/3v///8P/w//D////qP+o/6j//wAIAAgACP//ABEAEQAR//8AGgAaABr//wAjACMAI///ACwALAAs//8ANQA1ADX//wA+AD4APv//AEcARwBH//8AUABQAFD//wBZAFkAWf//AGIAYgBi//8AawBrAGv//wB0AHQAdP//AH0AfQB9//8AhgCGAIb//wCPAI8Aj///AJgAmACY//8AoQChAKH//wCqAKoAqv//ALMAswCz//8AvAC8ALz//wDFAMUAxf//AM4AzgDO//8A1wDXANf//wDgAOAA4P//AOkA6QDp//8A8gDyAPL//wD7APsA+/////P/8//z////2P/Y/9j///+9/73/vf///6L/ov+i//8ACgAKAAr//wATABMAE///ABwAHAAc//8AJQAlACX//wAuAC4ALv//ADcANwA3//8AQABAAED//wBJAEkASf//AFIAUgBS//8AWwBbAFv//wBkAGQAZP//AG0AbQBt//8AdgB2AHb//wB/AH8Af///AIgAiACI//8AkQCRAJH//wCaAJoAmv//AKMAowCj//8ArACsAKz//wC1ALUAtf//AL4AvgC+//8AxwDHAMf//wDQANAA0P//ANkA2QDZ//8A4gDiAOL//wDrAOsA6///APQA9AD0//8A/QD9AP3////t/+3/7f///9L/0v/S////t/+3/7f///+c/5z/nP//AAwADAAM//8AFQAVABX//wAeAB4AHv//ACcAJwAn//8AMAAwADD//wA5ADkAOf//AEIAQgBC//8ASwBLAEv//wBUAFQAVP//AF0AXQBd//8AZgBmAGb//wBvAG8Ab///AHgAeAB4//8AgQCBAIH//wCKAIoAiv//AJMAkwCT//8AnACcAJz//wClAKUApf//AK4ArgCu//8AtwC3ALf//wDAAMAAwP//AMkAyQDJ//8A0gDSANL//wDbANsA2///AOQA5ADk//8A7QDtAO3//wD2APYA9v//AP8A/wD/////5//n/+f////M/8z/zP///7H/sf+x////lv+W/5b//wAOAA4ADv//ABcAFwAX//8AIAAgACD//wApACkAKf//ADIAMgAy//8AOwA7ADv//wBEAEQARP//AE0ATQBN//8AVgBWAFb//wBfAF8AX///AGgAaABo//8AcQBxAHH//wB6AHoAev//AIMAgwCD//8AjACMAIz//wCVAJUAlf//AJ4AngCe//8ApwCnAKf//wCwALAAsP//ALkAuQC5//8AwgDCAML//wDLAMsAy///ANQA1ADU//8A3QDdAN3//wDmAOYA5v//AO8A7wDv//8A+AD4APj////8//z//P///+H/4f/h////xv/G/8b///+r/6v/q////5D/kP+Q//8AEAAQABD//wAZABkAGf//ACIAIgAi//8AKwArACv//wA0ADQANP//AD0APQA9//8ARgBGAEb//wBPAE8AT///AFgAWABY//8AYQBhAGH//wBqAGoAav//AHMAcwBz//8AfAB8AHz//wCFAIUAhf//AI4AjgCO//8AlwCXAJf//wCgAKAAoP//AKkAqQCp//8AsgCyALL//wC7ALsAu///AMQAxADE//8AzQDNAM3//wDWANYA1v//AN8A3wDf//8A6ADoAOj//wDxAPEA8f//APoA+gD6////9v/2//b////b/9v/2////8D/wP/A////pf+l/6X///+K/4r/iv//ABIAEgAS//8AGwAbABv//wAkACQAJP//AC0ALQAt//8ANgA2ADb//wA/AD8AP///AEgASABI//8AUQBRAFH//wBaAFoAWv//AGMAYwBj//8AbABsAGz//wB1AHUAdf//AH4AfgB+//8AhwCHAIf//wCQAJAAkP//AJkAmQCZ//8AogCiAKL//wCrAKsAq///ALQAtAC0//8AvQC9AL3//wDGAMYAxv//AM8AzwDP//8A2ADYANj//wDhAOEA4f//AOoA6gDq//8A8wDzAPP//wD8APwA/P////D/8P/w////1f/V/9X///+6/7r/uv///5//n/+f////hP+E/4T//wAUABQAFP//AB0AHQAd//8AJgAmACb//wAvAC8AL///ADgAOAA4//8AQQBBAEH//wBKAEoASv//AFMAUwBT//8AXABcAFz//wBlAGUAZf//AG4AbgBu//8AdwB3AHf//wCAAIAAgP//AIkAiQCJ//8AkgCSAJL//wCbAJsAm///AKQApACk//8ArQCtAK3//wC2ALYAtv//AL8AvwC///8AyADIAMj//wDRANEA0f//ANoA2gDa//8A4wDjAOP//wDsAOwA7P//APUA9QD1//8A/gD+AP7////q/+r/6v///8//z//P////tP+0/7T///+Z/5n/mf///37/fv9+//8AFgAWABb//wAfAB8AH///ACgAKAAo//8AMQAxADH//wA6ADoAOv//AEMAQwBD//8ATABMAEz//wBVAFUAVf//AF4AXgBe//8AZwBnAGf//wBwAHAAcP//AHkAeQB5//8AggCCAIL//wCLAIsAi///AJQAlACU//8AnQCdAJ3//wCmAKYApv//AK8ArwCv//8AuAC4ALj//wDBAMEAwf//AMoAygDK//8A0wDTANP//wDcANwA3P//AOUA5QDl//8A7gDuAO7//wD3APcA9///////////////5P/k/+T////J/8n/yf///67/rv+u////k/+T/5P///94/3j/eP//ABgAGAAY//8AIQAhACH//wAqACoAKv//ADMAMwAz//8APAA8ADz//wBFAEUARf//AE4ATgBO//8AVwBXAFf//wBgAGAAYP//AGkAaQBp//8AcgByAHL//wB7AHsAe///AIQAhACE//8AjQCNAI3//wCWAJYAlv//AJ8AnwCf//8AqACoAKj//wCxALEAsf//ALoAugC6//8AwwDDAMP//wDMAMwAzP//ANUA1QDV//8A3gDeAN7//wDnAOcA5///APAA8ADw//8A+QD5APn////5//n/+f///97/3v/e////w//D/8P///+o/6j/qP///43/jf+N////cv9y/3L//wAaABoAGv//ACMAIwAj//8ALAAsACz//wA1ADUANf//AD4APgA+//8ARwBHAEf//wBQAFAAUP//AFkAWQBZ//8AYgBiAGL//wBrAGsAa///AHQAdAB0//8AfQB9AH3//wCGAIYAhv//AI8AjwCP//8AmACYAJj//wChAKEAof//AKoAqgCq//8AswCzALP//wC8ALwAvP//AMUAxQDF//8AzgDOAM7//wDXANcA1///AOAA4ADg//8A6QDpAOn//wDyAPIA8v//APsA+wD7////8//z//P////Y/9j/2P///73/vf+9////ov+i/6L///+H/4f/h////2z/bP9s//8AHAAcABz//wAlACUAJf//AC4ALgAu//8ANwA3ADf//wBAAEAAQP//AEkASQBJ//8AUgBSAFL//wBbAFsAW///AGQAZABk//8AbQBtAG3//wB2AHYAdv//AH8AfwB///8AiACIAIj//wCRAJEAkf//AJoAmgCa//8AowCjAKP//wCsAKwArP//ALUAtQC1//8AvgC+AL7//wDHAMcAx///ANAA0ADQ//8A2QDZANn//wDiAOIA4v//AOsA6wDr//8A9AD0APT//wD9AP0A/f///+3/7f/t////0v/S/9L///+3/7f/t////5z/nP+c////gf+B/4H///9m/2b/Zv//AB4AHgAe//8AJwAnACf//wAwADAAMP//ADkAOQA5//8AQgBCAEL//wBLAEsAS///AFQAVABU//8AXQBdAF3//wBmAGYAZv//AG8AbwBv//8AeAB4AHj//wCBAIEAgf//AIoAigCK//8AkwCTAJP//wCcAJwAnP//AKUApQCl//8ArgCuAK7//wC3ALcAt///AMAAwADA//8AyQDJAMn//wDSANIA0v//ANsA2wDb//8A5ADkAOT//wDtAO0A7f//APYA9gD2//8A/wD/AP/////n/+f/5////8z/zP/M////sf+x/7H///+W/5b/lv///3v/e/97////YP9g/2D//wAgACAAIP//ACkAKQAp//8AMgAyADL//wA7ADsAO///AEQARABE//8ATQBNAE3//wBWAFYAVv//AF8AXwBf//8AaABoAGj//wBxAHEAcf//AHoAegB6//8AgwCDAIP//wCMAIwAjP//AJUAlQCV//8AngCeAJ7//wCnAKcAp///ALAAsACw//8AuQC5ALn//wDCAMIAwv//AMsAywDL//8A1ADUANT//wDdAN0A3f//AOYA5gDm//8A7wDvAO///wD4APgA+P////z//P/8////4f/h/+H////G/8b/xv///6v/q/+r////kP+Q/5D///91/3X/df///1r/Wv9a//8AIgAiACL//wArACsAK///ADQANAA0//8APQA9AD3//wBGAEYARv//AE8ATwBP//8AWABYAFj//wBhAGEAYf//AGoAagBq//8AcwBzAHP//wB8AHwAfP//AIUAhQCF//8AjgCOAI7//wCXAJcAl///AKAAoACg//8AqQCpAKn//wCyALIAsv//ALsAuwC7//8AxADEAMT//wDNAM0Azf//ANYA1gDW//8A3wDfAN///wDoAOgA6P//APEA8QDx//8A+gD6APr////2//b/9v///9v/2//b////wP/A/8D///+l/6X/pf///4r/iv+K////b/9v/2////9U/1T/VP//ACQAJAAk//8ALQAtAC3//wA2ADYANv//AD8APwA///8ASABIAEj//wBRAFEAUf//AFoAWgBa//8AYwBjAGP//wBsAGwAbP//AHUAdQB1//8AfgB+AH7//wCHAIcAh///AJAAkACQ//8AmQCZAJn//wCiAKIAov//AKsAqwCr//8AtAC0ALT//wC9AL0Avf//AMYAxgDG//8AzwDPAM///wDYANgA2P//AOEA4QDh//8A6gDqAOr//wDzAPMA8///APwA/AD8////8P/w//D////V/9X/1f///7r/uv+6////n/+f/5////+E/4T/hP///2n/af9p////Tv9O/07//wAmACYAJv//AC8ALwAv//8AOAA4ADj//wBBAEEAQf//AEoASgBK//8AUwBTAFP//wBcAFwAXP//AGUAZQBl//8AbgBuAG7//wB3AHcAd///AIAAgACA//8AiQCJAIn//wCSAJIAkv//AJsAmwCb//8ApACkAKT//wCtAK0Arf//ALYAtgC2//8AvwC/AL///wDIAMgAyP//ANEA0QDR//8A2gDaANr//wDjAOMA4///AOwA7ADs//8A9QD1APX//wD+AP4A/v///+r/6v/q////z//P/8////+0/7T/tP///5n/mf+Z////fv9+/37///9j/2P/Y////0j/SP9I//8AKAAoACj//wAxADEAMf//ADoAOgA6//8AQwBDAEP//wBMAEwATP//AFUAVQBV//8AXgBeAF7//wBnAGcAZ///AHAAcABw//8AeQB5AHn//wCCAIIAgv//AIsAiwCL//8AlACUAJT//wCdAJ0Anf//AKYApgCm//8ArwCvAK///wC4ALgAuP//AMEAwQDB//8AygDKAMr//wDTANMA0///ANwA3ADc//8A5QDlAOX//wDuAO4A7v//APcA9wD3///////////////k/+T/5P///8n/yf/J////rv+u/67///+T/5P/k////3j/eP94////Xf9d/13///9C/0L/Qv//ACoAKgAq//8AMwAzADP//wA8ADwAPP//AEUARQBF//8ATgBOAE7//wBXAFcAV///AGAAYABg//8AaQBpAGn//wByAHIAcv//AHsAewB7//8AhACEAIT//wCNAI0Ajf//AJYAlgCW//8AnwCfAJ///wCoAKgAqP//ALEAsQCx//8AugC6ALr//wDDAMMAw///AMwAzADM//8A1QDVANX//wDeAN4A3v//AOcA5wDn//8A8ADwAPD//wD5APkA+f////n/+f/5////3v/e/97////D/8P/w////6j/qP+o////jf+N/43///9y/3L/cv///1f/V/9X////PP88/zz//wAsACwALP//ADUANQA1//8APgA+AD7//wBHAEcAR///AFAAUABQ//8AWQBZAFn//wBiAGIAYv//AGsAawBr//8AdAB0AHT//wB9AH0Aff//AIYAhgCG//8AjwCPAI///wCYAJgAmP//AKEAoQCh//8AqgCqAKr//wCzALMAs///ALwAvAC8//8AxQDFAMX//wDOAM4Azv//ANcA1wDX//8A4ADgAOD//wDpAOkA6f//APIA8gDy//8A+wD7APv////z//P/8////9j/2P/Y////vf+9/73///+i/6L/ov///4f/h/+H////bP9s/2z///9R/1H/Uf///zb/Nv82//8ALgAuAC7//wA3ADcAN///AEAAQABA//8ASQBJAEn//wBSAFIAUv//AFsAWwBb//8AZABkAGT//wBtAG0Abf//AHYAdgB2//8AfwB/AH///wCIAIgAiP//AJEAkQCR//8AmgCaAJr//wCjAKMAo///AKwArACs//8AtQC1ALX//wC+AL4Avv//AMcAxwDH//8A0ADQAND//wDZANkA2f//AOIA4gDi//8A6wDrAOv//wD0APQA9P//AP0A/QD9////7f/t/+3////S/9L/0v///7f/t/+3////nP+c/5z///+B/4H/gf///2b/Zv9m////S/9L/0v///8w/zD/MP//ADAAMAAw//8AOQA5ADn//wBCAEIAQv//AEsASwBL//8AVABUAFT//wBdAF0AXf//AGYAZgBm//8AbwBvAG///wB4AHgAeP//AIEAgQCB//8AigCKAIr//wCTAJMAk///AJwAnACc//8ApQClAKX//wCuAK4Arv//ALcAtwC3//8AwADAAMD//wDJAMkAyf//ANIA0gDS//8A2wDbANv//wDkAOQA5P//AO0A7QDt//8A9gD2APb//wD/AP8A/////+f/5//n////zP/M/8z///+x/7H/sf///5b/lv+W////e/97/3v///9g/2D/YP///0X/Rf9F////Kv8q/yr//wAyADIAMv//ADsAOwA7//8ARABEAET//wBNAE0ATf//AFYAVgBW//8AXwBfAF///wBoAGgAaP//AHEAcQBx//8AegB6AHr//wCDAIMAg///AIwAjACM//8AlQCVAJX//wCeAJ4Anv//AKcApwCn//8AsACwALD//wC5ALkAuf//AMIAwgDC//8AywDLAMv//wDUANQA1P//AN0A3QDd//8A5gDmAOb//wDvAO8A7///APgA+AD4/////P/8//z////h/+H/4f///8b/xv/G////q/+r/6v///+Q/5D/kP///3X/df91////Wv9a/1r///8//z//P////yT/JP8k//8ANAA0ADT//wA9AD0APf//AEYARgBG//8ATwBPAE///wBYAFgAWP//AGEAYQBh//8AagBqAGr//wBzAHMAc///AHwAfAB8//8AhQCFAIX//wCOAI4Ajv//AJcAlwCX//8AoACgAKD//wCpAKkAqf//ALIAsgCy//8AuwC7ALv//wDEAMQAxP//AM0AzQDN//8A1gDWANb//wDfAN8A3///AOgA6ADo//8A8QDxAPH//wD6APoA+v////b/9v/2////2//b/9v////A/8D/wP///6X/pf+l////iv+K/4r///9v/2//b////1T/VP9U////Of85/zn///8e/x7/Hv//ADYANgA2//8APwA/AD///wBIAEgASP//AFEAUQBR//8AWgBaAFr//wBjAGMAY///AGwAbABs//8AdQB1AHX//wB+AH4Afv//AIcAhwCH//8AkACQAJD//wCZAJkAmf//AKIAogCi//8AqwCrAKv//wC0ALQAtP//AL0AvQC9//8AxgDGAMb//wDPAM8Az///ANgA2ADY//8A4QDhAOH//wDqAOoA6v//APMA8wDz//8A/AD8APz////w//D/8P///9X/1f/V////uv+6/7r///+f/5//n////4T/hP+E////af9p/2n///9O/07/Tv///zP/M/8z////GP8Y/xj//wA4ADgAOP//AEEAQQBB//8ASgBKAEr//wBTAFMAU///AFwAXABc//8AZQBlAGX//wBuAG4Abv//AHcAdwB3//8AgACAAID//wCJAIkAif//AJIAkgCS//8AmwCbAJv//wCkAKQApP//AK0ArQCt//8AtgC2ALb//wC/AL8Av///AMgAyADI//8A0QDRANH//wDaANoA2v//AOMA4wDj//8A7ADsAOz//wD1APUA9f//AP4A/gD+////6v/q/+r////P/8//z////7T/tP+0////mf+Z/5n///9+/37/fv///2P/Y/9j////SP9I/0j///8t/y3/Lf///xL/Ev8S//8AOgA6ADr//wBDAEMAQ///AEwATABM//8AVQBVAFX//wBeAF4AXv//AGcAZwBn//8AcABwAHD//wB5AHkAef//AIIAggCC//8AiwCLAIv//wCUAJQAlP//AJ0AnQCd//8ApgCmAKb//wCvAK8Ar///ALgAuAC4//8AwQDBAMH//wDKAMoAyv//ANMA0wDT//8A3ADcANz//wDlAOUA5f//AO4A7gDu//8A9wD3APf//////////////+T/5P/k////yf/J/8n///+u/67/rv///5P/k/+T////eP94/3j///9d/13/Xf///0L/Qv9C////J/8n/yf///8M/wz/DP//ADwAPAA8//8ARQBFAEX//wBOAE4ATv//AFcAVwBX//8AYABgAGD//wBpAGkAaf//AHIAcgBy//8AewB7AHv//wCEAIQAhP//AI0AjQCN//8AlgCWAJb//wCfAJ8An///AKgAqACo//8AsQCxALH//wC6ALoAuv//AMMAwwDD//8AzADMAMz//wDVANUA1f//AN4A3gDe//8A5wDnAOf//wDwAPAA8P//APkA+QD5////+f/5//n////e/97/3v///8P/w//D////qP+o/6j///+N/43/jf///3L/cv9y////V/9X/1f///88/zz/PP///yH/If8h////Bv8G/wb//wA+AD4APv//AEcARwBH//8AUABQAFD//wBZAFkAWf//AGIAYgBi//8AawBrAGv//wB0AHQAdP//AH0AfQB9//8AhgCGAIb//wCPAI8Aj///AJgAmACY//8AoQChAKH//wCqAKoAqv//ALMAswCz//8AvAC8ALz//wDFAMUAxf//AM4AzgDO//8A1wDXANf//wDgAOAA4P//AOkA6QDp//8A8gDyAPL//wD7APsA+/////P/8//z////2P/Y/9j///+9/73/vf///6L/ov+i////h/+H/4f///9s/2z/bP///1H/Uf9R////Nv82/zb///8b/xv/G////wD/AP8A//8="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 16,
+        "colorType": 0,
+        "interlaceMethod": 0
+      },
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 62,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 75,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 88,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 101,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 114,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 127,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 140,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 153,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 166,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 179,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 192,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 205,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 218,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 231,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 244,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 257,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 270,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 283,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 296,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 309,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 322,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 335,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 348,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 361,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 374,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 387,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 400,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 413,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 426,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 439,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 452,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 465,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 478,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 491,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 504,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 517,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 530,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 543,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 556,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 569,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 582,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 595,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 608,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 621,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 634,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 647,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 660,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 673,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 686,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 699,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 712,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 725,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 738,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 751,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 764,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 777,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 790,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 803,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 816,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 829,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 842,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 855,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 868,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 881,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 894,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 907,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 920,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 933,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 946,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 959,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 972,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 985,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 998,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1011,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1024,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1037,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1050,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1063,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1076,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1089,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1102,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1115,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1128,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1141,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1154,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1167,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1180,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1193,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1206,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1219,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1232,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1245,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1258,
+          "type": "IDAT",
+          "dataLength": 1,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 1271,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": {
+    "image": {
+      "width": 32,
+      "height": 32,
+      "data": {
+        "$uint8": "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Li4u/zc3N/9AQED/SUlJ/1JSUv9bW1v/ZGRk/21tbf92dnb/f39//4iIiP+RkZH/mpqa/6Ojo/+srKz/tbW1/76+vv/Hx8f/0NDQ/9nZ2f/i4uL/6+vr//T09P/9/f3/7e3t/9LS0v+3t7f/nJyc/4GBgf9mZmb/Hh4e/ycnJ/8wMDD/OTk5/0JCQv9LS0v/VFRU/11dXf9mZmb/b29v/3h4eP+BgYH/ioqK/5OTk/+cnJz/paWl/66urv+3t7f/wMDA/8nJyf/S0tL/29vb/+Tk5P/t7e3/9vb2///////n5+f/zMzM/7Gxsf+Wlpb/e3t7/2BgYP8gICD/KSkp/zIyMv87Ozv/RERE/01NTf9WVlb/X19f/2hoaP9xcXH/enp6/4ODg/+MjIz/lZWV/56env+np6f/sLCw/7m5uf/CwsL/y8vL/9TU1P/d3d3/5ubm/+/v7//4+Pj//Pz8/+Hh4f/Gxsb/q6ur/5CQkP91dXX/Wlpa/yIiIv8rKyv/NDQ0/z09Pf9GRkb/T09P/1hYWP9hYWH/ampq/3Nzc/98fHz/hYWF/46Ojv+Xl5f/oKCg/6mpqf+ysrL/u7u7/8TExP/Nzc3/1tbW/9/f3//o6Oj/8fHx//r6+v/29vb/29vb/8DAwP+lpaX/ioqK/29vb/9UVFT/JCQk/y0tLf82Njb/Pz8//0hISP9RUVH/Wlpa/2NjY/9sbGz/dXV1/35+fv+Hh4f/kJCQ/5mZmf+ioqL/q6ur/7S0tP+9vb3/xsbG/8/Pz//Y2Nj/4eHh/+rq6v/z8/P//Pz8//Dw8P/V1dX/urq6/5+fn/+EhIT/aWlp/05OTv8mJib/Ly8v/zg4OP9BQUH/SkpK/1NTU/9cXFz/ZWVl/25ubv93d3f/gICA/4mJif+SkpL/m5ub/6SkpP+tra3/tra2/7+/v//IyMj/0dHR/9ra2v/j4+P/7Ozs//X19f/+/v7/6urq/8/Pz/+0tLT/mZmZ/35+fv9jY2P/SEhI/ygoKP8xMTH/Ojo6/0NDQ/9MTEz/VVVV/15eXv9nZ2f/cHBw/3l5ef+CgoL/i4uL/5SUlP+dnZ3/pqam/6+vr/+4uLj/wcHB/8rKyv/T09P/3Nzc/+Xl5f/u7u7/9/f3///////k5OT/ycnJ/66urv+Tk5P/eHh4/11dXf9CQkL/Kioq/zMzM/88PDz/RUVF/05OTv9XV1f/YGBg/2lpaf9ycnL/e3t7/4SEhP+NjY3/lpaW/5+fn/+oqKj/sbGx/7q6uv/Dw8P/zMzM/9XV1f/e3t7/5+fn//Dw8P/5+fn/+fn5/97e3v/Dw8P/qKio/42Njf9ycnL/V1dX/zw8PP8sLCz/NTU1/z4+Pv9HR0f/UFBQ/1lZWf9iYmL/a2tr/3R0dP99fX3/hoaG/4+Pj/+YmJj/oaGh/6qqqv+zs7P/vLy8/8XFxf/Ozs7/19fX/+Dg4P/p6en/8vLy//v7+//z8/P/2NjY/729vf+ioqL/h4eH/2xsbP9RUVH/NjY2/y4uLv83Nzf/QEBA/0lJSf9SUlL/W1tb/2RkZP9tbW3/dnZ2/39/f/+IiIj/kZGR/5qamv+jo6P/rKys/7W1tf++vr7/x8fH/9DQ0P/Z2dn/4uLi/+vr6//09PT//f39/+3t7f/S0tL/t7e3/5ycnP+BgYH/ZmZm/0tLS/8wMDD/MDAw/zk5Of9CQkL/S0tL/1RUVP9dXV3/ZmZm/29vb/94eHj/gYGB/4qKiv+Tk5P/nJyc/6Wlpf+urq7/t7e3/8DAwP/Jycn/0tLS/9vb2//k5OT/7e3t//b29v//////5+fn/8zMzP+xsbH/lpaW/3t7e/9gYGD/RUVF/yoqKv8yMjL/Ozs7/0RERP9NTU3/VlZW/19fX/9oaGj/cXFx/3p6ev+Dg4P/jIyM/5WVlf+enp7/p6en/7CwsP+5ubn/wsLC/8vLy//U1NT/3d3d/+bm5v/v7+//+Pj4//z8/P/h4eH/xsbG/6urq/+QkJD/dXV1/1paWv8/Pz//JCQk/zQ0NP89PT3/RkZG/09PT/9YWFj/YWFh/2pqav9zc3P/fHx8/4WFhf+Ojo7/l5eX/6CgoP+pqan/srKy/7u7u//ExMT/zc3N/9bW1v/f39//6Ojo//Hx8f/6+vr/9vb2/9vb2//AwMD/paWl/4qKiv9vb2//VFRU/zk5Of8eHh7/NjY2/z8/P/9ISEj/UVFR/1paWv9jY2P/bGxs/3V1df9+fn7/h4eH/5CQkP+ZmZn/oqKi/6urq/+0tLT/vb29/8bGxv/Pz8//2NjY/+Hh4f/q6ur/8/Pz//z8/P/w8PD/1dXV/7q6uv+fn5//hISE/2lpaf9OTk7/MzMz/xgYGP84ODj/QUFB/0pKSv9TU1P/XFxc/2VlZf9ubm7/d3d3/4CAgP+JiYn/kpKS/5ubm/+kpKT/ra2t/7a2tv+/v7//yMjI/9HR0f/a2tr/4+Pj/+zs7P/19fX//v7+/+rq6v/Pz8//tLS0/5mZmf9+fn7/Y2Nj/0hISP8tLS3/EhIS/zo6Ov9DQ0P/TExM/1VVVf9eXl7/Z2dn/3BwcP95eXn/goKC/4uLi/+UlJT/nZ2d/6ampv+vr6//uLi4/8HBwf/Kysr/09PT/9zc3P/l5eX/7u7u//f39///////5OTk/8nJyf+urq7/k5OT/3h4eP9dXV3/QkJC/ycnJ/8MDAz/PDw8/0VFRf9OTk7/V1dX/2BgYP9paWn/cnJy/3t7e/+EhIT/jY2N/5aWlv+fn5//qKio/7Gxsf+6urr/w8PD/8zMzP/V1dX/3t7e/+fn5//w8PD/+fn5//n5+f/e3t7/w8PD/6ioqP+NjY3/cnJy/1dXV/88PDz/ISEh/wYGBv8+Pj7/R0dH/1BQUP9ZWVn/YmJi/2tra/90dHT/fX19/4aGhv+Pj4//mJiY/6Ghof+qqqr/s7Oz/7y8vP/FxcX/zs7O/9fX1//g4OD/6enp//Ly8v/7+/v/8/Pz/9jY2P+9vb3/oqKi/4eHh/9sbGz/UVFR/zY2Nv8bGxv/AAAA/w=="
+      }
+    }
+  }
+}

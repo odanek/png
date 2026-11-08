@@ -1,0 +1,17 @@
+{
+  "description": "Indexed with partial transparency",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint8": "ukV7/yrVA/+iXef/rlEx/1qlK/+oVwyAnGPC/yrVA/9apSv/PMNy/06x4f+oVwyAMM8ogFSrBv+uUTH/TrHh/94hWf9sk5r/eIfkgBLtb/8wzyiA"
+    }
+  },
+  "options": {
+    "colorType": 3
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

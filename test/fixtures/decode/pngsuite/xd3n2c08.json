@@ -1,0 +1,11 @@
+{
+  "expected": {
+    "error": {
+      "type": "DecodeError",
+      "message": "IHDR: Bit depth \"3\" is not valid",
+      "offset": 24
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

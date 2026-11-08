@@ -1,0 +1,96 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 8,
+        "data": {
+          "$uint8": "/wAA//8AAP//AAD//wAA//8AAP//AAD//yIA//8zAP//RAD//1UA//9VAP//ZgD//2YA//93AP//dwD//3cA//93AP//dwD//2YA//9mAP//VQD//0QA//9EAP//IgD//xEA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8RAP//RAD//5kA///uAP//7gD//+4A/93uAP/M7gD/u+4A/6ruAP+Z7gD/me4A/5nuAP+I7gD/me4A/5nuAP+Z7gD/qu4A/7vuAP/M7gD/7u4A///uAP//7gD//8wA//9VAP//IgD//wAA//8AAP//AAD//wAA//8RAP//VQD//3cA//93AP//uwD/7v8A/6r/AP9m/wD/AP8A/wD/Iv8A/4j/AO6Z/wDdqv8Au6r/ALu7/wC7u/8Au7v/AMyq/wDdmf8A/5n/AP9m/wD/Ef8R/wD/mf8A/8z/AP//7gD//3cA//93AP//ZgD//yIA//8AAP//AAD//2YA//93AP//dwD//3cA/927AP93/wD/d/8A/1X/Ef8A/2b/AP93/wCq//8RRP//dwD//90Au//dAKr/3QCZ/90Aqv+7AMz/RAD//wB3//8AzMz/AP93/xH/M/93/wD/d/8A/6ruAP//dwD//3cA//93AP//dwD//yIA//8AAP//ZgD//3cA//93AP//dwD/3bsA/3f/AP93/wD/Vf8R/wD/Zv8A/3f/ALv//xFV//9VEf//qhHM/7sRu/+7Ebv/uxG7/5kR3f8zEf//AIj//wDdzP8A/3f/Ef8z/3f/AP93/wD/qu4A//93AP//dwD//3cA//93AP//EQD//wAA//8RAP//VQD//3cA//93AP//uwD/7v8A/6r/AP9m/wD/AP8A/wD/Iv8A/2b/AP+I/wDuiP8A3Zn/AN2Z/wDMmf8A3Zn/AN2Z/wDuiP8A/3f/AP9V/wD/Ef8i/wD/mf8A/8z/AP//7gD//3cA//93AP//ZgD//yIA//8AAP//AAD//wAA//8AAP//EQD//zMA//+IAP//3QD//90A///dAP/u3QD/zN0A/7vdAP+q3QD/qt0A/5ndAP+Z3QD/md0A/5ndAP+Z3QD/qt0A/7vdAP/M3QD/3d0A///dAP//3QD//90A//+7AP//RAD//yIA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//EQD//zMA//9EAP//RAD//1UA//9mAP//ZgD//2YA//9mAP//ZgD//2YA//9mAP//ZgD//1UA//9VAP//RAD//zMA//8iAP//EQD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA/w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 8,
+        "bitDepth": 8,
+        "colorType": 2,
+        "interlaceMethod": 0
+      },
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        },
+        {
+          "type": "sBIT",
+          "value": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "type": "pHYs",
+          "pixelsPerUnit": {
+            "x": 4,
+            "y": 1
+          },
+          "unitType": "unknown"
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "sBIT",
+          "dataLength": 3,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 64,
+          "type": "pHYs",
+          "dataLength": 9,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": true
+        },
+        {
+          "offset": 85,
+          "type": "IDAT",
+          "dataLength": 235,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 332,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

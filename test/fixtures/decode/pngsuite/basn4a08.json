@@ -1,0 +1,64 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "////AP///wj///8Q////GP///yD///8p////Mf///zn///9B////Sv///1L///9a////Yv///2r///9z////e////4P///+L////lP///5z///+k////rP///7T///+9////xf///83////V////3v///+b////u////9v/////29vYA9vb2CPb29hD29vYY9vb2IPb29in29vYx9vb2Ofb29kH29vZK9vb2Uvb29lr29vZi9vb2avb29nP29vZ79vb2g/b29ov29vaU9vb2nPb29qT29vas9vb2tPb29r329vbF9vb2zfb29tX29vbe9vb25vb29u729vb29vb2/+7u7gDu7u4I7u7uEO7u7hju7u4g7u7uKe7u7jHu7u457u7uQe7u7kru7u5S7u7uWu7u7mLu7u5q7u7uc+7u7nvu7u6D7u7ui+7u7pTu7u6c7u7upO7u7qzu7u607u7uve7u7sXu7u7N7u7u1e7u7t7u7u7m7u7u7u7u7vbu7u7/5ubmAObm5gjm5uYQ5ubmGObm5iDm5uYp5ubmMebm5jnm5uZB5ubmSubm5lLm5uZa5ubmYubm5mrm5uZz5ubme+bm5oPm5uaL5ubmlObm5pzm5uak5ubmrObm5rTm5ua95ubmxebm5s3m5ubV5ubm3ubm5ubm5ubu5ubm9ubm5v/e3t4A3t7eCN7e3hDe3t4Y3t7eIN7e3ine3t4x3t7eOd7e3kHe3t5K3t7eUt7e3lre3t5i3t7eat7e3nPe3t573t7eg97e3ove3t6U3t7enN7e3qTe3t6s3t7etN7e3r3e3t7F3t7ezd7e3tXe3t7e3t7e5t7e3u7e3t723t7e/9XV1QDV1dUI1dXVENXV1RjV1dUg1dXVKdXV1THV1dU51dXVQdXV1UrV1dVS1dXVWtXV1WLV1dVq1dXVc9XV1XvV1dWD1dXVi9XV1ZTV1dWc1dXVpNXV1azV1dW01dXVvdXV1cXV1dXN1dXV1dXV1d7V1dXm1dXV7tXV1fbV1dX/zc3NAM3NzQjNzc0Qzc3NGM3NzSDNzc0pzc3NMc3NzTnNzc1Bzc3NSs3NzVLNzc1azc3NYs3NzWrNzc1zzc3Ne83NzYPNzc2Lzc3NlM3NzZzNzc2kzc3NrM3NzbTNzc29zc3Nxc3Nzc3Nzc3Vzc3N3s3NzebNzc3uzc3N9s3Nzf/FxcUAxcXFCMXFxRDFxcUYxcXFIMXFxSnFxcUxxcXFOcXFxUHFxcVKxcXFUsXFxVrFxcVixcXFasXFxXPFxcV7xcXFg8XFxYvFxcWUxcXFnMXFxaTFxcWsxcXFtMXFxb3FxcXFxcXFzcXFxdXFxcXexcXF5sXFxe7FxcX2xcXF/729vQC9vb0Ivb29EL29vRi9vb0gvb29Kb29vTG9vb05vb29Qb29vUq9vb1Svb29Wr29vWK9vb1qvb29c729vXu9vb2Dvb29i729vZS9vb2cvb29pL29vay9vb20vb29vb29vcW9vb3Nvb291b29vd69vb3mvb297r29vfa9vb3/tLS0ALS0tAi0tLQQtLS0GLS0tCC0tLQptLS0MbS0tDm0tLRBtLS0SrS0tFK0tLRatLS0YrS0tGq0tLRztLS0e7S0tIO0tLSLtLS0lLS0tJy0tLSktLS0rLS0tLS0tLS9tLS0xbS0tM20tLTVtLS03rS0tOa0tLTutLS09rS0tP+srKwArKysCKysrBCsrKwYrKysIKysrCmsrKwxrKysOaysrEGsrKxKrKysUqysrFqsrKxirKysaqysrHOsrKx7rKysg6ysrIusrKyUrKysnKysrKSsrKysrKystKysrL2srKzFrKyszaysrNWsrKzerKys5qysrO6srKz2rKys/6SkpACkpKQIpKSkEKSkpBikpKQgpKSkKaSkpDGkpKQ5pKSkQaSkpEqkpKRSpKSkWqSkpGKkpKRqpKSkc6SkpHukpKSDpKSki6SkpJSkpKScpKSkpKSkpKykpKS0pKSkvaSkpMWkpKTNpKSk1aSkpN6kpKTmpKSk7qSkpPakpKT/nJycAJycnAicnJwQnJycGJycnCCcnJwpnJycMZycnDmcnJxBnJycSpycnFKcnJxanJycYpycnGqcnJxznJyce5ycnIOcnJyLnJyclJycnJycnJyknJycrJycnLScnJy9nJycxZycnM2cnJzVnJyc3pycnOacnJzunJyc9pycnP+UlJQAlJSUCJSUlBCUlJQYlJSUIJSUlCmUlJQxlJSUOZSUlEGUlJRKlJSUUpSUlFqUlJRilJSUapSUlHOUlJR7lJSUg5SUlIuUlJSUlJSUnJSUlKSUlJSslJSUtJSUlL2UlJTFlJSUzZSUlNWUlJTelJSU5pSUlO6UlJT2lJSU/4uLiwCLi4sIi4uLEIuLixiLi4sgi4uLKYuLizGLi4s5i4uLQYuLi0qLi4tSi4uLWouLi2KLi4tqi4uLc4uLi3uLi4uDi4uLi4uLi5SLi4uci4uLpIuLi6yLi4u0i4uLvYuLi8WLi4vNi4uL1YuLi96Li4vmi4uL7ouLi/aLi4v/g4ODAIODgwiDg4MQg4ODGIODgyCDg4Mpg4ODMYODgzmDg4NBg4ODSoODg1KDg4Nag4ODYoODg2qDg4Nzg4ODe4ODg4ODg4OLg4ODlIODg5yDg4Okg4ODrIODg7SDg4O9g4ODxYODg82Dg4PVg4OD3oODg+aDg4Pug4OD9oODg/97e3sAe3t7CHt7exB7e3sYe3t7IHt7eyl7e3sxe3t7OXt7e0F7e3tKe3t7Unt7e1p7e3tie3t7ant7e3N7e3t7e3t7g3t7e4t7e3uUe3t7nHt7e6R7e3use3t7tHt7e717e3vFe3t7zXt7e9V7e3vee3t75nt7e+57e3v2e3t7/3NzcwBzc3MIc3NzEHNzcxhzc3Mgc3NzKXNzczFzc3M5c3NzQXNzc0pzc3NSc3NzWnNzc2Jzc3Nqc3Nzc3Nzc3tzc3ODc3Nzi3Nzc5Rzc3Occ3NzpHNzc6xzc3O0c3NzvXNzc8Vzc3PNc3Nz1XNzc95zc3Pmc3Nz7nNzc/Zzc3P/ampqAGpqaghqamoQampqGGpqaiBqamopampqMWpqajlqampBampqSmpqalJqampaampqYmpqampqampzampqe2pqaoNqamqLampqlGpqapxqamqkampqrGpqarRqamq9ampqxWpqas1qamrVampq3mpqauZqamruampq9mpqav9iYmIAYmJiCGJiYhBiYmIYYmJiIGJiYiliYmIxYmJiOWJiYkFiYmJKYmJiUmJiYlpiYmJiYmJiamJiYnNiYmJ7YmJig2JiYotiYmKUYmJinGJiYqRiYmKsYmJitGJiYr1iYmLFYmJizWJiYtViYmLeYmJi5mJiYu5iYmL2YmJi/1paWgBaWloIWlpaEFpaWhhaWlogWlpaKVpaWjFaWlo5WlpaQVpaWkpaWlpSWlpaWlpaWmJaWlpqWlpac1paWntaWlqDWlpai1paWpRaWlqcWlpapFpaWqxaWlq0WlpavVpaWsVaWlrNWlpa1VpaWt5aWlrmWlpa7lpaWvZaWlr/UlJSAFJSUghSUlIQUlJSGFJSUiBSUlIpUlJSMVJSUjlSUlJBUlJSSlJSUlJSUlJaUlJSYlJSUmpSUlJzUlJSe1JSUoNSUlKLUlJSlFJSUpxSUlKkUlJSrFJSUrRSUlK9UlJSxVJSUs1SUlLVUlJS3lJSUuZSUlLuUlJS9lJSUv9KSkoASkpKCEpKShBKSkoYSkpKIEpKSilKSkoxSkpKOUpKSkFKSkpKSkpKUkpKSlpKSkpiSkpKakpKSnNKSkp7SkpKg0pKSotKSkqUSkpKnEpKSqRKSkqsSkpKtEpKSr1KSkrFSkpKzUpKStVKSkreSkpK5kpKSu5KSkr2SkpK/0FBQQBBQUEIQUFBEEFBQRhBQUEgQUFBKUFBQTFBQUE5QUFBQUFBQUpBQUFSQUFBWkFBQWJBQUFqQUFBc0FBQXtBQUGDQUFBi0FBQZRBQUGcQUFBpEFBQaxBQUG0QUFBvUFBQcVBQUHNQUFB1UFBQd5BQUHmQUFB7kFBQfZBQUH/OTk5ADk5OQg5OTkQOTk5GDk5OSA5OTkpOTk5MTk5OTk5OTlBOTk5Sjk5OVI5OTlaOTk5Yjk5OWo5OTlzOTk5ezk5OYM5OTmLOTk5lDk5OZw5OTmkOTk5rDk5ObQ5OTm9OTk5xTk5Oc05OTnVOTk53jk5OeY5OTnuOTk59jk5Of8xMTEAMTExCDExMRAxMTEYMTExIDExMSkxMTExMTExOTExMUExMTFKMTExUjExMVoxMTFiMTExajExMXMxMTF7MTExgzExMYsxMTGUMTExnDExMaQxMTGsMTExtDExMb0xMTHFMTExzTExMdUxMTHeMTEx5jExMe4xMTH2MTEx/ykpKQApKSkIKSkpECkpKRgpKSkgKSkpKSkpKTEpKSk5KSkpQSkpKUopKSlSKSkpWikpKWIpKSlqKSkpcykpKXspKSmDKSkpiykpKZQpKSmcKSkppCkpKawpKSm0KSkpvSkpKcUpKSnNKSkp1SkpKd4pKSnmKSkp7ikpKfYpKSn/ICAgACAgIAggICAQICAgGCAgICAgICApICAgMSAgIDkgICBBICAgSiAgIFIgICBaICAgYiAgIGogICBzICAgeyAgIIMgICCLICAglCAgIJwgICCkICAgrCAgILQgICC9ICAgxSAgIM0gICDVICAg3iAgIOYgICDuICAg9iAgIP8YGBgAGBgYCBgYGBAYGBgYGBgYIBgYGCkYGBgxGBgYORgYGEEYGBhKGBgYUhgYGFoYGBhiGBgYahgYGHMYGBh7GBgYgxgYGIsYGBiUGBgYnBgYGKQYGBisGBgYtBgYGL0YGBjFGBgYzRgYGNUYGBjeGBgY5hgYGO4YGBj2GBgY/xAQEAAQEBAIEBAQEBAQEBgQEBAgEBAQKRAQEDEQEBA5EBAQQRAQEEoQEBBSEBAQWhAQEGIQEBBqEBAQcxAQEHsQEBCDEBAQixAQEJQQEBCcEBAQpBAQEKwQEBC0EBAQvRAQEMUQEBDNEBAQ1RAQEN4QEBDmEBAQ7hAQEPYQEBD/CAgIAAgICAgICAgQCAgIGAgICCAICAgpCAgIMQgICDkICAhBCAgISggICFIICAhaCAgIYggICGoICAhzCAgIewgICIMICAiLCAgIlAgICJwICAikCAgIrAgICLQICAi9CAgIxQgICM0ICAjVCAgI3ggICOYICAjuCAgI9ggICP8AAAAAAAAACAAAABAAAAAYAAAAIAAAACkAAAAxAAAAOQAAAEEAAABKAAAAUgAAAFoAAABiAAAAagAAAHMAAAB7AAAAgwAAAIsAAACUAAAAnAAAAKQAAACsAAAAtAAAAL0AAADFAAAAzQAAANUAAADeAAAA5gAAAO4AAAD2AAAA/w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 8,
+        "colorType": 4,
+        "interlaceMethod": 0
+      },
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "IDAT",
+          "dataLength": 53,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 114,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

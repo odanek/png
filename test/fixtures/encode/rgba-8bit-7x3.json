@@ -1,0 +1,17 @@
+{
+  "description": "Truecolor and alpha",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint8": "hAQEDDRn+VOgRfzuK3SOelotmKmLITIOiQg1hgFGofR6IgLIEa0+XcN1Gh1qZyq2YdDYnEoQl3oWQL0q4zKjaGM7Rn6DSgP+0pKBA5Rww8K37vak"
+    }
+  },
+  "options": {
+    "colorType": 6
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

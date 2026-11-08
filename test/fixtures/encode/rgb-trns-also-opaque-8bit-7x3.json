@@ -1,0 +1,18 @@
+{
+  "description": "Truecolor with a single fully transparent color that is also used by opaque pixels",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint8": "AQIDAAECA/+MDC3/drhr/wWEUv8BAgMAAQID/6BcYf/vJkv/xa4I/wECAwABAgP/kWIc/yKvLf+vHdv/AQIDAAECA/+r/PP/ihFi/91ms/8BAgMA"
+    }
+  },
+  "options": {
+    "colorType": 2
+  },
+  "knownBug": "encoder uses tRNS for the single transparent color even if opaque pixels have the same color, making them transparent",
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

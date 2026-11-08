@@ -1,0 +1,17 @@
+{
+  "description": "Few colors with the color type picked by the encoder",
+  "image": {
+    "width": 7,
+    "height": 3,
+    "data": {
+      "$uint8": "MM8ogDDPKIAG+SX/DPNK/3iH5IBIt7yASLe8gFqlK/8M80r/rlEx/wD/AICKdVP/2Cc0gAzzSv/eIVn/ukV7/xjnlIDeIVn/NslN/xLtb/+6RXv/"
+    }
+  },
+  "options": {},
+  "expected": {
+    "warnings": [],
+    "info": [
+      "Using color type 3"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "//8A////AP///wD///8A////AP///wD///8A////AP//AP///wD///8A////AP///wD///8A////AP///wD//wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AP///wD///8A////AP///wD///8A////AP///wD//////wD///8A////AP///wD///8A////AP///wD///8A//8A////AP///wD///8A////AP///wD///8A////AP//AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA////AP///wD///8A////AP///wD///8A////AP///wD//wD///8A////AP///wD///8A////AP///wD///8A//8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wD///8A////AP///wD///8A////AP///wD///8A//////8A////AP///wD///8A////AP///wD///8A////AP//AP///wD///8A////AP///wD///8A////AP///wD//wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP///wD///8A////AP///wD///8A////AP///wD///8A//8A////AP///wD///8A////AP///wD///8A////AP//AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8A////AP///wD///8A////AP///wD///8A////AP//////AP///wD///8A////AP///wD///8A////AP///wD//wD///8A////AP///wD///8A////AP///wD///8A//8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD///8A////AP///wD///8A////AP///wD///8A////AP//AP///wD///8A////AP///wD///8A////AP///wD//wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AP///wD///8A////AP///wD///8A////AP///wD//////wD///8A////AP///wD///8A////AP///wD///8A//8A////AP///wD///8A////AP///wD///8A////AP//AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/93dAP/d3QD/3d0A/93dAP/d3QD/3d0A/93dAP/d3QD//63///+t////rf///63///+t////rf///63///+t//8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wD///8A////AP///wD///8A////AP///wD///8A////3d0A/93dAP/d3QD/3d0A/93dAP/d3QD/3d0A/93dAP//rf///63///+t////rf///63///+t////rf///63//wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP/d3QD/3d0A/93dAP/d3QD/3d0A/93dAP/d3QD/3d0A//+t////rf///63///+t////rf///63///+t////rf//AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8A////AP///wD///8A////AP///wD///8A////AP///93dAP/d3QD/3d0A/93dAP/d3QD/3d0A/93dAP/d3QD//63///+t////rf///63///+t////rf///63///+t//8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/3d0A/93dAP/d3QD/3d0A/93dAP/d3QD/3d0A/93dAP//rf///63///+t////rf///63///+t////rf///63//wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AP///wD///8A////AP///wD///8A////AP///wD////d3QD/3d0A/93dAP/d3QD/3d0A/93dAP/d3QD/3d0A//+t////rf///63///+t////rf///63///+t////rf//AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/93dAP/d3QD/3d0A/93dAP/d3QD/3d0A/93dAP/d3QD//63///+t////rf///63///+t////rf///63///+t//8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wD///8A////AP///wD///8A////AP///wD///8A////3d0A/93dAP/d3QD/3d0A/93dAP/d3QD/3d0A/93dAP//rf///63///+t////rf///63///+t////rf///63//wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+trQD/ra0A/62tAP+trQD/ra0A/62tAP+trQD/ra0A///d////3f///93////d////3f///93////d////3f//AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8A////AP///wD///8A////AP///wD///8A////AP///62tAP+trQD/ra0A/62tAP+trQD/ra0A/62tAP+trQD//93////d////3f///93////d////3f///93////d//8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/ra0A/62tAP+trQD/ra0A/62tAP+trQD/ra0A/62tAP//3f///93////d////3f///93////d////3f///93//wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AP///wD///8A////AP///wD///8A////AP///wD///+trQD/ra0A/62tAP+trQD/ra0A/62tAP+trQD/ra0A///d////3f///93////d////3f///93////d////3f//AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/62tAP+trQD/ra0A/62tAP+trQD/ra0A/62tAP+trQD//93////d////3f///93////d////3f///93////d//8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wD///8A////AP///wD///8A////AP///wD///8A////ra0A/62tAP+trQD/ra0A/62tAP+trQD/ra0A/62tAP//3f///93////d////3f//AAAA/wAAAP//3f///93//wDIyP8AyMj/AMjI/wAAAP8AAAD/AMjI/wDIyP8AyMj/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+trQD/ra0A/62tAP+trQD/ra0A/62tAP+trQD/ra0A///d////3f///93//wAAAP//3f///93//wAAAP//3f//AMjI/wDIyP8AAAD/AMjI/wDIyP8AAAD/AMjI/wDIyP8A////AP///wD///8A////AP///wD///8A////AP///62tAP+trQD/ra0A/62tAP+trQD/ra0A/62tAP+trQD//93////d////3f///93////d////3f//AAAA///d//8AyMj/AMjI/wDIyP8AAAD/AAAA/wDIyP8AyMj/AMjI/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP///////////////////////////wAAAP///////////wDIyP8AyMj/AAAA/wDIyP8AyMj/AAAA/wDIyP8AyMj/AP///wD///8A////AP///wD///8A////AP///wD///8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA//////////////////////8AAAD/////////////////AMjI/wDIyP8AAAD/AMjI/wDIyP8AAAD/AMjI/wDIyP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/////////////////AAAA/wAAAP8AAAD/AAAA//////8AAAD/AMjI/wDIyP8AAAD/AAAA/wDIyP8AyMj/AMjI/wD///8A////AP///wD///8A////AP///wD///8A////AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP///////////////////////////////////////////wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA////////////////////////////////////////////AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8A////AP///wD///8A////AP///wD///8A////AP///wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD///////////////////////////////////////////8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP///////////////////////////////////////////wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AP///wD///8A////AP///wD///8A////AP///wD///8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA////////////////////////////////////////////AMjI/wDIyP8AyMj/AMjI/wDIyP8AyMj/AMjI/wDIyP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 4,
+        "colorType": 3,
+        "interlaceMethod": 0
+      },
+      "palette": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          255,
+          0,
+          255
+        ],
+        [
+          0,
+          200,
+          200
+        ],
+        [
+          173,
+          173,
+          0
+        ],
+        [
+          221,
+          221,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          0
+        ],
+        [
+          255,
+          221,
+          255
+        ],
+        [
+          255,
+          173,
+          255
+        ]
+      ],
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 0.35
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "PLTE",
+          "dataLength": 30,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 91,
+          "type": "IDAT",
+          "dataLength": 99,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 202,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

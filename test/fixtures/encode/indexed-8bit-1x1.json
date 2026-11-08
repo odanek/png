@@ -1,0 +1,17 @@
+{
+  "description": "Indexed with partial transparency",
+  "image": {
+    "width": 1,
+    "height": 1,
+    "data": {
+      "$uint8": "ukV7/w=="
+    }
+  },
+  "options": {
+    "colorType": 3
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

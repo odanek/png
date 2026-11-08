@@ -1,0 +1,17 @@
+{
+  "description": "Truecolor",
+  "image": {
+    "width": 1,
+    "height": 1,
+    "data": {
+      "$uint8": "AGMD/w=="
+    }
+  },
+  "options": {
+    "colorType": 2
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

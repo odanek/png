@@ -1,0 +1,17 @@
+{
+  "description": "Grayscale and alpha",
+  "image": {
+    "width": 1,
+    "height": 1,
+    "data": {
+      "$uint8": "AAAAQg=="
+    }
+  },
+  "options": {
+    "colorType": 4
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

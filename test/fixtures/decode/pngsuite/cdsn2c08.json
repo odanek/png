@@ -1,0 +1,96 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 8,
+        "height": 8,
+        "data": {
+          "$uint8": "/wAA//8RAP//VQD//3cA//9mAP//RAD//wAA//8AAP//EQD//90A/7vuAP+Z7gD/me4A/93uAP//iAD//wAA//9VAP+77gD/AP9V/wC7u/8A3ar/M/8R/+67AP//IgD//3cA/4juAP8Au7v/uwC7/3ci3f8i7lX/zLsA//9EAP//dwD/iO4A/wC7u/+ZEcz/VTPu/yL/Vf/MuwD//0QA//9VAP+77gD/AP9E/wDdmf8A7oj/M/8R/+67AP//IgD//xEA///MAP/M3QD/md0A/6rdAP/u3QD//3cA//8AAP//AAD//xEA//9VAP//ZgD//2YA//8zAP//AAD//wAA/w=="
+        }
+      },
+      "details": {
+        "width": 8,
+        "height": 8,
+        "bitDepth": 8,
+        "colorType": 2,
+        "interlaceMethod": 0
+      },
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 1
+        },
+        {
+          "type": "sBIT",
+          "value": [
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "type": "pHYs",
+          "pixelsPerUnit": {
+            "x": 1,
+            "y": 1
+          },
+          "unitType": "unknown"
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "sBIT",
+          "dataLength": 3,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 64,
+          "type": "pHYs",
+          "dataLength": 9,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": true
+        },
+        {
+          "offset": 85,
+          "type": "IDAT",
+          "dataLength": 123,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 220,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

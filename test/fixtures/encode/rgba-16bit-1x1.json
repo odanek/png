@@ -1,0 +1,17 @@
+{
+  "description": "Truecolor and alpha",
+  "image": {
+    "width": 1,
+    "height": 1,
+    "data": {
+      "$uint16": "BIQMBGc0U/k="
+    }
+  },
+  "options": {
+    "colorType": 6
+  },
+  "expected": {
+    "warnings": [],
+    "info": []
+  }
+}

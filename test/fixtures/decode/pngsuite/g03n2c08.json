@@ -1,0 +1,64 @@
+{
+  "expected": {
+    "result": {
+      "image": {
+        "width": 32,
+        "height": 32,
+        "data": {
+          "$uint8": "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cAAA/3AAAP9wAAD/cAAA//b2///29v//9vb///b2///29v//9vb///b2///29v//AMgA/wDIAP8AyAD/AMgA/wDIAP8AyAD/AMgA/wDIAP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/2EAAP9hAAD/YQAA/2EAAP9hAAD/YQAA/2EAAP9hAAD/+fn///n5///5+f//+fn///n5///5+f//+fn///n5//8AyAD/AMgA/wDIAP8AyAD/AMgA/wDIAP8AyAD/AMgA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/TAAA/0wAAP9MAAD/TAAA/0wAAP9MAAD/TAAA/0wAAP/8/P///Pz///z8///8/P///Pz///z8///8/P///Pz//wDIAP8AyAD/AMgA/wDIAP8AyAD/AMgA/wDIAP8AyAD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA////////////////////////////////////////////AMgA/wDIAP8AyAD/AMgA/wDIAP8AyAD/AMgA/wDIAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/w=="
+        }
+      },
+      "details": {
+        "width": 32,
+        "height": 32,
+        "bitDepth": 8,
+        "colorType": 2,
+        "interlaceMethod": 0
+      },
+      "metadata": [
+        {
+          "type": "gAMA",
+          "value": 0.35
+        }
+      ],
+      "rawChunks": [
+        {
+          "offset": 8,
+          "type": "IHDR",
+          "dataLength": 13,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 33,
+          "type": "gAMA",
+          "dataLength": 4,
+          "isAncillary": true,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 49,
+          "type": "IDAT",
+          "dataLength": 297,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        },
+        {
+          "offset": 358,
+          "type": "IEND",
+          "dataLength": 0,
+          "isAncillary": false,
+          "isPrivate": false,
+          "isSafeToCopy": false
+        }
+      ],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}

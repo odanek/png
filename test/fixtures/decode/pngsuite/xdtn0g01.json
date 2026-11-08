@@ -1,0 +1,11 @@
+{
+  "expected": {
+    "error": {
+      "type": "DecodeError",
+      "message": "No IDAT chunk",
+      "offset": 0
+    }
+  },
+  "strict": "same",
+  "force32": "same"
+}
