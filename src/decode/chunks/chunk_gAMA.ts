@@ -11,7 +11,7 @@ import {
   assertChunkSinglular,
   createChunkDecodeWarning,
   handleWarning,
-} from "../assert";
+} from "../assert.js";
 import {
   ChunkPartByteLength,
   type IDecodeContext,
@@ -19,7 +19,7 @@ import {
   type IPngHeaderDetails,
   type IPngMetadataGamma,
   KnownChunkTypes,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `gAMA` Image Gamma

@@ -14,7 +14,7 @@ import {
   type IInitialDecodeContext,
   type IPngChunk,
   KnownChunkTypes,
-} from "../shared/types";
+} from "../shared/types.js";
 
 /**
  * Assert the given chunk type already exists.

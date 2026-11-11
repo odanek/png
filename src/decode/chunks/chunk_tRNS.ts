@@ -10,7 +10,7 @@ import {
   assertChunkFollows,
   assertChunkPrecedes,
   createChunkDecodeWarning,
-} from "../assert";
+} from "../assert.js";
 import {
   ChunkPartByteLength,
   ColorType,
@@ -19,7 +19,7 @@ import {
   type IPngHeaderDetails,
   type IPngMetadataTransparency,
   KnownChunkTypes,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `tRNS` Transparency

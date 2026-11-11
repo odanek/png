@@ -11,7 +11,7 @@ import {
   type IPngChunk,
   type IPngHeaderDetails,
   type IPngMetadataExif,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `eXIf` Exchangeable image file format

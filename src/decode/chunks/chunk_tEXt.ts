@@ -5,15 +5,15 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import { assertChunkDataLengthGte } from "../assert";
-import { readText } from "../text";
+import { assertChunkDataLengthGte } from "../assert.js";
+import { readText } from "../text.js";
 import {
   ChunkPartByteLength,
   type IDecodeContext,
   type IPngChunk,
   type IPngHeaderDetails,
   type IPngMetadataTextualData,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `tEXt` Textual data

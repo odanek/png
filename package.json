@@ -2,7 +2,16 @@
   "name": "@odanek/png",
   "version": "0.1.0",
   "description": "PNG format decoder and coder for web and NodeJS",
-  "keywords": [],
+  "keywords": [
+    "png",
+    "image",
+    "decoder",
+    "encoder",
+    "codec",
+    "browser",
+    "node",
+    "zero-dependency"
+  ],
   "homepage": "https://github.com/odanek/png#readme",
   "bugs": {
     "url": "https://github.com/odanek/png/issues"
@@ -16,17 +25,20 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      }
-    }
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
   },
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
   "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -51,6 +63,7 @@
     "prepack": "npm run clean && npm run build",
     "test": "vitest run",
     "test:watch": "vitest",
-    "fixtures:update": "node test/scripts/generate-inputs.ts && UPDATE_FIXTURES=1 vitest run test/decode.test.ts test/encode.test.ts"
+    "fixtures:update": "node test/scripts/generate-inputs.ts && UPDATE_FIXTURES=1 vitest run test/decode.test.ts test/encode.test.ts",
+    "prepublishOnly": "npm run typecheck && npm run lint && npm run format:check && npm test"
   }
 }

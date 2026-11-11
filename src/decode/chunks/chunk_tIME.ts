@@ -5,14 +5,17 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import { assertChunkDataLengthEquals, assertChunkSinglular } from "../assert";
+import {
+  assertChunkDataLengthEquals,
+  assertChunkSinglular,
+} from "../assert.js";
 import {
   ChunkPartByteLength,
   type IDecodeContext,
   type IPngChunk,
   type IPngHeaderDetails,
   type IPngMetadataLastModificationTime,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `tIME` Image last-modification time

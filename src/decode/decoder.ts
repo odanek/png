@@ -5,17 +5,17 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import { convert16BitTo8BitData } from "./array";
+import { convert16BitTo8BitData } from "./array.js";
 import {
   createChunkDecodeWarning,
   DecodeError,
   DecodeWarning,
   handleWarning,
-} from "./assert";
-import { parseChunk as parseChunkIDAT } from "./chunks/chunk_IDAT";
-import { parseChunk as parseChunkIEND } from "./chunks/chunk_IEND";
-import { parseChunk as parseChunkIHDR } from "./chunks/chunk_IHDR";
-import { crc32 } from "../shared/crc32";
+} from "./assert.js";
+import { parseChunk as parseChunkIDAT } from "./chunks/chunk_IDAT.js";
+import { parseChunk as parseChunkIEND } from "./chunks/chunk_IEND.js";
+import { parseChunk as parseChunkIHDR } from "./chunks/chunk_IHDR.js";
+import { crc32 } from "../shared/crc32.js";
 import {
   ChunkPartByteLength,
   type IDecodedPng,
@@ -28,7 +28,7 @@ import {
   KnownChunkTypes,
   type PngMetadata,
   type IInitialDecodeContext,
-} from "../shared/types";
+} from "../shared/types.js";
 
 export function verifyPngSignature(ctx: IInitialDecodeContext): void {
   if (ctx.view.byteLength < 7) {

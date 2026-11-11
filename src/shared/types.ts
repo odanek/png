@@ -5,8 +5,8 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import type { DecodeWarning } from "../decode/assert";
-import type { EncodeWarning } from "../encode/assert";
+import type { DecodeWarning } from "../decode/assert.js";
+import type { EncodeWarning } from "../encode/assert.js";
 
 /**
  * A png that has been successfully decoded.
@@ -248,7 +248,7 @@ export interface IEncodePngOptions {
 
   /**
    * Additional metadata to encode as chunks in the png. By default a single
-   * `Software=@lunapaint/png-codec` chunk will be written, setting this to `{}` or will suppress
+   * `Software=@odanek/png` chunk will be written, setting this to `{}` or will suppress
    * this default chunk.
    */
   ancillaryChunks?: IPngMetadataTextualData[];
@@ -317,10 +317,8 @@ type DefaultParsedChunkTypes =
 /**
  * The set of chunk types that are optionally parsed, but not by default.
  */
-type OptionalParsedChunkTypes = Exclude<
-  KnownChunkTypes,
-  DefaultParsedChunkTypes
->;
+type OptionalParsedChunkTypes =
+  `${Exclude<KnownChunkTypes, DefaultParsedChunkTypes>}`;
 
 /**
  * A metadata entry defining information that was encoded as a chunk in the image.

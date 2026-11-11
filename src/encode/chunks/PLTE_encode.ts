@@ -5,8 +5,8 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import type { IEncodeContext, IImage32, IImage64 } from "../../shared/types";
-import { writeChunkDataFn } from "../write";
+import type { IEncodeContext, IImage32, IImage64 } from "../../shared/types.js";
+import { writeChunkDataFn } from "../write.js";
 
 export async function encodeChunk(
   ctx: IEncodeContext,

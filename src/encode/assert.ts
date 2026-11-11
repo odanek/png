@@ -5,7 +5,7 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import type { IEncodeContext } from "../shared/types";
+import type { IEncodeContext } from "../shared/types.js";
 
 export class EncodeError extends Error {
   constructor(

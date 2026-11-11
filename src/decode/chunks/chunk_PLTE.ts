@@ -10,7 +10,7 @@ import {
   assertChunkSinglular,
   createChunkDecodeWarning,
   handleWarning,
-} from "../assert";
+} from "../assert.js";
 import {
   ChunkPartByteLength,
   ColorType,
@@ -19,7 +19,7 @@ import {
   type IPngHeaderDetails,
   type IPngPaletteInternal,
   KnownChunkTypes,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `PLTE` Palette

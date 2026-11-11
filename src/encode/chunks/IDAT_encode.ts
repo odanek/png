@@ -5,9 +5,9 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import { ByteStream } from "../byteStream";
-import { paethPredicator } from "../../shared/paeth";
-import { deflate } from "../../shared/z";
+import { ByteStream } from "../byteStream.js";
+import { paethPredicator } from "../../shared/paeth.js";
+import { deflate } from "../../shared/z.js";
 import {
   ColorType,
   FilterType,
@@ -15,8 +15,8 @@ import {
   type IImage32,
   type IImage64,
   InterlaceMethod,
-} from "../../shared/types";
-import { writeChunk } from "../write";
+} from "../../shared/types.js";
+import { writeChunk } from "../write.js";
 
 export async function encodeChunk(
   ctx: IEncodeContext,

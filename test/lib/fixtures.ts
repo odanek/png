@@ -14,8 +14,8 @@ import type {
   IEncodePngOptions,
   IImage32,
   IImage64,
-} from "../../src/index";
-import { parse, stringify } from "./json";
+} from "../../src/index.ts";
+import { parse, stringify } from "./json.ts";
 
 export const FIXTURES_DIR: string = join(import.meta.dirname, "..", "fixtures");
 export const DECODE_DIR: string = join(FIXTURES_DIR, "decode");

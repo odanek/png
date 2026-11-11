@@ -9,7 +9,7 @@ import {
   assertChunkDataLengthEquals,
   assertChunkPrecedes,
   assertChunkSinglular,
-} from "../assert";
+} from "../assert.js";
 import {
   ChunkPartByteLength,
   type IDecodeContext,
@@ -17,7 +17,7 @@ import {
   type IPngHeaderDetails,
   type IPngMetadataPhysicalPixelDimensions,
   KnownChunkTypes,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `pHYs` Physical pixel dimensions

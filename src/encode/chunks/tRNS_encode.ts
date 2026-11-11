@@ -10,8 +10,8 @@ import {
   type IEncodeContext,
   type IImage32,
   type IImage64,
-} from "../../shared/types";
-import { writeChunkDataFn } from "../write";
+} from "../../shared/types.js";
+import { writeChunkDataFn } from "../write.js";
 
 export async function encodeChunk(
   ctx: IEncodeContext,

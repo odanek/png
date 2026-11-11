@@ -10,7 +10,7 @@ import {
   assertChunkFollows,
   assertChunkPrecedes,
   assertChunkSinglular,
-} from "../assert";
+} from "../assert.js";
 import {
   ChunkPartByteLength,
   type IDecodeContext,
@@ -18,7 +18,7 @@ import {
   type IPngHeaderDetails,
   type IPngMetadataHistogram,
   KnownChunkTypes,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `hIST` Image histogram

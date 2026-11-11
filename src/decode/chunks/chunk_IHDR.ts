@@ -11,20 +11,20 @@ import {
   createChunkDecodeError,
   createChunkDecodeWarning,
   handleWarning,
-} from "../assert";
+} from "../assert.js";
 import {
   ChunkPartByteLength,
   type IInitialDecodeContext,
   InterlaceMethod,
   type IPngChunk,
   type IPngHeaderDetails,
-} from "../../shared/types";
+} from "../../shared/types.js";
 import {
   isValidBitDepth,
   isValidColorType,
   isValidFilterMethod,
   isValidInterlaceMethod,
-} from "../validate";
+} from "../validate.js";
 
 /**
  * `IHDR` Image Header

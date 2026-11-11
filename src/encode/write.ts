@@ -5,9 +5,9 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import { ByteStream } from "./byteStream";
-import { crc32 } from "../shared/crc32";
-import { ChunkPartByteLength } from "../shared/types";
+import { ByteStream } from "./byteStream.js";
+import { crc32 } from "../shared/crc32.js";
+import { ChunkPartByteLength } from "../shared/types.js";
 
 export function writeChunkType(stream: ByteStream, type: string): void {
   stream.writeUint8(type.charCodeAt(0));

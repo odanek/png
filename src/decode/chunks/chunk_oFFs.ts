@@ -10,7 +10,7 @@ import {
   assertChunkPrecedes,
   assertChunkSinglular,
   createChunkDecodeWarning,
-} from "../assert";
+} from "../assert.js";
 import {
   ChunkPartByteLength,
   type IDecodeContext,
@@ -18,7 +18,7 @@ import {
   type IPngHeaderDetails,
   type IPngMetadataOffset,
   KnownChunkTypes,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `oFFs` Image offset

@@ -5,8 +5,8 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import { assertChunkPrecedes, createChunkDecodeWarning } from "../assert";
-import { readText } from "../text";
+import { assertChunkPrecedes, createChunkDecodeWarning } from "../assert.js";
+import { readText } from "../text.js";
 import {
   ChunkPartByteLength,
   type IDecodeContext,
@@ -15,7 +15,7 @@ import {
   type IPngMetadataSuggestedPalette,
   type IPngMetadataSuggestedPaletteEntry,
   KnownChunkTypes,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `sPLT` Suggested palette

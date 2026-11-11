@@ -11,7 +11,7 @@ import {
   assertChunkPrecedes,
   assertChunkSinglular,
   createChunkDecodeWarning,
-} from "../assert";
+} from "../assert.js";
 import {
   ChunkPartByteLength,
   type IDecodeContext,
@@ -20,7 +20,7 @@ import {
   type IPngMetadataStandardRgbColorSpace,
   KnownChunkTypes,
   RenderingIntent,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `sRGB` Standard RGB color space

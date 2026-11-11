@@ -11,8 +11,8 @@ import {
   assertChunkMutualExclusion,
   assertChunkPrecedes,
   assertChunkSinglular,
-} from "../assert";
-import { readText } from "../text";
+} from "../assert.js";
+import { readText } from "../text.js";
 import {
   ChunkPartByteLength,
   type IDecodeContext,
@@ -20,7 +20,7 @@ import {
   type IPngHeaderDetails,
   type IPngMetadataEmbeddedIccProfile,
   KnownChunkTypes,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `iCCP` Embedded ICC profile

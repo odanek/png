@@ -10,8 +10,8 @@ import {
   assertChunkPrecedes,
   assertChunkSinglular,
   createChunkDecodeWarning,
-} from "../assert";
-import { readFloat } from "../float";
+} from "../assert.js";
+import { readFloat } from "../float.js";
 import {
   ChunkPartByteLength,
   type IDecodeContext,
@@ -19,7 +19,7 @@ import {
   type IPngHeaderDetails,
   type IPngMetadataPhysicalScaleOfImageSubject,
   KnownChunkTypes,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `sCAL` Physical scale of image subject

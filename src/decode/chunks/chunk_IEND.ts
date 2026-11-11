@@ -5,13 +5,13 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import { assertChunkDataLengthEquals, assertChunkFollows } from "../assert";
+import { assertChunkDataLengthEquals, assertChunkFollows } from "../assert.js";
 import {
   type IDecodeContext,
   type IPngChunk,
   type IPngHeaderDetails,
   KnownChunkTypes,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `IEND` Image trailer

@@ -10,9 +10,9 @@ import {
   assertChunkPrecedes,
   assertChunkSinglular,
   createChunkDecodeWarning,
-} from "../assert";
-import { readFloat } from "../float";
-import { readText } from "../text";
+} from "../assert.js";
+import { readFloat } from "../float.js";
+import { readText } from "../text.js";
 import {
   ChunkPartByteLength,
   type IDecodeContext,
@@ -20,7 +20,7 @@ import {
   type IPngHeaderDetails,
   type IPngMetadataCalibrationOfPixelValues,
   KnownChunkTypes,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `pCAL` Calibration of pixel values

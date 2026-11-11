@@ -5,9 +5,9 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import { createChunkDecodeWarning } from "./assert";
-import type { IDecodeContext, IPngChunk } from "../shared/types";
-import { inflate } from "../shared/z";
+import { createChunkDecodeWarning } from "./assert.js";
+import type { IDecodeContext, IPngChunk } from "../shared/types.js";
+import { inflate } from "../shared/z.js";
 
 export async function readText(
   ctx: IDecodeContext,

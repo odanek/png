@@ -11,7 +11,7 @@
 import { existsSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { decodePng, encodePng } from "../src/index";
+import { decodePng, encodePng } from "../src/index.ts";
 import {
   DECODE_DIR,
   type DecodeFixture,
@@ -25,7 +25,7 @@ import {
   readFixture,
   UPDATE,
   writeFixture,
-} from "./lib/fixtures";
+} from "./lib/fixtures.ts";
 
 const names = listFiles(ENCODE_DIR, ".json").map((f) =>
   f.replace(/\.json$/, ""),

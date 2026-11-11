@@ -5,9 +5,9 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import { createChunkDecodeError, DecodeError } from "../assert";
-import { paethPredicator } from "../../shared/paeth";
-import { inflate } from "../../shared/z";
+import { createChunkDecodeError, DecodeError } from "../assert.js";
+import { paethPredicator } from "../../shared/paeth.js";
+import { inflate } from "../../shared/z.js";
 import {
   ChunkPartByteLength,
   ColorType,
@@ -18,7 +18,7 @@ import {
   type IPngHeaderDetails,
   type IPngMetadataTransparency,
   type IPngPaletteInternal,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `IDAT` Image Data

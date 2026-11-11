@@ -5,7 +5,7 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import { writeChunk } from "../write";
+import { writeChunk } from "../write.js";
 
 export async function encodeChunk(): Promise<Uint8Array> {
   return writeChunk("IEND", new Uint8Array(0));

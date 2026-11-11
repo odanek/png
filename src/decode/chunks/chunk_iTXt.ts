@@ -8,15 +8,15 @@
 import {
   assertChunkCompressionMethod,
   assertChunkDataLengthGte,
-} from "../assert";
-import { readText } from "../text";
+} from "../assert.js";
+import { readText } from "../text.js";
 import {
   ChunkPartByteLength,
   type IDecodeContext,
   type IPngChunk,
   type IPngHeaderDetails,
   type IPngMetadataInternationalTextualData,
-} from "../../shared/types";
+} from "../../shared/types.js";
 
 /**
  * `iTXt` International textual data

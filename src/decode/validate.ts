@@ -10,7 +10,7 @@ import {
   ColorType,
   FilterMethod,
   InterlaceMethod,
-} from "../shared/types";
+} from "../shared/types.js";
 
 export function isValidBitDepth(bitDepth: number): bitDepth is BitDepth {
   return (

@@ -5,12 +5,12 @@
  * Released under MIT license. See LICENSE in the project root for details.
  */
 
-import type { IEncodedPng } from "../shared/types";
-import { ByteStream } from "./byteStream";
-import { encodeChunk as encodeIDAT } from "./chunks/IDAT_encode";
-import { encodeChunk as encodeIEND } from "./chunks/IEND_encode";
-import { encodeChunk as encodeIHDR } from "./chunks/IHDR_encode";
-import { EncodeError, EncodeWarning, handleWarning } from "./assert";
+import type { IEncodedPng } from "../shared/types.js";
+import { ByteStream } from "./byteStream.js";
+import { encodeChunk as encodeIDAT } from "./chunks/IDAT_encode.js";
+import { encodeChunk as encodeIEND } from "./chunks/IEND_encode.js";
+import { encodeChunk as encodeIHDR } from "./chunks/IHDR_encode.js";
+import { EncodeError, EncodeWarning, handleWarning } from "./assert.js";
 import {
   ColorType,
   type IEncodeContext,
@@ -19,7 +19,7 @@ import {
   type IImage64,
   InterlaceMethod,
   KnownChunkTypes,
-} from "../shared/types";
+} from "../shared/types.js";
 
 /**
  * All lazy chunk decoders are explicitly mapped here such that bundlers are able to bundle all
@@ -84,7 +84,7 @@ export async function encodePng(
     sections.push(
       await (
         await import(`./chunks/tEXt_encode.js`)
-      ).encodeChunk(ctx, image, "Software", "@lunapaint/png-codec"),
+      ).encodeChunk(ctx, image, "Software", "@odanek/png"),
     );
   } else {
     for (const chunk of options.ancillaryChunks) {

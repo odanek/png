@@ -8,7 +8,7 @@ import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { isDeepStrictEqual } from "node:util";
 import { describe, expect, it } from "vitest";
-import { decodePng, type IDecodePngOptions } from "../src/index";
+import { decodePng, type IDecodePngOptions } from "../src/index.ts";
 import {
   DECODE_DIR,
   type DecodeFixture,
@@ -21,7 +21,7 @@ import {
   readFixture,
   UPDATE,
   writeFixture,
-} from "./lib/fixtures";
+} from "./lib/fixtures.ts";
 
 const files = listFiles(DECODE_DIR, ".png");
 
